@@ -3,7 +3,7 @@
   "name": "GenClass: voice control for your browser",
   "short_name": "GenClass",
   "version": "0.1.0",
-  "description": "Talk to your browser and it acts mid-sentence. A local AI model runs on your device. Independent project; not affiliated with TypeSafe.",
+  "description": "Talk to your browser and it acts mid-sentence, with a private on-device AI model. Independent; not affiliated with TypeSafe.",
   "minimum_chrome_version": "116",
   "icons": { "16": "icons/icon-16.png", "32": "icons/icon-32.png", "48": "icons/icon-48.png", "128": "icons/icon-128.png" },
   "action": { "default_title": "GenClass", "default_icon": { "16": "icons/icon-16.png", "32": "icons/icon-32.png" } },
