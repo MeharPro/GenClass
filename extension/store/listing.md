@@ -49,4 +49,4 @@ The store allows up to 5: use 03-mid-sentence, 04-confirm, 05-content-filter, 06
 - Certify: not sold, not used for unrelated purposes, not used for creditworthiness.
 - Remote code: none. All code ships in the package. Model weights (data, not code) are downloaded from the GitHub release and Hugging Face.
 
-Privacy policy URL: https://github.com/MeharPro/GenClass/blob/main/store/privacy.md
+Privacy policy URL: https://github.com/MeharPro/GenClass/blob/main/extension/store/privacy.md

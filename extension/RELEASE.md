@@ -29,5 +29,5 @@ Moonshine and Whisper are fetched by Transformers.js from Hugging Face (`onnx-co
 ## 3. Chrome Web Store
 1. Upload `dist/genclass-0.1.0.zip`.
 2. Paste the listing from `store/listing.md`, the icon `store/icon-128.png`, and up to 5 screenshots from `store/screenshots/`.
-3. Privacy tab: single purpose and permission justifications from `store/permissions.md`; data-use answers from `store/listing.md`; privacy policy URL `https://github.com/MeharPro/GenClass/blob/main/store/privacy.md`.
+3. Privacy tab: single purpose and permission justifications from `store/permissions.md`; data-use answers from `store/listing.md`; privacy policy URL `https://github.com/MeharPro/GenClass/blob/main/extension/store/privacy.md`.
 4. Declare **no remote code** (model weights are data loaded by the bundled ONNX Runtime).
