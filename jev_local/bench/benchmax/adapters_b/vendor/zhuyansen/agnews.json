@@ -1,0 +1,30 @@
+{
+ "question": "What is this news article mainly about?",
+ "blurb": "news article snippets (AG News)",
+ "labels": [
+  {
+   "name": "World",
+   "desc": "world news",
+   "international affairs": null,
+   "politics and conflicts": null
+  },
+  {
+   "name": "Sports",
+   "desc": "sports",
+   "games": null,
+   "athletes and competitions": null
+  },
+  {
+   "name": "Business",
+   "desc": "business",
+   "companies": null,
+   "markets and the economy": null
+  },
+  {
+   "name": "Sci/Tech",
+   "desc": "science and technology",
+   "computers": null,
+   "internet and research": null
+  }
+ ]
+}

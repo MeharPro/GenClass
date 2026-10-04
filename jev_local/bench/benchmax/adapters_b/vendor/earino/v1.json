@@ -1,0 +1,114 @@
+{
+  "_comment": "v1: form-aware instructions + structured definitions for the 33 labels behind most bare-label errors on train (design view excludes the train dev slice). Written from train examples, not val.",
+  "instructions": "`complaint` was submitted to the US Consumer Financial Protection Bureau (CFPB). On the complaint form the consumer first chose a product (credit reporting, debt collection, mortgage, student loan, vehicle or consumer loan, bank account, credit card, ...) and then picked one issue from that product's list. The form was reworded in April 2017, so several issues exist in an older and a newer wording. Which issue did this consumer most likely pick?",
+  "criteria": {
+    "Incorrect information on your report": {
+      "what": "Credit reporting: the credit report shows wrong or unfamiliar items (accounts, collections, late payments, balances, personal details), including accounts that belong to someone else or came from identity theft, and items the consumer has disputed. The most common issue for credit report complaints.",
+      "not_for": "Unauthorized hard inquiries or a credit bureau data breach (Improper use of your report)."
+    },
+    "Problem with a credit reporting company's investigation into an existing problem": {
+      "what": "Credit reporting, newer wording (2017 on): the complaint is mainly about how a credit bureau handled a dispute: ignored it, missed the deadline, or 'verified' an item without proof.",
+      "not_for": "Complaints mainly listing wrong items, even if disputed (Incorrect information on your report); complaints from before 2017 (Credit reporting company's investigation)."
+    },
+    "Credit reporting company's investigation": {
+      "what": "Credit reporting, older wording (before April 2017): a dispute with a credit bureau about items that should be corrected or removed, or about how the bureau investigated. Such complaints usually mention 2012-2016 dates."
+    },
+    "Improper use of your report": {
+      "what": "Credit reporting: the report was pulled or exposed without permission: unauthorized hard inquiries, or the consumer's data exposed in a credit bureau breach such as the 2017 Equifax breach.",
+      "not_for": "Wrong accounts or balances on the report (Incorrect information on your report)."
+    },
+    "Credit monitoring or identity theft protection services": {
+      "what": "Credit reporting: problems with credit monitoring or identity-protection products, including complaints about Equifax's response to its 2017 breach and its monitoring offer."
+    },
+    "Problem with fraud alerts or security freezes": {
+      "what": "Credit reporting: trouble placing, lifting or removing a fraud alert or security freeze."
+    },
+    "Identity theft/Fraud/Embezzlement": {
+      "what": "Credit card or bank account: fraud on the consumer's own card or account: stolen or intercepted card, an unauthorized user, charges the consumer did not make.",
+      "not_for": "Identity theft that shows up as accounts or inquiries on a credit report (Incorrect information on your report, Improper use of your report); a collector pursuing a debt created by identity theft (Attempts to collect debt not owed)."
+    },
+    "Privacy": {
+      "what": "Credit card: the card company mishandled personal information (e.g. full account number printed on mail, details shared with others). Rare.",
+      "not_for": "Credit bureau data breaches (Improper use of your report)."
+    },
+    "Billing disputes": {
+      "what": "Credit card: disputed charges or statement errors on a credit card account, including card payments recorded as late."
+    },
+    "Forbearance / Workout plans": {
+      "what": "Credit card: a hardship or repayment plan with the card issuer. Rare.",
+      "not_for": "Student loans (Can't repay my loan, Struggling to pay your loan) or mortgages."
+    },
+    "Attempts to collect debt not owed": {
+      "what": "Debt collection: a collector is pursuing, or reporting on the credit report, a debt the consumer says is not theirs, was already paid, was discharged in bankruptcy, or came from identity theft. The most common debt collection issue."
+    },
+    "Disclosure verification of debt": {
+      "what": "Debt collection, older wording (before April 2017): the collector did not validate or verify the debt, or did not send required notices, after the consumer asked."
+    },
+    "Written notification about debt": {
+      "what": "Debt collection, newer wording (2017 on): the consumer never received written notice of the debt or enough information to verify it."
+    },
+    "Communication tactics": {
+      "what": "Debt collection: how the collector communicates: frequent or repeated calls, calls at odd hours or after being told to stop, rude or abusive callers, calling the wrong person."
+    },
+    "False statements or representation": {
+      "what": "Debt collection: the collector misstated the debt: wrong amount, added fees, claiming a paid or settled debt is still owed, or misrepresenting who they are."
+    },
+    "Improper contact or sharing of info": {
+      "what": "Debt collection, older wording (before April 2017): the collector contacted or told third parties (family, employer) about the debt, or kept contacting after a cease request."
+    },
+    "Threatened to contact someone or share information improperly": {
+      "what": "Debt collection, newer wording (2017 on): the collector contacted or threatened to contact family, employer or others about the debt."
+    },
+    "Taking/threatening an illegal action": {
+      "what": "Debt collection, older wording (before April 2017): threats of arrest, jail, lawsuit or garnishment, or suing over a debt that is not owed or too old."
+    },
+    "Took or threatened to take negative or legal action": {
+      "what": "Debt collection, newer wording (2017 on): the collector sued or threatened to sue, or threatened arrest, garnishment or negative credit reporting."
+    },
+    "Loan modification,collection,foreclosure": {
+      "what": "Mortgage, older wording (before April 2017): loan modifications, loss mitigation and foreclosure."
+    },
+    "Struggling to pay your mortgage": {
+      "what": "Mortgage, newer wording (2017 on): trouble paying the mortgage: loan modification, forbearance, loss mitigation, foreclosure."
+    },
+    "Loan servicing, payments, escrow account": {
+      "what": "Mortgage, older wording (before April 2017): problems with the mortgage servicer: payments, escrow, fees, servicing transfers, payoff, reported late payments."
+    },
+    "Trouble during payment process": {
+      "what": "Mortgage, newer wording (2017 on): problems with mortgage payments, escrow, taxes or insurance, or the servicer's handling of the account."
+    },
+    "Application, originator, mortgage broker": {
+      "what": "Mortgage, older wording (before April 2017): applying for or refinancing a mortgage, the loan originator or broker, loan terms promised at origination."
+    },
+    "Dealing with your lender or servicer": {
+      "what": "Student loan: problems with the student loan servicer (e.g. Navient, AES, Great Lakes, FedLoan): payment handling, balances, repayment plans, information, customer service."
+    },
+    "Can't repay my loan": {
+      "what": "Student loan, older wording (before April 2017): the borrower cannot afford payments and seeks lower payments, deferment, forbearance, cancellation or forgiveness."
+    },
+    "Struggling to pay your loan": {
+      "what": "Student or vehicle loan, newer wording (2017 on): the borrower cannot keep up with payments and seeks help such as a payment plan, deferment or forgiveness."
+    },
+    "Managing the loan or lease": {
+      "what": "Vehicle or consumer installment loan or lease: problems while repaying: payments misapplied, balance not going down, payoff, lease charges, account handling."
+    },
+    "Problems when you are unable to pay": {
+      "what": "Vehicle or consumer installment loan, older wording (before April 2017): problems after falling behind: collection calls, repossession, bankruptcy."
+    },
+    "Taking out the loan or lease": {
+      "what": "Vehicle or consumer installment loan, older wording (before April 2017): problems getting the loan or lease: terms, APR, approval, dealer financing."
+    },
+    "Managing an account": {
+      "what": "Bank account: problems managing a checking or savings account: holds, freezes, fees, sign-up bonuses, account changes, fraud on the account."
+    },
+    "Problem caused by your funds being low": {
+      "what": "Bank account: overdraft or NSF fees, bounced or returned payments, charges posted in an order that caused overdrafts."
+    },
+    "Deposits and withdrawals": {
+      "what": "Bank account, older wording (before April 2017): deposits not credited, holds on deposits, withdrawal problems, check cashing."
+    },
+    "Closing your account": {
+      "what": "Bank or credit card account: the company closed the consumer's account, or the consumer had trouble closing it."
+    }
+  }
+}

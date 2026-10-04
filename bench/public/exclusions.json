@@ -1,0 +1,2297 @@
+{
+ "schema": "benchmax-exclusions/1",
+ "registry_version": "jevbench-v1.1",
+ "dev_set_version": "clean-2026-10-03",
+ "generated_from": {
+  "targets": "bench/public/targets.json",
+  "sha256": "9e1552f61a92b4bab30019c2bddfe1b2a11e49e34819a135d9c22a3a47d63a91"
+ },
+ "precedence": [
+  "exact_ids",
+  "rules.test",
+  "rules.dev",
+  "rules.sibling",
+  "rules.jev_labelled",
+  "rules.public_jev (reason = benchmark_key or rule name)",
+  "public_jev.hf_ids (exact, or as a prefix)",
+  "public_jev.repo_segments (path segment == repo name)",
+  "public_jev.benchmark_keys (whole token)",
+  "rules.reserved",
+  "jevbench.dev_tasksource_families"
+ ],
+ "tracks": {
+  "Z": "every category excluded, any split, mirror, sibling or derived set",
+  "S": "test/sibling/public_jev waived for s_track.train_split_keys and s_track.allowed_ids; jev_labelled, dev, reserved and s_track.deny_rules never waived; converters take TRAIN splits only"
+ },
+ "jevbench": {
+  "test": [
+   {
+    "key": "ag_news",
+    "title": "AG News",
+    "hf_id": "fancyzhx/ag_news",
+    "config": null,
+    "splits": [
+     "test"
+    ],
+    "n_used": 2000,
+    "notes": ""
+   },
+   {
+    "key": "yahoo_topics",
+    "title": "Yahoo Answers Topics",
+    "hf_id": "community-datasets/yahoo_answers_topics",
+    "config": null,
+    "splits": [
+     "test"
+    ],
+    "n_used": 2000,
+    "notes": ""
+   },
+   {
+    "key": "fin_topic",
+    "title": "Twitter Financial News Topic",
+    "hf_id": "zeroshot/twitter-financial-news-topic",
+    "config": null,
+    "splits": [
+     "validation"
+    ],
+    "n_used": 4117,
+    "notes": ""
+   },
+   {
+    "key": "sst2",
+    "title": "SST-2",
+    "hf_id": "stanfordnlp/sst2",
+    "config": null,
+    "splits": [
+     "validation"
+    ],
+    "n_used": 872,
+    "notes": "The choice variant is a second request per item (Deußer template), scored as secondary."
+   },
+   {
+    "key": "fin_phrasebank",
+    "title": "Financial PhraseBank",
+    "hf_id": "atrost/financial_phrasebank",
+    "config": null,
+    "splits": [
+     "test"
+    ],
+    "n_used": 970,
+    "notes": ""
+   },
+   {
+    "key": "sst5",
+    "title": "SST-5",
+    "hf_id": "SetFit/sst5",
+    "config": null,
+    "splits": [
+     "test"
+    ],
+    "n_used": 2210,
+    "notes": ""
+   },
+   {
+    "key": "yelp5",
+    "title": "Yelp Review Full",
+    "hf_id": "Yelp/yelp_review_full",
+    "config": null,
+    "splits": [
+     "test"
+    ],
+    "n_used": 2000,
+    "notes": ""
+   },
+   {
+    "key": "dair_emotion",
+    "title": "DAIR Emotion",
+    "hf_id": "dair-ai/emotion",
+    "config": "split",
+    "splits": [
+     "test"
+    ],
+    "n_used": 2000,
+    "notes": ""
+   },
+   {
+    "key": "tweeteval_emotion",
+    "title": "TweetEval emotion",
+    "hf_id": "cardiffnlp/tweet_eval",
+    "config": "emotion",
+    "splits": [
+     "test"
+    ],
+    "n_used": 1421,
+    "notes": ""
+   },
+   {
+    "key": "go_emotions",
+    "title": "GoEmotions",
+    "hf_id": "google-research-datasets/go_emotions",
+    "config": "simplified",
+    "splits": [
+     "test"
+    ],
+    "n_used": 2000,
+    "notes": ""
+   },
+   {
+    "key": "banking77",
+    "title": "Banking77",
+    "hf_id": "mteb/banking77",
+    "config": null,
+    "splits": [
+     "test"
+    ],
+    "n_used": 3076,
+    "notes": ""
+   },
+   {
+    "key": "clinc150",
+    "title": "CLINC150 plus OOS",
+    "hf_id": "clinc/clinc_oos",
+    "config": "plus",
+    "splits": [
+     "test"
+    ],
+    "n_used": 5500,
+    "notes": ""
+   },
+   {
+    "key": "massive",
+    "title": "MASSIVE en-US intent",
+    "hf_id": "mteb/amazon_massive_intent",
+    "config": "en",
+    "splits": [
+     "test"
+    ],
+    "n_used": 2974,
+    "notes": ""
+   },
+   {
+    "key": "boolq",
+    "title": "BoolQ",
+    "hf_id": "google/boolq",
+    "config": null,
+    "splits": [
+     "validation"
+    ],
+    "n_used": 3270,
+    "notes": ""
+   },
+   {
+    "key": "rte",
+    "title": "RTE",
+    "hf_id": "nyu-mll/glue",
+    "config": "rte",
+    "splits": [
+     "validation"
+    ],
+    "n_used": 277,
+    "notes": ""
+   },
+   {
+    "key": "anli",
+    "title": "ANLI r1-r3",
+    "hf_id": "facebook/anli",
+    "config": null,
+    "splits": [
+     "test_r1",
+     "test_r2",
+     "test_r3"
+    ],
+    "n_used": 3200,
+    "notes": ""
+   },
+   {
+    "key": "paws",
+    "title": "PAWS",
+    "hf_id": "google-research-datasets/paws",
+    "config": "labeled_final",
+    "splits": [
+     "test"
+    ],
+    "n_used": 2000,
+    "notes": ""
+   },
+   {
+    "key": "stsb",
+    "title": "STS-B",
+    "hf_id": "sentence-transformers/stsb",
+    "config": null,
+    "splits": [
+     "test"
+    ],
+    "n_used": 1379,
+    "notes": ""
+   },
+   {
+    "key": "llm_aggrefact",
+    "title": "LLM-AggreFact",
+    "hf_id": "lytang/LLM-AggreFact",
+    "config": null,
+    "splits": [
+     "test"
+    ],
+    "n_used": 5000,
+    "notes": ""
+   },
+   {
+    "key": "climate_fever",
+    "title": "Climate-FEVER",
+    "hf_id": "tdiggelm/climate_fever",
+    "config": null,
+    "splits": [
+     "test"
+    ],
+    "n_used": 1535,
+    "notes": ""
+   },
+   {
+    "key": "toxic_chat",
+    "title": "ToxicChat",
+    "hf_id": "lmsys/toxic-chat",
+    "config": "toxicchat0124",
+    "splits": [
+     "test"
+    ],
+    "n_used": 5083,
+    "notes": ""
+   },
+   {
+    "key": "openai_moderation",
+    "title": "OpenAI moderation eval",
+    "hf_id": "mmathys/openai-moderation-api-evaluation",
+    "config": null,
+    "splits": [
+     "train"
+    ],
+    "n_used": 1680,
+    "notes": ""
+   },
+   {
+    "key": "typed_decisions",
+    "title": "typed-decisions",
+    "hf_id": "LocalLLaMA/typed-decisions",
+    "config": "all",
+    "splits": [
+     "test"
+    ],
+    "n_used": 400,
+    "notes": ""
+   },
+   {
+    "key": "unfair_tos",
+    "title": "UNFAIR-ToS",
+    "hf_id": "coastalcph/lex_glue",
+    "config": "unfair_tos",
+    "splits": [
+     "test"
+    ],
+    "n_used": 1607,
+    "notes": ""
+   },
+   {
+    "key": "helpsteer2",
+    "title": "HelpSteer2",
+    "hf_id": "nvidia/HelpSteer2",
+    "config": null,
+    "splits": [
+     "validation"
+    ],
+    "n_used": 1038,
+    "notes": ""
+   }
+  ],
+  "dev": [
+   {
+    "key": "newsgroups20",
+    "title": "20 Newsgroups",
+    "hf_id": "SetFit/20_newsgroups",
+    "config": null,
+    "splits": [
+     "test"
+    ],
+    "n_used": 2000,
+    "notes": ""
+   },
+   {
+    "key": "tweeteval_sentiment",
+    "title": "TweetEval sentiment",
+    "hf_id": "cardiffnlp/tweet_eval",
+    "config": "sentiment",
+    "splits": [
+     "test"
+    ],
+    "n_used": 2000,
+    "notes": ""
+   },
+   {
+    "key": "atis",
+    "title": "ATIS intents",
+    "hf_id": "tuetschek/atis",
+    "config": null,
+    "splits": [
+     "test"
+    ],
+    "n_used": 893,
+    "notes": "New in v1.1 (PLAN §2.3.1). Multi-intent rows ('a#b') keep the joint label as one option; no published Jev number (jev-published.md §1)."
+   },
+   {
+    "key": "snips",
+    "title": "SNIPS",
+    "hf_id": "benayas/snips",
+    "config": null,
+    "splits": [
+     "test"
+    ],
+    "n_used": 2000,
+    "notes": "Declared: SNIPS is one component of LangWatch's off-topic mix (targets.json lw_offtopic, context row). Kept as dev per PLAN §2.3.1."
+   },
+   {
+    "key": "mrpc",
+    "title": "MRPC",
+    "hf_id": "nyu-mll/glue",
+    "config": "mrpc",
+    "splits": [
+     "validation"
+    ],
+    "n_used": 408,
+    "notes": ""
+   },
+   {
+    "key": "scitail",
+    "title": "SciTail",
+    "hf_id": "allenai/scitail",
+    "config": "snli_format",
+    "splits": [
+     "test"
+    ],
+    "n_used": 2000,
+    "notes": ""
+   },
+   {
+    "key": "cb",
+    "title": "CommitmentBank",
+    "hf_id": "aps/super_glue",
+    "config": "cb",
+    "splits": [
+     "validation"
+    ],
+    "n_used": 56,
+    "notes": ""
+   },
+   {
+    "key": "tweeteval_offensive",
+    "title": "TweetEval offensive",
+    "hf_id": "cardiffnlp/tweet_eval",
+    "config": "offensive",
+    "splits": [
+     "test"
+    ],
+    "n_used": 860,
+    "notes": ""
+   },
+   {
+    "key": "scifact",
+    "title": "SciFact dev",
+    "hf_id": "allenai/scifact",
+    "config": "claims",
+    "splits": [
+     "validation"
+    ],
+    "n_used": 300,
+    "notes": "Stays (PLAN §2.3.1). BEIR SciFact test queries (BeIR/scifact, T387) are public_jev."
+   },
+   {
+    "key": "tasksource_heldout",
+    "title": "held-out tasksource-jev sources",
+    "hf_id": "tasksource/tasksource-jev-typed-decisions",
+    "config": null,
+    "splits": [
+     "train"
+    ],
+    "n_used": 2000,
+    "notes": "Whole source families listed in DEV_TASKSOURCE_SOURCES; data-real must drop them."
+   }
+  ],
+  "ref": [
+   {
+    "key": "hellaswag",
+    "title": "HellaSwag",
+    "hf_id": "Rowan/hellaswag",
+    "config": null,
+    "splits": [
+     "validation"
+    ],
+    "n_used": 10042,
+    "notes": ""
+   },
+   {
+    "key": "winogrande",
+    "title": "WinoGrande",
+    "hf_id": "allenai/winogrande",
+    "config": "winogrande_xl",
+    "splits": [
+     "validation"
+    ],
+    "n_used": 1267,
+    "notes": ""
+   },
+   {
+    "key": "mmlu_pro",
+    "title": "MMLU-Pro sample",
+    "hf_id": "TIGER-Lab/MMLU-Pro",
+    "config": null,
+    "splits": [
+     "test"
+    ],
+    "n_used": 2000,
+    "notes": ""
+   },
+   {
+    "key": "bbh",
+    "title": "BBH sample",
+    "hf_id": "lukaemon/bbh",
+    "config": null,
+    "splits": [
+     "test"
+    ],
+    "n_used": 1000,
+    "notes": ""
+   }
+  ],
+  "retired_dev": [
+   {
+    "key": "tweet_topic",
+    "title": "tweet_topic_single",
+    "hf_id": "cardiffnlp/tweet_topic_single",
+    "config": null,
+    "splits": [
+     "test_2021"
+    ],
+    "n_used": 1693,
+    "notes": "public Jev T245 (elcronos), test_2021 n=1,693"
+   },
+   {
+    "key": "app_reviews",
+    "title": "app_reviews stars",
+    "hf_id": "sealuzh/app_reviews",
+    "config": null,
+    "splits": [
+     "train"
+    ],
+    "n_used": 2000,
+    "notes": "public Jev T380 (goodrahstar); single split"
+   },
+   {
+    "key": "hwu64",
+    "title": "HWU64",
+    "hf_id": "DeepPavlov/hwu64",
+    "config": null,
+    "splits": [
+     "test"
+    ],
+    "n_used": 2000,
+    "notes": "public Jev T256 (thisisandreeeee), same 1,076-item test"
+   },
+   {
+    "key": "toxigen",
+    "title": "ToxiGen annotated",
+    "hf_id": "toxigen/toxigen-data",
+    "config": "annotated",
+    "splits": [
+     "test"
+    ],
+    "n_used": 940,
+    "notes": "public Jev T027 (Deußer)"
+   },
+   {
+    "key": "prompt_injections",
+    "title": "deepset prompt-injections",
+    "hf_id": "deepset/prompt-injections",
+    "config": null,
+    "splits": [
+     "test"
+    ],
+    "n_used": 116,
+    "notes": "public Jev T030 (Deußer) + all-662 rows"
+   }
+  ],
+  "dev_tasksource_families": [
+   "ade_corpus_v2",
+   "conj_nli",
+   "equate",
+   "github-issue-similarity",
+   "help-nli",
+   "numer_sense",
+   "proofwriter",
+   "qasc",
+   "resnli"
+  ],
+  "retired_dev_tasksource_families": [
+   "strategy-qa"
+  ]
+ },
+ "exact_ids": {
+  "allenai/scifact": "dev:scifact",
+  "allenai/scitail": "dev:scitail",
+  "amazonscience/massive": "test:massive",
+  "aps/super_glue/cb": "dev:cb",
+  "atrost/financial_phrasebank": "test:fin_phrasebank",
+  "beir/scifact": "public_jev:scifact",
+  "benayas/snips": "dev:snips",
+  "btzsc/btzsc": "sibling:btzsc",
+  "cardiffnlp/tweet_eval": "test:tweeteval_emotion",
+  "cardiffnlp/tweet_eval/offensive": "dev:tweeteval_offensive",
+  "cardiffnlp/tweet_eval/sentiment": "dev:tweeteval_sentiment",
+  "cardiffnlp/tweet_topic_multi": "public_jev:tweet_topic",
+  "cardiffnlp/tweet_topic_single": "public_jev:tweet_topic",
+  "clinc/clinc_oos": "test:clinc150",
+  "coastalcph/lex_glue/unfair_tos": "test:unfair_tos",
+  "community-datasets/yahoo_answers_topics": "test:yahoo_topics",
+  "cornell-movie-review-data/rotten_tomatoes": "sibling:rotten_tomatoes",
+  "dair-ai/emotion": "test:dair_emotion",
+  "deeppavlov/clinc150": "test:clinc150",
+  "deeppavlov/hwu64": "public_jev:hwu64",
+  "deepset/prompt-injections": "public_jev:prompt_injections",
+  "facebook/anli": "test:anli",
+  "fancyzhx/ag_news": "test:ag_news",
+  "fancyzhx/yelp_polarity": "sibling:yelp5",
+  "fingpt/fingpt-sentiment-train": "sibling:fin_phrasebank",
+  "google-research-datasets/go_emotions": "test:go_emotions",
+  "google-research-datasets/paws": "test:paws",
+  "google-research-datasets/paws-x": "sibling:paws",
+  "google/boolq": "test:boolq",
+  "hotchpotch/bekko-system-one-dataset-v0": "jev_labelled",
+  "lmsys/toxic-chat": "test:toxic_chat",
+  "localllama/typed-decisions": "test:typed_decisions",
+  "lytang/llm-aggrefact": "test:llm_aggrefact",
+  "mmathys/openai-moderation-api-evaluation": "test:openai_moderation",
+  "moritzlaurer/dataset_train_nli": "sibling:laurer_train_nli",
+  "moritzlaurer/multilingual-nli-26lang-2mil7": "sibling:multilingual_nli_26lang",
+  "mteb/amazon_massive_intent": "test:massive",
+  "mteb/amazon_massive_scenario": "test:massive",
+  "mteb/banking77": "test:banking77",
+  "mteb/emotion": "test:dair_emotion",
+  "mteb/stsbenchmark-sts": "test:stsb",
+  "nickmuchi/financial-classification": "sibling:fin_phrasebank",
+  "nvidia/helpsteer": "test:helpsteer2",
+  "nvidia/helpsteer2": "test:helpsteer2",
+  "nvidia/helpsteer3": "test:helpsteer2",
+  "nyu-mll/glue/mrpc": "dev:mrpc",
+  "nyu-mll/glue/rte": "test:rte",
+  "polyai/banking77": "test:banking77",
+  "qanastek/massive": "test:massive",
+  "sargedev/jev-distill-corpus-v3": "jev_labelled",
+  "sealuzh/app_reviews": "public_jev:app_reviews",
+  "semevalworkshop/sem_eval_2018_task_1": "sibling:tweeteval_emotion",
+  "sentence-transformers/stsb": "test:stsb",
+  "setfit/20_newsgroups": "dev:newsgroups20",
+  "setfit/emotion": "test:dair_emotion",
+  "setfit/sst2": "test:sst2",
+  "setfit/sst5": "test:sst5",
+  "sh0416/ag_news": "test:ag_news",
+  "stanfordnlp/sst": "test:sst2",
+  "stanfordnlp/sst2": "test:sst2",
+  "takala/financial_phrasebank": "test:fin_phrasebank",
+  "tdiggelm/climate_fever": "test:climate_fever",
+  "toxigen/toxigen-data": "public_jev:toxigen",
+  "tuetschek/atis": "dev:atis",
+  "yelp/yelp_review_full": "test:yelp5",
+  "zeroshot/twitter-financial-news-sentiment": "sibling:fin_topic",
+  "zeroshot/twitter-financial-news-topic": "test:fin_topic"
+ },
+ "rules": {
+  "test": {
+   "ag_news": "(?<![a-z])ag[-_ ]?news",
+   "yahoo_topics": "yahoo",
+   "fin_topic": "twitter[-_ ]?financial[-_ ]?news",
+   "sst2": "(?<![a-z])sst(?![a-z])|stanford[-_ ]?sentiment[-_ ]?treebank",
+   "fin_phrasebank": "financial[-_ ]?phrase[-_ ]?bank|phrasebank|fingpt[-_]sentiment",
+   "sst5": "(?<![a-z])sst(?![a-z])",
+   "yelp5": "yelp",
+   "dair_emotion": "^(dair-ai/|mteb/|setfit/|tasksource/)?emotion(/(split|unsplit|default))?$|(?<![a-z])carer(?![a-z])",
+   "tweeteval_emotion": "tweet[-_ ]?eval|sem[-_ ]?eval[-_ ]?2018[-_ ]?task[-_ ]?1(?![0-9])|semeval[-_ ]?2018|affect[-_ ]in[-_ ]tweets",
+   "go_emotions": "go[-_ ]?emotions?",
+   "banking77": "banking",
+   "clinc150": "clinc",
+   "massive": "(?<![a-z])massive(?![a-z])|slurp",
+   "boolq": "boolq",
+   "rte": "(?<![a-z])rte(?![a-z])|recogni[sz]ing[-_ ]textual[-_ ]entailment",
+   "anli": "(?<![a-z])anli(?![a-z])|adversarial[-_ ]?nli",
+   "paws": "paws",
+   "stsb": "stsb|(?<![a-z])sts[-_ ]b(?![a-z])|sts[-_ ]?benchmark|(?<![a-z])sts[-_ ]?(?:20)?1[2-6](?![0-9])|sts[-_]companion",
+   "llm_aggrefact": "aggre[-_ ]?fact|ragtruth|tofu[-_ ]?eval|(?<![a-z])wice(?![a-z])|(?<![a-z])reveal(?![a-z])|claim[-_ ]?verify|factcheck[-_ ]?gpt|expert[-_ ]?qa|(?<![a-z])lfqa(?![a-z])",
+   "climate_fever": "climate[-_ ]?fever",
+   "toxic_chat": "toxic[-_ ]?chat",
+   "openai_moderation": "openai[-_ ]?moderation|moderation[-_ ]?api",
+   "typed_decisions": "(?<![a-z0-9_-])typed[-_ ]decisions",
+   "unfair_tos": "unfair|claudette",
+   "helpsteer2": "help[-_ ]?steer"
+  },
+  "dev": {
+   "newsgroups20": "20[-_ ]?news[-_ ]?groups|newsgroups",
+   "tweeteval_sentiment": "tweet[-_ ]?eval[/:._-]sentiment|tweet[-_]sentiment[-_]multilingual|sem[-_ ]?eval[-_ ]?2017[-_ ]?task[-_ ]?4",
+   "atis": "(?<![a-z])atis(?![a-z])",
+   "snips": "snips",
+   "mrpc": "mrpc|msr[-_ ]?paraphrase",
+   "scitail": "scitail",
+   "cb": "(^|/)cb$|super[-_ ]?glue[/:._-]cb(?![a-z])|commitment[-_ ]?bank",
+   "tweeteval_offensive": "tweet[-_ ]?eval[/:._-]offensive|offenseval[-_ ]?2019|(?<![a-z])olid(?![a-z])",
+   "scifact": "scifact"
+  },
+  "sibling": {
+   "btzsc": "btzsc",
+   "rotten_tomatoes": "rotten",
+   "laurer_train_nli": "dataset[-_]train[-_]nli",
+   "multilingual_nli_26lang": "multilingual[-_ ]?nli[-_ ]?26lang",
+   "sst_mirrors": "gpt3mix/sst|sentiment[-_ ]?treebank"
+  },
+  "jev_labelled": {
+   "jev_labelled": "jev[-_ ]?distill|yuri[-_ ]?v3|bekko|jev[-_ ]?benchmarking|runs/compare|(?<![0-9])23039006(?![0-9])|autotrust/jev|open[-_ ]?jev[-_ ]?deberta"
+  },
+  "reserved": {
+   "external_typed_suites": "classifier[-_]benchmark|jevbench|decision[-_]index|kev[-_]suites|fast[-_]decisions|laya[-_]evals|decision[-_]?bench|decide[-_]?bench|workflow[-_]?evals|evalsafe"
+  },
+  "public_jev": {
+   "jev_bench": {
+    "pattern": "praveenrajus|jev[-_ ]bench",
+    "benchmark_key": "jevbench_hf_macro"
+   },
+   "tweet_topic": {
+    "pattern": "tweet[-_ ]?topic",
+    "benchmark_key": "tweet_topic"
+   },
+   "app_reviews": {
+    "pattern": "app[-_ ]?reviews",
+    "benchmark_key": "app_reviews"
+   },
+   "hwu64": {
+    "pattern": "(?<![a-z])hwu",
+    "benchmark_key": "hwu64"
+   },
+   "toxigen": {
+    "pattern": "toxigen",
+    "benchmark_key": "toxigen"
+   },
+   "prompt_injections": {
+    "pattern": "prompt[-_ ]?injection|prompt[-_ ]?shield",
+    "benchmark_key": "prompt_injections"
+   },
+   "nlupp": {
+    "pattern": "nlu[-_ ]?(\\+\\+|pp|plus[-_ ]?plus)",
+    "benchmark_key": "nlupp"
+   },
+   "hellaswag": {
+    "pattern": "hella[-_ ]?swag",
+    "benchmark_key": "hellaswag"
+   },
+   "winogrande": {
+    "pattern": "wino[-_ ]?grande",
+    "benchmark_key": "winogrande"
+   },
+   "mmlu": {
+    "pattern": "(?<![a-z])mmlu(?![-_ ]?(?:pro|cf))",
+    "benchmark_key": "mmlu"
+   },
+   "mmlu_pro": {
+    "pattern": "mmlu[-_ ]?pro",
+    "benchmark_key": "mmlu_pro"
+   },
+   "mmlu_cf": {
+    "pattern": "mmlu[-_ ]?cf",
+    "benchmark_key": "mmlu_cf"
+   },
+   "tmmlu": {
+    "pattern": "tmmlu",
+    "benchmark_key": "tmmlu"
+   },
+   "bbh": {
+    "pattern": "(?<![a-z])bbh(?![a-z])|big[-_ ]?bench",
+    "benchmark_key": "bbh"
+   },
+   "daily_dialog": {
+    "pattern": "daily[-_ ]?dialog|silicone[/:._-]dyda",
+    "benchmark_key": "daily_dialog"
+   },
+   "vast": {
+    "pattern": "(?<![a-z])vast(?![a-z])|zero[-_ ]?shot[-_ ]?stance",
+    "benchmark_key": "vast"
+   },
+   "isarcasm": {
+    "pattern": "isarcasm",
+    "benchmark_key": "isarcasm"
+   },
+   "nli4ct": {
+    "pattern": "nli4ct|semeval[-_ ]?2024[-_ ]?task[-_ ]?2",
+    "benchmark_key": "nli4ct"
+   },
+   "hover": {
+    "pattern": "(?<![a-z])hover(?![a-z])",
+    "benchmark_key": "hover"
+   },
+   "arc": {
+    "pattern": "ai2[-_ ]?arc|arc[-_ ]?(easy|challenge)",
+    "benchmark_key": "arc"
+   },
+   "csqa": {
+    "pattern": "commonsense[-_ ]?qa|(?<![a-z])csqa(?![a-z])",
+    "benchmark_key": "csqa"
+   },
+   "alphanli": {
+    "pattern": "alpha[-_ ]?nli|abductive[-_ ]?nli",
+    "benchmark_key": "alphanli"
+   },
+   "pubmedqa": {
+    "pattern": "pubmed[-_ ]?qa|pqa[-_ ]?(labeled|artificial|unlabeled)",
+    "benchmark_key": "pubmedqa"
+   },
+   "sib200": {
+    "pattern": "sib[-_ ]?200",
+    "benchmark_key": "sib200"
+   },
+   "belebele": {
+    "pattern": "belebele",
+    "benchmark_key": "belebele"
+   },
+   "xnli": {
+    "pattern": "afri[-_ ]?xnli|(?<![a-z])xnli",
+    "benchmark_key": "xnli"
+   },
+   "ceval": {
+    "pattern": "(?<![a-z])c[-_ ]?eval(?![a-z])",
+    "benchmark_key": "ceval"
+   },
+   "language_id": {
+    "pattern": "language[-_ ]?identification|papluca",
+    "benchmark_key": "language_id"
+   },
+   "agb_de": {
+    "pattern": "(?<![a-z])agb(?![a-z])",
+    "benchmark_key": "agb_de"
+   },
+   "summeval": {
+    "pattern": "summ[-_ ]?eval",
+    "benchmark_key": "summeval"
+   },
+   "sms_spam": {
+    "pattern": "sms[-_ ]?spam",
+    "benchmark_key": "sms_spam"
+   },
+   "contractnli": {
+    "pattern": "contract[-_ ]?nli",
+    "benchmark_key": "contractnli"
+   },
+   "cladder": {
+    "pattern": "cladder",
+    "benchmark_key": "cladder"
+   },
+   "esci": {
+    "pattern": "(?<![a-z])esci(?![a-z])",
+    "benchmark_key": "esci"
+   },
+   "humicroedit": {
+    "pattern": "humicroedit|funlines",
+    "benchmark_key": "humicroedit"
+   },
+   "enron": {
+    "pattern": "enron[-_ ]?spam|(?<![a-z])enron(?![a-z])",
+    "benchmark_key": "enron"
+   },
+   "phishnchips": {
+    "pattern": "phish[-_ ]?n[-_ ]?chips",
+    "benchmark_key": "phishnchips"
+   },
+   "finentity": {
+    "pattern": "fin[-_ ]?entity",
+    "benchmark_key": "finentity"
+   },
+   "acos": {
+    "pattern": "(?<![a-z])acos(?![a-z])",
+    "benchmark_key": "acos"
+   },
+   "ragtruth": {
+    "pattern": "rag[-_ ]?truth",
+    "benchmark_key": "ragtruth"
+   },
+   "when2call": {
+    "pattern": "when[-_ ]?2[-_ ]?call",
+    "benchmark_key": "when2call"
+   },
+   "newyorker": {
+    "pattern": "new[-_ ]?yorker",
+    "benchmark_key": "newyorker"
+   },
+   "chaosnli": {
+    "pattern": "chaos[-_ ]?nli|chaos[-_ ]?mnli",
+    "benchmark_key": "chaosnli"
+   },
+   "imdb": {
+    "pattern": "(?<![a-z])imdb",
+    "benchmark_key": "imdb"
+   },
+   "civil_comments": {
+    "pattern": "civil[-_ ]?comments",
+    "benchmark_key": "civil_comments"
+   },
+   "mhs": {
+    "pattern": "measuring[-_ ]?hate[-_ ]?speech|(?<![a-z])mhs(?![a-z])",
+    "benchmark_key": "mhs"
+   },
+   "aegis": {
+    "pattern": "aegis",
+    "benchmark_key": "aegis2_prompt"
+   },
+   "ledgar": {
+    "pattern": "ledgar",
+    "benchmark_key": "ledgar"
+   },
+   "mnli": {
+    "pattern": "(?<![a-z])mnli|multi[-_ ]?nli",
+    "benchmark_key": "mnli"
+   },
+   "fever": {
+    "pattern": "(?<![a-z])fever(?![a-z])",
+    "benchmark_key": "fever"
+   },
+   "wanli": {
+    "pattern": "wanli",
+    "benchmark_key": "wanli"
+   },
+   "trec": {
+    "pattern": "(?<![a-z])trec(?![a-z])",
+    "benchmark_key": "trec_fine"
+   },
+   "conll": {
+    "pattern": "conll",
+    "benchmark_key": "conll_typing"
+   },
+   "squad": {
+    "pattern": "squad",
+    "benchmark_key": "squad_select"
+   },
+   "mtop": {
+    "pattern": "(?<![a-z])mtop",
+    "benchmark_key": "label_pressure"
+   },
+   "dbpedia": {
+    "pattern": "dbpedia",
+    "benchmark_key": "label_pressure"
+   },
+   "amazon_polarity": {
+    "pattern": "amazon[-_ ]?polarity",
+    "benchmark_key": "amazon_polarity"
+   },
+   "amazon_counterfactual": {
+    "pattern": "amazon[-_ ]?counterfactual",
+    "benchmark_key": "amazon_counterfactual"
+   },
+   "casehold": {
+    "pattern": "case[-_ ]?hold",
+    "benchmark_key": "casehold"
+   },
+   "arxiv": {
+    "pattern": "arxiv",
+    "benchmark_key": "arxiv_2026"
+   },
+   "strategyqa": {
+    "pattern": "strategy[-_ ]?qa",
+    "benchmark_key": "strategyqa_closed"
+   },
+   "text_moderation": {
+    "pattern": "text[-_ ]?moderation|koalaai",
+    "benchmark_key": "openai_mod"
+   },
+   "fpb_rereleases": {
+    "pattern": "nickmuchi|phrasebank[-_ ]and[-_ ]sentfin|auditor[-_ ]?(review|sentiment)",
+    "benchmark_key": "fpb"
+   },
+   "sata": {
+    "pattern": "sata[-_ ]?bench",
+    "benchmark_key": "sata"
+   },
+   "theoremqa_scibench": {
+    "pattern": "theorem[-_ ]?qa|sci[-_ ]?bench",
+    "benchmark_key": "mmlu_pro"
+   },
+   "gpqa": {
+    "pattern": "gpqa",
+    "benchmark_key": "gpqa"
+   },
+   "bfcl": {
+    "pattern": "(?<![a-z])bfcl|berkeley[-_ ]?function[-_ ]?calling|gorilla",
+    "benchmark_key": "bfcl"
+   },
+   "api_bank": {
+    "pattern": "api[-_ ]?bank",
+    "benchmark_key": "api_bank"
+   },
+   "toolret": {
+    "pattern": "tool[-_ ]?ret",
+    "benchmark_key": "toolret"
+   },
+   "chatbot_arena": {
+    "pattern": "chatbot[-_ ]?arena|arena[-_ ]?human[-_ ]?preference|lmarena",
+    "benchmark_key": "ppe"
+   },
+   "prm800k": {
+    "pattern": "prm[-_ ]?800k",
+    "benchmark_key": "prmbench"
+   },
+   "aggregators": {
+    "pattern": "(?<![a-z])flan(?![a-z])|tasksource[-_ ]?instruct",
+    "benchmark_key": null
+   },
+   "lex_glue": {
+    "pattern": "lex[-_ ]?glue",
+    "benchmark_key": "lexglue_mean"
+   },
+   "ecthr": {
+    "pattern": "ecthr",
+    "benchmark_key": "ecthr_a"
+   },
+   "scotus": {
+    "pattern": "scotus",
+    "benchmark_key": "scotus"
+   },
+   "eurlex": {
+    "pattern": "eur[-_ ]?lex",
+    "benchmark_key": "eurlex"
+   },
+   "cuad": {
+    "pattern": "(?<![a-z])cuad",
+    "benchmark_key": "cuad"
+   },
+   "medhallu": {
+    "pattern": "med[-_ ]?hallu",
+    "benchmark_key": "medhallu"
+   },
+   "medqa": {
+    "pattern": "(?<![a-z])med[-_ ]?qa|meta[-_ ]?med[-_ ]?qa",
+    "benchmark_key": "metamedqa"
+   },
+   "diagnosisarena": {
+    "pattern": "diagnosis[-_ ]?arena",
+    "benchmark_key": "diagnosisarena"
+   },
+   "wildguard": {
+    "pattern": "wild[-_ ]?guard",
+    "benchmark_key": "wildguard"
+   },
+   "harmbench": {
+    "pattern": "harm[-_ ]?bench",
+    "benchmark_key": "harmbench_resp"
+   },
+   "hatecheck": {
+    "pattern": "hate[-_ ]?check",
+    "benchmark_key": "hatecheck"
+   },
+   "xstest": {
+    "pattern": "xs[-_ ]?test",
+    "benchmark_key": "xstest"
+   },
+   "injection_corpora": {
+    "pattern": "jailbreak[-_ ]?classification|(?<![a-z])spml|jailbreaks[-_ ]?over[-_ ]?time|not[-_ ]?inject|safe[-_ ]?guard[-_ ]?prompt|wa[-_ ]?inject",
+    "benchmark_key": "injection_combined"
+   },
+   "rewardbench": {
+    "pattern": "reward[-_ ]?bench",
+    "benchmark_key": "rewardbench1"
+   },
+   "rmbench": {
+    "pattern": "rm[-_ ]?bench",
+    "benchmark_key": "rmbench_pair"
+   },
+   "ppe": {
+    "pattern": "ppe[-_ ]?human[-_ ]?preference",
+    "benchmark_key": "ppe"
+   },
+   "processbench": {
+    "pattern": "process[-_ ]?bench",
+    "benchmark_key": "processbench"
+   },
+   "prmbench": {
+    "pattern": "prm[-_ ]?bench",
+    "benchmark_key": "prmbench"
+   },
+   "rubricbench": {
+    "pattern": "rubric[-_ ]?bench",
+    "benchmark_key": "rubricbench"
+   },
+   "halueval": {
+    "pattern": "halu[-_ ]?eval",
+    "benchmark_key": "halueval_qa"
+   },
+   "nevir": {
+    "pattern": "nevir",
+    "benchmark_key": "nevir"
+   },
+   "beir": {
+    "pattern": "(?<![a-z])beir(?![a-z])|nf[-_ ]?corpus|(?<![a-z])fiqa|code[-_ ]?search[-_ ]?net",
+    "benchmark_key": "rerank_mean"
+   },
+   "msmarco": {
+    "pattern": "ms[-_ ]?marco",
+    "benchmark_key": "msmarco"
+   },
+   "nanorteb": {
+    "pattern": "nano[-_ ]?rteb|hakari",
+    "benchmark_key": "nanorteb"
+   },
+   "xquad": {
+    "pattern": "xquad",
+    "benchmark_key": "xquad_rerank"
+   },
+   "sgd": {
+    "pattern": "schema[-_ ]?guided|(?<![a-z])sgd[-_ ]?x?(?![a-z])|dstc8",
+    "benchmark_key": "sgd"
+   },
+   "routerbench": {
+    "pattern": "router[-_ ]?bench",
+    "benchmark_key": "routerbench"
+   },
+   "chessbench": {
+    "pattern": "chess[-_ ]?bench|searchless[-_ ]?chess|lichess",
+    "benchmark_key": "chessbench"
+   },
+   "pop909": {
+    "pattern": "pop909",
+    "benchmark_key": "pop909"
+   },
+   "cfcolor": {
+    "pattern": "cfcolor",
+    "benchmark_key": "cfcolor"
+   },
+   "bpomp": {
+    "pattern": "bpomp",
+    "benchmark_key": "bpomp"
+   },
+   "habermas": {
+    "pattern": "habermas",
+    "benchmark_key": "habermas"
+   },
+   "hle": {
+    "pattern": "(?<![a-z])hle(?![a-z])|humanity.?s[-_ ]last[-_ ]exam",
+    "benchmark_key": "hle"
+   },
+   "musr": {
+    "pattern": "(?<![a-z])musr(?![a-z])",
+    "benchmark_key": "musr"
+   },
+   "cruxeval": {
+    "pattern": "crux[-_ ]?eval",
+    "benchmark_key": "cruxeval"
+   },
+   "forecastbench": {
+    "pattern": "forecast[-_ ]?bench",
+    "benchmark_key": "forecastbench"
+   },
+   "gsm8k": {
+    "pattern": "gsm[-_ ]?8k",
+    "benchmark_key": "gsm8k_mc"
+   },
+   "obqa": {
+    "pattern": "open[-_ ]?book[-_ ]?qa|(?<![a-z])obqa",
+    "benchmark_key": "obqa"
+   },
+   "race": {
+    "pattern": "(?<![a-z])race(?:[-_ ]?(?:c|h|m|high|middle))?(?![a-z])",
+    "benchmark_key": "race_h"
+   },
+   "logiqa": {
+    "pattern": "logiqa",
+    "benchmark_key": "logiqa"
+   },
+   "truthfulqa": {
+    "pattern": "truthful[-_ ]?qa",
+    "benchmark_key": "truthfulqa"
+   },
+   "triviaqa": {
+    "pattern": "trivia[-_ ]?qa",
+    "benchmark_key": "triviaqa4"
+   },
+   "popqa": {
+    "pattern": "pop[-_ ]?qa",
+    "benchmark_key": "popqa4"
+   },
+   "simpleqa": {
+    "pattern": "simple[-_ ]?qa",
+    "benchmark_key": "simpleqa4"
+   },
+   "daily_oracle": {
+    "pattern": "daily[-_ ]?oracle",
+    "benchmark_key": "daily_oracle"
+   },
+   "tabfact": {
+    "pattern": "tab[-_ ]?fact",
+    "benchmark_key": "tabfact"
+   },
+   "multihop": {
+    "pattern": "musique|hotpot[-_ ]?qa",
+    "benchmark_key": "multihop_retrieval"
+   },
+   "mind2web": {
+    "pattern": "mind2web",
+    "benchmark_key": "mind2web"
+   },
+   "alfworld": {
+    "pattern": "alfworld",
+    "benchmark_key": "alfworld"
+   },
+   "agent_safety": {
+    "pattern": "mcp[-_ ]?hunt|(?<![a-z])r[-_ ]judge|atbench|tracesafe|agent[-_ ]?harm|injec[-_ ]?agent",
+    "benchmark_key": "mcphunt"
+   },
+   "cyberseceval": {
+    "pattern": "cyber[-_ ]?sec[-_ ]?eval|purple[-_ ]?llama",
+    "benchmark_key": "cyberseceval_cwe"
+   },
+   "rexerr": {
+    "pattern": "rexerr|rad[-_ ]?eval",
+    "benchmark_key": "rexerr"
+   },
+   "ricechem": {
+    "pattern": "ricechem",
+    "benchmark_key": "ricechem"
+   },
+   "dimabsa": {
+    "pattern": "dimabsa|semeval[-_ ]?2026[-_ ]?task[-_ ]?3",
+    "benchmark_key": "dimabsa_va"
+   },
+   "cesnet": {
+    "pattern": "cesnet|quicext",
+    "benchmark_key": "cesnet"
+   },
+   "nslkdd": {
+    "pattern": "nsl[-_ ]?kdd",
+    "benchmark_key": "nslkdd"
+   },
+   "cfpb": {
+    "pattern": "consumer[-_ ]?(finance[-_ ]?)?complaints|cfpb",
+    "benchmark_key": "cfpb"
+   },
+   "upworthy": {
+    "pattern": "upworthy",
+    "benchmark_key": "upworthy"
+   },
+   "gaokao": {
+    "pattern": "gaokao",
+    "benchmark_key": "gaokao"
+   },
+   "jmedqa": {
+    "pattern": "jmedqa|igaku[-_ ]?qa",
+    "benchmark_key": "jmedqa"
+   },
+   "exams": {
+    "pattern": "thai[-_ ]?exam|jmmlu|(?<![a-z])enem(?![a-z])|jfinqa",
+    "benchmark_key": "exams_misc"
+   },
+   "kobest": {
+    "pattern": "kobest",
+    "benchmark_key": "kobest"
+   },
+   "kobbq": {
+    "pattern": "kobbq",
+    "benchmark_key": "kobbq"
+   },
+   "ajgt": {
+    "pattern": "ajgt",
+    "benchmark_key": "ajgt"
+   },
+   "darija": {
+    "pattern": "darija",
+    "benchmark_key": "darija"
+   },
+   "cjbench": {
+    "pattern": "cj[-_ ]?bench",
+    "benchmark_key": "cjbench"
+   },
+   "email_spam": {
+    "pattern": "ling[-_ ]?spam|spam[-_ ]?assassin|email[-_ ]?spam",
+    "benchmark_key": "email_spam"
+   },
+   "phishing_email": {
+    "pattern": "phishing[-_ ]?email",
+    "benchmark_key": "phishing_small"
+   },
+   "fake_jobs": {
+    "pattern": "fake[-_ ]?job",
+    "benchmark_key": "fake_jobs"
+   },
+   "whowhen": {
+    "pattern": "who[-_&]?when",
+    "benchmark_key": "whowhen"
+   },
+   "aita": {
+    "pattern": "(?<![a-z])aita(?![a-z])",
+    "benchmark_key": "aita"
+   },
+   "commonlit": {
+    "pattern": "commonlit",
+    "benchmark_key": "commonlit"
+   },
+   "dblp_acm": {
+    "pattern": "dblp[-_ ]?acm",
+    "benchmark_key": "dblp_acm"
+   },
+   "nejm": {
+    "pattern": "(?<![a-z])nejm",
+    "benchmark_key": "nejm"
+   },
+   "healthbench": {
+    "pattern": "health[-_ ]?bench",
+    "benchmark_key": "healthbench"
+   },
+   "judgebench": {
+    "pattern": "judge[-_ ]?bench",
+    "benchmark_key": "judgebench"
+   },
+   "sys1cal": {
+    "pattern": "sys1cal",
+    "benchmark_key": "sys1cal"
+   },
+   "xdviolence": {
+    "pattern": "xd[-_ ]?violence",
+    "benchmark_key": "xdviolence"
+   },
+   "har": {
+    "pattern": "pamap2|(?<![a-z])wisdm|uci[-_ ]?har",
+    "benchmark_key": "har"
+   },
+   "video_quality": {
+    "pattern": "vqdb|jevqa",
+    "benchmark_key": "video_quality"
+   },
+   "jevout": {
+    "pattern": "tom[-_ ]?bench|super[-_ ]?gpqa|lar[-_ ]?echr",
+    "benchmark_key": "jevout"
+   },
+   "kiki_agent": {
+    "pattern": "canitrustyou",
+    "benchmark_key": "kiki_agent"
+   },
+   "amazonqa": {
+    "pattern": "amazon[-_ ]?qa",
+    "benchmark_key": "amazonqa"
+   },
+   "p4g": {
+    "pattern": "persuasion[-_ ]?for[-_ ]?good|(?<![a-z])p4g|(?<![a-z])persuasion(?![a-z])",
+    "benchmark_key": "p4g"
+   },
+   "craigslist": {
+    "pattern": "craigslist",
+    "benchmark_key": "craigslist"
+   },
+   "semif": {
+    "pattern": "(?<![a-z])semif(?![a-z])",
+    "benchmark_key": "nimble"
+   },
+   "recsys": {
+    "pattern": "amazon[-_ ]?reviews[-_ ]?2023",
+    "benchmark_key": "recsys"
+   },
+   "pii": {
+    "pattern": "gretel[-_ ]?pii|(?<![a-z])privy(?![a-z])|nemotron[-_ ]?pii",
+    "benchmark_key": "lw_pii"
+   },
+   "cohen": {
+    "pattern": "cohen[-_ ]?2006|asreview",
+    "benchmark_key": "cohen_adhd"
+   },
+   "css_ziems": {
+    "pattern": "convokit|conversations[-_ ]?gone[-_ ]?awry|wiki[-_ ]?politeness|wikipedia[-_ ]?politeness|implicit[-_ ]?hate|media[-_ ]?ideology|reddit[-_ ]?humor|tempowic|(?<![a-z])raop(?![a-z])|(?<![a-z])flute(?![a-z])|indian[-_ ]?english[-_ ]?dialect|(?<![a-z])ibc(?![a-z])|(?<![a-z])mrf(?![a-z])|semeval[-_ ]?stance|talklife|(?<![a-z])tropes(?![a-z])",
+    "benchmark_key": "css_big"
+   }
+  }
+ },
+ "public_jev": {
+  "hf_ids": {
+   "agentic-learning-ai-lab/daily-oracle": "daily_oracle",
+   "ai-safety-institute/agentharm": "agent_trace",
+   "ai-systems/task-2-semeval-2024": "nli4ct",
+   "akariasai/popqa": "popqa4",
+   "alibabaresearch/damo-convai": "api_bank",
+   "alisawuffles/wanli": "wanli",
+   "allenai/ai2_arc": "arc",
+   "allenai/art": "alphanli",
+   "allenai/openbookqa": "obqa",
+   "allenai/reward-bench": "rewardbench1",
+   "allenai/reward-bench-2": "rewardbench2",
+   "allenai/scifact": "scifact_claims",
+   "allenai/wildguardmix": "wildguard",
+   "allenai/winogrande": "winogrande",
+   "amazon-science/esci-data": "esci",
+   "amazonscience/massive": "massive_scenario51",
+   "andeytait/jevforge-mind2web": "lw_webagent",
+   "andyweasley2004/pop909-cl-dataset": "pop909",
+   "apolinario/decision-index": "di_index",
+   "arelit/phishnchips": "phishnchips",
+   "atmaneayoub/jev-ar-bench": "gulf_arabic",
+   "atrost/financial_phrasebank": "fpb",
+   "bdsaglam/musique": "multihop_retrieval",
+   "bee-spoke-data/consumer-finance-complaints": "lw_complaint",
+   "beir/fiqa": "fiqa_rerank",
+   "beir/nfcorpus": "nfcorpus",
+   "beir/scifact": "scifact",
+   "beki/privy": "lw_pii",
+   "benayas/snips": "lw_offtopic",
+   "btzsc/btzsc": "btzsc_ag",
+   "cais/hle": "hle",
+   "cais/mmlu": "mmlu",
+   "cardiffnlp/tweet_eval": "tweeteval_emotion",
+   "cardiffnlp/tweet_topic_single": "tweet_topic",
+   "causalnlp/cladder": "cladder",
+   "ceval/ceval-exam": "ceval",
+   "choyiny/decidebench": "decidebench",
+   "clinc/clinc_oos": "clinc150",
+   "clinc/oos-eval": "clinc150",
+   "coastalcph/lex_glue": "unfair_tos",
+   "cogcomp/trec": "trec_fine",
+   "cornell-movie-review-data/rotten_tomatoes": "rotten_tomatoes",
+   "d4br4/agb-de": "agb_de",
+   "dair-ai/emotion": "dair_emotion",
+   "davlan/sib200": "sib200",
+   "deepset/prompt-injections": "prompt_injections",
+   "determined-ai/consumer_complaints_medium": "cfpb",
+   "djapp18/jailbreaksovertime": "lw_injection",
+   "earino/chaosnli": "diag",
+   "ehovy/race": "race_h",
+   "emilyallaway/zero-shot-stance": "vast",
+   "facebook/anli": "anli",
+   "facebook/belebele": "belebele",
+   "facebook/xnli": "xnli",
+   "facebookresearch/cruxeval": "cruxeval",
+   "fancyzhx/ag_news": "ag_news",
+   "fancyzhx/amazon_polarity": "amazon_polarity",
+   "forecastingresearch/forecastbench-datasets": "forecastbench",
+   "fstandhartinger/jevbench": "jevbench_composite",
+   "google-deepmind/habermas_machine": "habermas",
+   "google-deepmind/searchless_chess": "chessbench",
+   "google-research-datasets/dstc8-schema-guided-dialogue": "sgd",
+   "google-research-datasets/go_emotions": "goemotions",
+   "google-research-datasets/paws": "paws",
+   "google/boolq": "boolq",
+   "google/civil_comments": "civil_comments",
+   "google/simpleqa-verified": "simpleqa4",
+   "google/xquad": "xquad_rerank",
+   "gorilla-llm/berkeley-function-calling-leaderboard": "lw_toolrouting",
+   "gorilla-llm/gorilla": "bfcl",
+   "gretelai/gretel-pii-masking-en-v1": "lw_pii",
+   "hanno-labs/decision-bench": "decisionbench",
+   "hitsmy/prmbench_preview": "prmbench",
+   "hotpotqa/hotpot_qa": "multihop_retrieval",
+   "hover-nlp/hover": "hover",
+   "iabufarha/isarcasmeval": "isarcasm",
+   "idavidrein/gpqa": "gpqa",
+   "ikala/tmmluplus": "tmmlu",
+   "jackhhao/jailbreak-classification": "injection_combined",
+   "jaredpalmer/kev": "kev",
+   "jmhessel/newyorker_caption_contest": "newyorker",
+   "kiddothe2b/contract-nli": "contractnli",
+   "kikinlp/canitrustyou-jev": "kiki_agent",
+   "komari6/ajgt_twitter_ar": "ajgt",
+   "legacy-datasets/banking77": "banking77",
+   "leolee99/notinject": "injection_combined",
+   "li2017dailydialog/daily_dialog": "daily_dialog",
+   "little-g-ai/sys1cal-v1": "sys1cal",
+   "lmarena-ai/ppe-human-preference-v1": "ppe",
+   "lmsys/toxic-chat": "toxicchat",
+   "localllama/typed-decisions": "typed_decisions",
+   "lucasmccabe/logiqa": "logiqa",
+   "lytang/llm-aggrefact": "llm_aggrefact",
+   "m-a-p/supergpqa": "jevout",
+   "mandarjoshi/trivia_qa": "triviaqa4",
+   "mangopy/toolret-queries": "toolret",
+   "mangopy/toolret-tools": "toolret",
+   "masakhane/afrixnli": "afrixnli",
+   "maximegmd/metamedqa": "metamedqa",
+   "mcauley-lab/amazon-reviews-2023": "recsys",
+   "meta-llama/purplellama": "cyberseceval_cwe",
+   "microsoft/mmlu-cf": "mmlu_cf",
+   "microsoft/ms_marco": "msmarco",
+   "mmathys/openai-moderation-api-evaluation": "openai_mod",
+   "mteb/amazon_massive_intent": "lw_offtopic",
+   "mteb/banking77": "banking77",
+   "mteb/mtop_intent": "label_pressure",
+   "mteb/summeval": "summeval",
+   "naver-ai/kobbq": "kobbq",
+   "nlp-waseda/jmmlu": "exams_misc",
+   "nustm/acos": "acos",
+   "nvidia/aegis-ai-content-safety-dataset-1.0": "aegis1_prompt",
+   "nvidia/aegis-ai-content-safety-dataset-2.0": "aegis2_prompt",
+   "nvidia/helpsteer2": "helpsteer2",
+   "nvidia/nemotron-pii": "lw_pii",
+   "nvidia/when2call": "when2call",
+   "nyu-mll/glue": "mnli",
+   "openai/gsm8k": "gsm8k_mc",
+   "openai/healthbench": "healthbench",
+   "openlmlab/gaokao-bench": "gaokao",
+   "openrl/daily_dialog": "daily_dialog",
+   "orionweller/nevir": "nevir",
+   "osunlp/mind2web": "mind2web",
+   "papluca/language-identification": "language_id",
+   "particlemedia/ragtruth": "ragtruth",
+   "paul/hatecheck": "hatecheck",
+   "pminervini/halueval": "halueval_qa",
+   "polyai-ldn/task-specific-datasets": "banking77",
+   "polyai/banking77": "banking77",
+   "praveenrajus/jev-bench": "chaosnli",
+   "qiaojin/pubmedqa": "pubmedqa",
+   "qwen/processbench": "processbench",
+   "rajpurkar/squad": "squad_select",
+   "reshabhs/spml": "lw_injection",
+   "rowan/hellaswag": "hellaswag",
+   "sata-bench/sata-bench": "sata",
+   "scalerlab/judgebench": "judgebench",
+   "scb10x/thai_exam": "exams_misc",
+   "scienthoon/jev-ood-calibration": "nimble",
+   "sealuzh/app_reviews": "app_reviews",
+   "sentence-transformers/stsb": "stsb",
+   "setfit/amazon_counterfactual": "amazon_counterfactual",
+   "setfit/enron_spam": "enron",
+   "setfit/sst5": "sst5",
+   "setfit/trec-qc": "trec_coarse",
+   "skt/kobest_v1": "kobest",
+   "stanfordnlp/contract-nli": "contractnli",
+   "stanfordnlp/imdb": "imdb",
+   "stanfordnlp/sst2": "sst2",
+   "suzgunmirac/big-bench-hard": "bbh",
+   "tanaos/synthetic-intent-classifier-dataset-v1": "tanaos",
+   "tasksource/bigbench": "bigbench",
+   "tasksource/esci": "lw_search",
+   "tasksource/mmlu": "mmlu",
+   "tau/commonsense_qa": "csqa",
+   "taur-lab/musr": "jevout",
+   "theatticusproject/cuad": "cuad",
+   "theoleecj/semif": "nimble",
+   "thu-keg/rm-bench": "rmbench_pair",
+   "tiger-lab/mmlu-pro": "mmlu_pro",
+   "tner/conll2003": "conll_typing",
+   "toxigen/toxigen-data": "toxigen",
+   "truthfulqa/truthful_qa": "truthfulqa",
+   "ucirvine/sms_spam": "sms_spam",
+   "utaustin-aihealth/medhallu": "medhallu",
+   "wenhu/tab_fact": "tabfact",
+   "withmartian/routerbench": "routerbench",
+   "xlangai/bright": "bright",
+   "xtram1/safe-guard-prompt-injection": "injection_combined",
+   "yelp/yelp_review_full": "yelp5",
+   "yixuantt/finentity": "finentity",
+   "zayne-sprague/musr": "musr",
+   "zefang-liu/phishing-email-dataset": "phishing_small",
+   "zeroshot/twitter-financial-news-topic": "fin_topic"
+  },
+  "repo_segments": {
+   "acos": "acos",
+   "aegis-ai-content-safety-dataset-1.0": "aegis1_prompt",
+   "aegis-ai-content-safety-dataset-2.0": "aegis2_prompt",
+   "afrixnli": "afrixnli",
+   "ag_news": "ag_news",
+   "agb-de": "agb_de",
+   "agentharm": "agent_trace",
+   "ai2_arc": "arc",
+   "ajgt_twitter_ar": "ajgt",
+   "amazon-reviews-2023": "recsys",
+   "amazon_counterfactual": "amazon_counterfactual",
+   "amazon_massive_intent": "lw_offtopic",
+   "amazon_polarity": "amazon_polarity",
+   "anli": "anli",
+   "app_reviews": "app_reviews",
+   "art": "alphanli",
+   "banking77": "banking77",
+   "belebele": "belebele",
+   "berkeley-function-calling-leaderboard": "lw_toolrouting",
+   "big-bench-hard": "bbh",
+   "bigbench": "bigbench",
+   "boolq": "boolq",
+   "bright": "bright",
+   "btzsc": "btzsc_ag",
+   "canitrustyou-jev": "kiki_agent",
+   "ceval-exam": "ceval",
+   "chaosnli": "diag",
+   "civil_comments": "civil_comments",
+   "cladder": "cladder",
+   "clinc_oos": "clinc150",
+   "commonsense_qa": "csqa",
+   "conll2003": "conll_typing",
+   "consumer-finance-complaints": "lw_complaint",
+   "consumer_complaints_medium": "cfpb",
+   "contract-nli": "contractnli",
+   "cruxeval": "cruxeval",
+   "cuad": "cuad",
+   "daily-oracle": "daily_oracle",
+   "daily_dialog": "daily_dialog",
+   "damo-convai": "api_bank",
+   "decidebench": "decidebench",
+   "decision-bench": "decisionbench",
+   "decision-index": "di_index",
+   "dstc8-schema-guided-dialogue": "sgd",
+   "emotion": "dair_emotion",
+   "enron_spam": "enron",
+   "esci": "lw_search",
+   "esci-data": "esci",
+   "financial_phrasebank": "fpb",
+   "finentity": "finentity",
+   "fiqa": "fiqa_rerank",
+   "forecastbench-datasets": "forecastbench",
+   "gaokao-bench": "gaokao",
+   "glue": "mnli",
+   "go_emotions": "goemotions",
+   "gorilla": "bfcl",
+   "gpqa": "gpqa",
+   "gretel-pii-masking-en-v1": "lw_pii",
+   "gsm8k": "gsm8k_mc",
+   "habermas_machine": "habermas",
+   "halueval": "halueval_qa",
+   "hatecheck": "hatecheck",
+   "healthbench": "healthbench",
+   "hellaswag": "hellaswag",
+   "helpsteer2": "helpsteer2",
+   "hle": "hle",
+   "hotpot_qa": "multihop_retrieval",
+   "hover": "hover",
+   "imdb": "imdb",
+   "isarcasmeval": "isarcasm",
+   "jailbreak-classification": "injection_combined",
+   "jailbreaksovertime": "lw_injection",
+   "jev-ar-bench": "gulf_arabic",
+   "jev-bench": "chaosnli",
+   "jev-ood-calibration": "nimble",
+   "jevbench": "jevbench_composite",
+   "jevforge-mind2web": "lw_webagent",
+   "jmmlu": "exams_misc",
+   "judgebench": "judgebench",
+   "kev": "kev",
+   "kobbq": "kobbq",
+   "kobest_v1": "kobest",
+   "language-identification": "language_id",
+   "lex_glue": "unfair_tos",
+   "llm-aggrefact": "llm_aggrefact",
+   "logiqa": "logiqa",
+   "massive": "massive_scenario51",
+   "medhallu": "medhallu",
+   "metamedqa": "metamedqa",
+   "mind2web": "mind2web",
+   "mmlu": "mmlu",
+   "mmlu-cf": "mmlu_cf",
+   "mmlu-pro": "mmlu_pro",
+   "ms_marco": "msmarco",
+   "mtop_intent": "label_pressure",
+   "musique": "multihop_retrieval",
+   "musr": "musr",
+   "nemotron-pii": "lw_pii",
+   "nevir": "nevir",
+   "newyorker_caption_contest": "newyorker",
+   "nfcorpus": "nfcorpus",
+   "notinject": "injection_combined",
+   "oos-eval": "clinc150",
+   "openai-moderation-api-evaluation": "openai_mod",
+   "openbookqa": "obqa",
+   "paws": "paws",
+   "phishing-email-dataset": "phishing_small",
+   "phishnchips": "phishnchips",
+   "pop909-cl-dataset": "pop909",
+   "popqa": "popqa4",
+   "ppe-human-preference-v1": "ppe",
+   "privy": "lw_pii",
+   "prmbench_preview": "prmbench",
+   "processbench": "processbench",
+   "prompt-injections": "prompt_injections",
+   "pubmedqa": "pubmedqa",
+   "purplellama": "cyberseceval_cwe",
+   "race": "race_h",
+   "ragtruth": "ragtruth",
+   "reward-bench": "rewardbench1",
+   "reward-bench-2": "rewardbench2",
+   "rm-bench": "rmbench_pair",
+   "rotten_tomatoes": "rotten_tomatoes",
+   "routerbench": "routerbench",
+   "safe-guard-prompt-injection": "injection_combined",
+   "sata-bench": "sata",
+   "scifact": "scifact",
+   "searchless_chess": "chessbench",
+   "semif": "nimble",
+   "sib200": "sib200",
+   "simpleqa-verified": "simpleqa4",
+   "sms_spam": "sms_spam",
+   "snips": "lw_offtopic",
+   "spml": "lw_injection",
+   "squad": "squad_select",
+   "sst2": "sst2",
+   "sst5": "sst5",
+   "stsb": "stsb",
+   "summeval": "summeval",
+   "supergpqa": "jevout",
+   "synthetic-intent-classifier-dataset-v1": "tanaos",
+   "sys1cal-v1": "sys1cal",
+   "tab_fact": "tabfact",
+   "task-2-semeval-2024": "nli4ct",
+   "task-specific-datasets": "banking77",
+   "thai_exam": "exams_misc",
+   "tmmluplus": "tmmlu",
+   "toolret-queries": "toolret",
+   "toolret-tools": "toolret",
+   "toxic-chat": "toxicchat",
+   "toxigen-data": "toxigen",
+   "trec": "trec_fine",
+   "trec-qc": "trec_coarse",
+   "trivia_qa": "triviaqa4",
+   "truthful_qa": "truthfulqa",
+   "tweet_eval": "tweeteval_emotion",
+   "tweet_topic_single": "tweet_topic",
+   "twitter-financial-news-topic": "fin_topic",
+   "typed-decisions": "typed_decisions",
+   "wanli": "wanli",
+   "when2call": "when2call",
+   "wildguardmix": "wildguard",
+   "winogrande": "winogrande",
+   "xnli": "xnli",
+   "xquad": "xquad_rerank",
+   "yelp_review_full": "yelp5",
+   "zero-shot-stance": "vast"
+  },
+  "benchmark_keys": [
+   "acos",
+   "aegis1_prompt",
+   "aegis2_prompt",
+   "aegis2_response",
+   "afrixnli",
+   "ag_news",
+   "agb_de",
+   "agent_trace",
+   "aita",
+   "ajgt",
+   "alfworld",
+   "alphanli",
+   "amazon_counterfactual",
+   "amazon_polarity",
+   "amazonqa",
+   "anli",
+   "api_bank",
+   "app_reviews",
+   "arc",
+   "arc_challenge",
+   "arc_easy",
+   "arize_spam",
+   "arxiv_2026",
+   "banking77",
+   "bbh",
+   "belebele",
+   "bfcl",
+   "bigbench",
+   "boolq",
+   "boolq_negation",
+   "bpomp",
+   "bright",
+   "btzsc_ag",
+   "btzsc_b77",
+   "btzsc_emotion",
+   "casehold",
+   "cesnet",
+   "ceval",
+   "cfcolor",
+   "cfpb",
+   "chaosnli",
+   "chessbench",
+   "civil_comments",
+   "cjbench",
+   "cladder",
+   "clinc150",
+   "clinc_certify",
+   "cohen_adhd",
+   "cohen_screening",
+   "commonlit",
+   "conll_typing",
+   "contractnli",
+   "craigslist",
+   "crt",
+   "cruxeval",
+   "csqa",
+   "css_badbaseline",
+   "css_big",
+   "css_jevahead",
+   "css_lowjev",
+   "css_narrow",
+   "css_talklife",
+   "cuad",
+   "cyberseceval_cwe",
+   "daily_dialog",
+   "daily_oracle",
+   "dair_emotion",
+   "darija",
+   "dblp_acm",
+   "decidebench",
+   "decisionbench",
+   "diagnosisarena",
+   "dialog_quality",
+   "dimabsa_triplet",
+   "dimabsa_va",
+   "eclipse_severity",
+   "ecthr_a",
+   "ecthr_b",
+   "ellipse",
+   "email_spam",
+   "enron",
+   "esci",
+   "eurlex",
+   "fake_jobs",
+   "fever",
+   "fin_topic",
+   "finentity",
+   "fiqa_rerank",
+   "forecastbench",
+   "fpb",
+   "gaokao",
+   "goemotions",
+   "goemotions_single",
+   "gpqa",
+   "gsm8k_mc",
+   "gulf_arabic",
+   "habermas",
+   "halueval_qa",
+   "har",
+   "harmbench_prompt",
+   "harmbench_resp",
+   "hatecheck",
+   "healthbench",
+   "hellaswag",
+   "hellaswag_vercel",
+   "helpsteer2",
+   "hle",
+   "hover",
+   "hs2_help_acc",
+   "hs2_verb_acc",
+   "humicroedit",
+   "hwu64",
+   "imdb",
+   "injecagent",
+   "injection_combined",
+   "injection_deepset_all",
+   "isarcasm",
+   "jevals_helpsteer",
+   "jevals_pubmedqa",
+   "jevbench",
+   "jevbench_calib",
+   "jevbench_composite",
+   "jevbench_public",
+   "jevout",
+   "jmedqa",
+   "judgebench",
+   "kev",
+   "kiki_agent",
+   "kobbq",
+   "kobest",
+   "language_id",
+   "ledgar",
+   "lexglue_unfair",
+   "llm_aggrefact",
+   "logiqa",
+   "lw_commit",
+   "lw_community",
+   "lw_complaint",
+   "lw_injection",
+   "lw_moderation",
+   "lw_offtopic",
+   "lw_pii",
+   "lw_rag",
+   "lw_routing20",
+   "lw_search",
+   "lw_toolrouting",
+   "lw_webagent",
+   "massive_en",
+   "massive_scenario51",
+   "massive_sv",
+   "mcphunt",
+   "medhallu",
+   "metamedqa",
+   "mhs",
+   "mind2web",
+   "mmlu",
+   "mmlu_cf",
+   "mmlu_pro",
+   "mnli",
+   "msmarco",
+   "multihop_retrieval",
+   "musr",
+   "nanorteb",
+   "nejm",
+   "nevir",
+   "newyorker",
+   "nfcorpus",
+   "nimble",
+   "nli4ct",
+   "nlupp",
+   "nslkdd",
+   "obqa",
+   "openai_mod",
+   "p4g",
+   "paws",
+   "phishing_small",
+   "phishnchips",
+   "pop909",
+   "popqa4",
+   "ppe",
+   "prmbench",
+   "processbench",
+   "prompt_injections",
+   "pubmedqa",
+   "race_h",
+   "radiology",
+   "ragtruth",
+   "recsys",
+   "redhat",
+   "rewardbench1",
+   "rewardbench2",
+   "rexerr",
+   "ricechem",
+   "rmbench_pair",
+   "rmbench_point",
+   "rotten_tomatoes",
+   "routerbench",
+   "rubricbench",
+   "sata",
+   "scifact",
+   "scifact_claims",
+   "scotus",
+   "sgd",
+   "sib200",
+   "simpleqa4",
+   "sms_spam",
+   "squad_select",
+   "sst2",
+   "sst2_injection",
+   "sst5",
+   "strategyqa_closed",
+   "strategyqa_grounded",
+   "stsb",
+   "stsb_6level",
+   "summeval",
+   "sys1cal",
+   "tabfact",
+   "tanaos",
+   "tmmlu",
+   "toolret",
+   "topic_reworded",
+   "toxicchat",
+   "toxicchat_jailbreak",
+   "toxigen",
+   "trec_coarse",
+   "trec_fine",
+   "triviaqa4",
+   "truthfulqa",
+   "tweet_topic",
+   "tweeteval_emotion",
+   "typed_decisions",
+   "typesafe_workflow",
+   "unfair_tos",
+   "upworthy",
+   "vast",
+   "wainject",
+   "wanli",
+   "when2call",
+   "whowhen",
+   "wildguard",
+   "winogrande",
+   "xdviolence",
+   "xnli",
+   "xquad_rerank",
+   "xstest",
+   "yelp5"
+  ],
+  "key_stoplist": [
+   "di_agentic",
+   "di_index",
+   "diag",
+   "email_spam_di",
+   "exams_misc",
+   "general_decisions",
+   "halueval_misc",
+   "hfblog_macro",
+   "home_appliance",
+   "jevbench_hf_macro",
+   "label_pressure",
+   "lexglue_mean",
+   "memorization_probe",
+   "phishing_gradient",
+   "rerank_mean",
+   "speech_rescoring",
+   "support_tickets",
+   "tabular",
+   "video_quality"
+  ]
+ },
+ "s_track": {
+  "train_split_keys": [
+   "acos",
+   "aegis1_prompt",
+   "aegis2_prompt",
+   "aegis2_response",
+   "ag_news",
+   "agb_de",
+   "alphanli",
+   "amazon_polarity",
+   "anli",
+   "api_bank",
+   "arc",
+   "arc_challenge",
+   "arc_easy",
+   "arxiv_2026",
+   "banking77",
+   "bigbench",
+   "boolq",
+   "btzsc_ag",
+   "btzsc_b77",
+   "btzsc_emotion",
+   "casehold",
+   "cesnet",
+   "ceval",
+   "cfcolor",
+   "cfpb",
+   "chaosnli",
+   "chessbench",
+   "civil_comments",
+   "clinc150",
+   "clinc_certify",
+   "contractnli",
+   "csqa",
+   "daily_dialog",
+   "dair_emotion",
+   "dimabsa_triplet",
+   "dimabsa_va",
+   "ecthr_a",
+   "ecthr_b",
+   "enron",
+   "esci",
+   "eurlex",
+   "fever",
+   "fin_topic",
+   "forecastbench",
+   "fpb",
+   "general_decisions",
+   "goemotions",
+   "goemotions_single",
+   "gsm8k_mc",
+   "habermas",
+   "hellaswag",
+   "hellaswag_vercel",
+   "helpsteer2",
+   "hfblog_macro",
+   "hover",
+   "hs2_help_acc",
+   "hs2_verb_acc",
+   "humicroedit",
+   "hwu64",
+   "imdb",
+   "isarcasm",
+   "jevals_helpsteer",
+   "jevbench_hf_macro",
+   "language_id",
+   "ledgar",
+   "lexglue_mean",
+   "lexglue_unfair",
+   "massive_en",
+   "massive_scenario51",
+   "medhallu",
+   "mhs",
+   "mmlu",
+   "mnli",
+   "nevir",
+   "newyorker",
+   "nfcorpus",
+   "nli4ct",
+   "nlupp",
+   "nslkdd",
+   "obqa",
+   "paws",
+   "pop909",
+   "prompt_injections",
+   "ragtruth",
+   "rerank_mean",
+   "rotten_tomatoes",
+   "routerbench",
+   "scifact",
+   "scotus",
+   "sgd",
+   "sib200",
+   "sst2",
+   "sst5",
+   "strategyqa_closed",
+   "strategyqa_grounded",
+   "stsb",
+   "stsb_6level",
+   "toolret",
+   "toxicchat",
+   "toxicchat_jailbreak",
+   "toxigen",
+   "trec_fine",
+   "tweet_topic",
+   "tweeteval_emotion",
+   "typed_decisions",
+   "unfair_tos",
+   "upworthy",
+   "vast",
+   "when2call",
+   "wildguard",
+   "winogrande",
+   "yelp5"
+  ],
+  "allowed_ids": {
+   "ai-systems/task-2-semeval-2024": "nli4ct",
+   "alibabaresearch/damo-convai": "api_bank",
+   "allenai/ai2_arc": "arc",
+   "allenai/art": "alphanli",
+   "allenai/openbookqa": "obqa",
+   "allenai/scifact": "scifact",
+   "allenai/wildguardmix": "wildguard",
+   "allenai/winogrande": "winogrande",
+   "amazon-science/esci-data": "esci",
+   "amazonscience/massive": "massive_en",
+   "andyweasley2004/pop909-cl-dataset": "pop909",
+   "atrost/financial_phrasebank": "fpb",
+   "beir/nfcorpus": "nfcorpus",
+   "beir/scifact": "scifact",
+   "btzsc/btzsc": "btzsc_ag",
+   "cais/mmlu": "mmlu",
+   "cardiffnlp/tweet_eval": "tweeteval_emotion",
+   "cardiffnlp/tweet_topic_single": "tweet_topic",
+   "ceval/ceval-exam": "ceval",
+   "clinc/clinc_oos": "clinc150",
+   "clinc/oos-eval": "clinc150",
+   "coastalcph/lex_glue": "unfair_tos",
+   "cogcomp/trec": "trec_fine",
+   "copenlu/fever_gold_evidence": "fever",
+   "cornell-movie-review-data/rotten_tomatoes": "rotten_tomatoes",
+   "d4br4/agb-de": "agb_de",
+   "dair-ai/emotion": "dair_emotion",
+   "davlan/sib200": "sib200",
+   "deeppavlov/hwu64": "hwu64",
+   "deepset/prompt-injections": "prompt_injections",
+   "determined-ai/consumer_complaints_medium": "cfpb",
+   "emilyallaway/zero-shot-stance": "vast",
+   "facebook/anli": "anli",
+   "facebook/xnli": "afrixnli",
+   "fancyzhx/ag_news": "ag_news",
+   "fancyzhx/amazon_polarity": "amazon_polarity",
+   "forecastingresearch/forecastbench-datasets": "forecastbench",
+   "google-deepmind/habermas_machine": "habermas",
+   "google-deepmind/searchless_chess": "chessbench",
+   "google-research-datasets/dstc8-schema-guided-dialogue": "sgd",
+   "google-research-datasets/go_emotions": "goemotions",
+   "google-research-datasets/paws": "paws",
+   "google/boolq": "boolq",
+   "google/civil_comments": "civil_comments",
+   "hover-nlp/hover": "hover",
+   "iabufarha/isarcasmeval": "isarcasm",
+   "jmhessel/newyorker_caption_contest": "newyorker",
+   "kiddothe2b/contract-nli": "contractnli",
+   "legacy-datasets/banking77": "banking77",
+   "li2017dailydialog/daily_dialog": "daily_dialog",
+   "liminghao1630/api-bank": "api_bank",
+   "lmsys/toxic-chat": "toxicchat",
+   "localllama/typed-decisions": "typed_decisions",
+   "mangopy/toolret-queries": "toolret",
+   "mangopy/toolret-tools": "toolret",
+   "mangopy/toolret-training-20w": "toolret",
+   "masakhane/afrixnli": "afrixnli",
+   "mteb/banking77": "banking77",
+   "neudm/acos": "acos",
+   "nustm/acos": "acos",
+   "nvidia/aegis-ai-content-safety-dataset-1.0": "aegis1_prompt",
+   "nvidia/aegis-ai-content-safety-dataset-2.0": "aegis2_prompt",
+   "nvidia/helpsteer2": "helpsteer2",
+   "nvidia/when2call": "when2call",
+   "nyu-mll/glue": "mnli",
+   "openai/gsm8k": "gsm8k_mc",
+   "openrl/daily_dialog": "daily_dialog",
+   "orionweller/nevir": "nevir",
+   "papluca/language-identification": "language_id",
+   "particlemedia/ragtruth": "ragtruth",
+   "polyai-ldn/task-specific-datasets": "banking77",
+   "polyai/banking77": "banking77",
+   "praveenrajus/jev-bench": "arc",
+   "qiaojin/pubmedqa": "pubmedqa",
+   "reasonir/reasonir-data": "bright",
+   "rowan/hellaswag": "hellaswag",
+   "sentence-transformers/stsb": "stsb",
+   "setfit/enron_spam": "enron",
+   "setfit/sst5": "sst5",
+   "stanfordnlp/contract-nli": "contractnli",
+   "stanfordnlp/imdb": "imdb",
+   "stanfordnlp/sst2": "sst2",
+   "tasksource/bigbench": "bigbench",
+   "tasksource/esci": "esci",
+   "tasksource/mmlu": "mmlu",
+   "tasksource/nli4ct": "nli4ct",
+   "tau/commonsense_qa": "csqa",
+   "toxigen/toxigen-data": "toxigen",
+   "utaustin-aihealth/medhallu": "medhallu",
+   "wandb/ragtruth-processed": "ragtruth",
+   "withmartian/routerbench": "routerbench",
+   "yelp/yelp_review_full": "yelp5",
+   "zeroshot/twitter-financial-news-topic": "fin_topic"
+  },
+  "mixed_eligibility_ids": {
+   "amazonscience/massive": [
+    "massive_en",
+    "massive_scenario51",
+    "massive_sv"
+   ],
+   "ceval/ceval-exam": [
+    "ceval",
+    "memorization_probe"
+   ],
+   "clinc/clinc_oos": [
+    "clinc150",
+    "clinc_certify",
+    "lw_offtopic"
+   ],
+   "cogcomp/trec": [
+    "trec_coarse",
+    "trec_fine"
+   ],
+   "dair-ai/emotion": [
+    "css_lowjev",
+    "dair_emotion",
+    "hfblog_macro"
+   ],
+   "deepset/prompt-injections": [
+    "injection_combined",
+    "injection_deepset_all",
+    "lw_injection",
+    "prompt_injections"
+   ],
+   "fancyzhx/ag_news": [
+    "ag_news",
+    "hfblog_macro",
+    "topic_reworded"
+   ],
+   "google/boolq": [
+    "boolq",
+    "boolq_negation",
+    "general_decisions"
+   ],
+   "legacy-datasets/banking77": [
+    "banking77",
+    "lw_routing20"
+   ],
+   "nvidia/aegis-ai-content-safety-dataset-2.0": [
+    "aegis2_prompt",
+    "aegis2_response",
+    "lw_moderation"
+   ],
+   "nyu-mll/glue": [
+    "mnli",
+    "sst2",
+    "sst2_injection",
+    "stsb"
+   ],
+   "praveenrajus/jev-bench": [
+    "arc",
+    "banking77",
+    "boolq",
+    "chaosnli",
+    "civil_comments",
+    "clinc150",
+    "fever",
+    "goemotions_single",
+    "hs2_help_acc",
+    "hs2_verb_acc",
+    "jevbench_hf_macro",
+    "ledgar",
+    "lw_community",
+    "massive_en",
+    "mhs",
+    "mmlu",
+    "mnli",
+    "paws",
+    "sms_spam",
+    "sst5",
+    "strategyqa_closed",
+    "strategyqa_grounded",
+    "stsb_6level",
+    "yelp5"
+   ],
+   "tasksource/mmlu": [
+    "memorization_probe",
+    "mmlu"
+   ]
+  },
+  "deny_rules": {
+   "fpb_rereleases": "nickmuchi|phrasebank[-_ ]and[-_ ]sentfin|auditor[-_ ]?(review|sentiment)|fingpt",
+   "emotion_unsplit": "emotion[/:._-]unsplit|(?<![a-z])unsplit(?![a-z])",
+   "text_moderation": "text[-_ ]?moderation|koalaai",
+   "cladder_release": "cladder",
+   "sata_bench": "sata[-_ ]?bench",
+   "finentity": "fin[-_ ]?entity",
+   "pqa_labeled": "pqa[-_ ]?labeled",
+   "sms_spam": "sms[-_ ]?spam",
+   "mnli_validation_matched": "validation[-_ ]?matched",
+   "mmlu_pro_parents": "theorem[-_ ]?qa|sci[-_ ]?bench",
+   "gpqa_main_extended": "gpqa",
+   "chatbot_arena": "chatbot[-_ ]?arena|arena[-_ ]?human[-_ ]?preference|lmarena",
+   "aggregators": "dataset[-_]train[-_]nli|(?<![a-z])flan(?![a-z])|tasksource[-_ ]?instruct|multilingual[-_ ]?nli[-_ ]?26lang|intentgrasp|tasksource[-_ ]?dpo",
+   "eval_rereleases": "btzsc|jevals|jevbench|decision[-_ ]?index",
+   "jev_bench_test_configs": "jev[-_ ]bench[/:._-](test|validation)",
+   "chaosnli_release": "chaos[-_ ]?nli|chaos[-_ ]?mnli",
+   "mhs_single_split": "measuring[-_ ]?hate[-_ ]?speech|(?<![a-z])mhs(?![a-z])",
+   "beir_scifact_queries": "beir[/:._-]scifact"
+  },
+  "jevbench_to_target": {
+   "ag_news": "ag_news",
+   "yahoo_topics": null,
+   "fin_topic": "fin_topic",
+   "sst2": "sst2",
+   "fin_phrasebank": "fpb",
+   "sst5": "sst5",
+   "yelp5": "yelp5",
+   "dair_emotion": "dair_emotion",
+   "tweeteval_emotion": "tweeteval_emotion",
+   "go_emotions": "goemotions",
+   "banking77": "banking77",
+   "clinc150": "clinc150",
+   "massive": "massive_en",
+   "boolq": "boolq",
+   "rte": null,
+   "anli": "anli",
+   "paws": "paws",
+   "stsb": "stsb",
+   "llm_aggrefact": "llm_aggrefact",
+   "climate_fever": null,
+   "toxic_chat": "toxicchat",
+   "openai_moderation": "openai_mod",
+   "typed_decisions": "typed_decisions",
+   "unfair_tos": "unfair_tos",
+   "helpsteer2": "helpsteer2",
+   "scifact": "scifact",
+   "snips": null,
+   "newsgroups20": null,
+   "tweeteval_sentiment": null,
+   "atis": null,
+   "mrpc": null,
+   "scitail": null,
+   "cb": null,
+   "tweeteval_offensive": null,
+   "tasksource_heldout": null,
+   "rotten_tomatoes": "rotten_tomatoes",
+   "fin_topic_sibling": null,
+   "btzsc": null,
+   "laurer_train_nli": null,
+   "multilingual_nli_26lang": null,
+   "sst_mirrors": null
+  }
+ },
+ "jev_labelled_fields": {
+  "tasksource/synthetic-typed-decisions": [
+   "answers"
+  ]
+ },
+ "kept_despite_earlier_list": [
+  "multilingual/amazon_reviews_multi",
+  "hate_speech_offensive",
+  "google_wellformed_query",
+  "toxic_conversations",
+  "jigsaw_toxicity",
+  "SBIC_Disagreement"
+ ]
+}

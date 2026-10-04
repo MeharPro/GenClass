@@ -1,0 +1,26 @@
+{
+ "question": "Which emotion does this tweet mainly express?",
+ "blurb": "tweets (TweetEval emotion)",
+ "labels": [
+  {
+   "name": "anger",
+   "desc": "anger",
+   "annoyance or rage": null
+  },
+  {
+   "name": "joy",
+   "desc": "joy",
+   "happiness or delight": null
+  },
+  {
+   "name": "optimism",
+   "desc": "optimism",
+   "hope or confidence about the future": null
+  },
+  {
+   "name": "sadness",
+   "desc": "sadness",
+   "grief or disappointment": null
+  }
+ ]
+}

@@ -1,0 +1,448 @@
+{
+ "question": "What does this bank customer want help with?",
+ "blurb": "messages sent to a bank's customer support (Banking77)",
+ "labels": [
+  {
+   "name": "activate_my_card",
+   "desc": "how to activate a newly received card"
+  },
+  {
+   "name": "age_limit",
+   "desc": "minimum age to open an account or use the service"
+  },
+  {
+   "name": "apple_pay_or_google_pay",
+   "desc": "using Apple Pay or Google Pay with the card"
+  },
+  {
+   "name": "atm_support",
+   "desc": "which ATMs can be used or where to withdraw cash"
+  },
+  {
+   "name": "automatic_top_up",
+   "desc": "setting up or how automatic top-up works"
+  },
+  {
+   "name": "balance_not_updated_after_bank_transfer",
+   "desc": "balance not updated after a bank transfer came in"
+  },
+  {
+   "name": "balance_not_updated_after_cheque_or_cash_deposit",
+   "desc": "balance not updated after depositing a cheque or cash"
+  },
+  {
+   "name": "beneficiary_not_allowed",
+   "desc": "cannot add a beneficiary or payee"
+  },
+  {
+   "name": "cancel_transfer",
+   "desc": "wants to cancel a transfer"
+  },
+  {
+   "name": "card_about_to_expire",
+   "desc": "card is about to expire, needs a replacement"
+  },
+  {
+   "name": "card_acceptance",
+   "desc": "where the card is accepted"
+  },
+  {
+   "name": "card_arrival",
+   "desc": "ordered card has not arrived yet"
+  },
+  {
+   "name": "card_delivery_estimate",
+   "desc": "how long card delivery takes"
+  },
+  {
+   "name": "card_linking",
+   "desc": "linking an existing card to the app"
+  },
+  {
+   "name": "card_not_working",
+   "desc": "card is not working"
+  },
+  {
+   "name": "card_payment_fee_charged",
+   "desc": "charged a fee for a card payment"
+  },
+  {
+   "name": "card_payment_not_recognised",
+   "desc": "a card payment the customer does not recognise"
+  },
+  {
+   "name": "card_payment_wrong_exchange_rate",
+   "desc": "wrong exchange rate applied to a card payment"
+  },
+  {
+   "name": "card_swallowed",
+   "desc": "ATM swallowed or kept the card"
+  },
+  {
+   "name": "cash_withdrawal_charge",
+   "desc": "charged a fee for a cash withdrawal"
+  },
+  {
+   "name": "cash_withdrawal_not_recognised",
+   "desc": "a cash withdrawal the customer does not recognise"
+  },
+  {
+   "name": "change_pin",
+   "desc": "how to change the card PIN"
+  },
+  {
+   "name": "compromised_card",
+   "desc": "card may be compromised or used fraudulently"
+  },
+  {
+   "name": "contactless_not_working",
+   "desc": "contactless payment is not working"
+  },
+  {
+   "name": "country_support",
+   "desc": "which countries the service supports"
+  },
+  {
+   "name": "declined_card_payment",
+   "desc": "a card payment was declined"
+  },
+  {
+   "name": "declined_cash_withdrawal",
+   "desc": "a cash withdrawal was declined"
+  },
+  {
+   "name": "declined_transfer",
+   "desc": "a transfer was declined"
+  },
+  {
+   "name": "direct_debit_payment_not_recognised",
+   "desc": "a direct debit the customer does not recognise"
+  },
+  {
+   "name": "disposable_card_limits",
+   "desc": "limits on disposable virtual cards"
+  },
+  {
+   "name": "edit_personal_details",
+   "desc": "changing name, address or other personal details"
+  },
+  {
+   "name": "exchange_charge",
+   "desc": "fees for currency exchange"
+  },
+  {
+   "name": "exchange_rate",
+   "desc": "what exchange rate is used"
+  },
+  {
+   "name": "exchange_via_app",
+   "desc": "exchanging currencies in the app"
+  },
+  {
+   "name": "extra_charge_on_statement",
+   "desc": "an unexpected extra charge on the statement"
+  },
+  {
+   "name": "failed_transfer",
+   "desc": "a transfer failed"
+  },
+  {
+   "name": "fiat_currency_support",
+   "desc": "which fiat currencies are supported"
+  },
+  {
+   "name": "get_disposable_virtual_card",
+   "desc": "how to get a disposable virtual card"
+  },
+  {
+   "name": "get_physical_card",
+   "desc": "how to get a physical card"
+  },
+  {
+   "name": "getting_spare_card",
+   "desc": "getting an additional or spare card"
+  },
+  {
+   "name": "getting_virtual_card",
+   "desc": "how to get a virtual card"
+  },
+  {
+   "name": "lost_or_stolen_card",
+   "desc": "card was lost or stolen"
+  },
+  {
+   "name": "lost_or_stolen_phone",
+   "desc": "phone was lost or stolen"
+  },
+  {
+   "name": "order_physical_card",
+   "desc": "ordering a physical card"
+  },
+  {
+   "name": "passcode_forgotten",
+   "desc": "forgot the app passcode"
+  },
+  {
+   "name": "pending_card_payment",
+   "desc": "a card payment is still pending"
+  },
+  {
+   "name": "pending_cash_withdrawal",
+   "desc": "a cash withdrawal is still pending"
+  },
+  {
+   "name": "pending_top_up",
+   "desc": "a top-up is still pending"
+  },
+  {
+   "name": "pending_transfer",
+   "desc": "a transfer is still pending"
+  },
+  {
+   "name": "pin_blocked",
+   "desc": "PIN is blocked"
+  },
+  {
+   "name": "receiving_money",
+   "desc": "how to receive money into the account"
+  },
+  {
+   "name": "Refund_not_showing_up",
+   "desc": "a refund has not shown up"
+  },
+  {
+   "name": "request_refund",
+   "desc": "wants to request a refund for a purchase"
+  },
+  {
+   "name": "reverted_card_payment?",
+   "desc": "a card payment was reverted"
+  },
+  {
+   "name": "supported_cards_and_currencies",
+   "desc": "which cards and currencies can be used"
+  },
+  {
+   "name": "terminate_account",
+   "desc": "wants to close the account"
+  },
+  {
+   "name": "top_up_by_bank_transfer_charge",
+   "desc": "fee for topping up by bank transfer"
+  },
+  {
+   "name": "top_up_by_card_charge",
+   "desc": "fee for topping up by card"
+  },
+  {
+   "name": "top_up_by_cash_or_cheque",
+   "desc": "topping up with cash or a cheque"
+  },
+  {
+   "name": "top_up_failed",
+   "desc": "a top-up failed"
+  },
+  {
+   "name": "top_up_limits",
+   "desc": "limits on top-ups"
+  },
+  {
+   "name": "top_up_reverted",
+   "desc": "a top-up was reverted"
+  },
+  {
+   "name": "topping_up_by_card",
+   "desc": "how to top up using a card"
+  },
+  {
+   "name": "transaction_charged_twice",
+   "desc": "a transaction was charged twice"
+  },
+  {
+   "name": "transfer_fee_charged",
+   "desc": "charged a fee for a transfer"
+  },
+  {
+   "name": "transfer_into_account",
+   "desc": "how to transfer money into the account"
+  },
+  {
+   "name": "transfer_not_received_by_recipient",
+   "desc": "the recipient has not received a transfer"
+  },
+  {
+   "name": "transfer_timing",
+   "desc": "how long a transfer takes"
+  },
+  {
+   "name": "unable_to_verify_identity",
+   "desc": "unable to complete identity verification"
+  },
+  {
+   "name": "verify_my_identity",
+   "desc": "how to verify identity"
+  },
+  {
+   "name": "verify_source_of_funds",
+   "desc": "verifying the source of funds"
+  },
+  {
+   "name": "verify_top_up",
+   "desc": "verifying a top-up"
+  },
+  {
+   "name": "virtual_card_not_working",
+   "desc": "virtual card is not working"
+  },
+  {
+   "name": "visa_or_mastercard",
+   "desc": "whether the card is Visa or Mastercard"
+  },
+  {
+   "name": "why_verify_identity",
+   "desc": "why identity verification is needed"
+  },
+  {
+   "name": "wrong_amount_of_cash_received",
+   "desc": "ATM gave the wrong amount of cash"
+  },
+  {
+   "name": "wrong_exchange_rate_for_cash_withdrawal",
+   "desc": "wrong exchange rate on a cash withdrawal"
+  }
+ ],
+ "groups": {
+  "card_get": {
+   "desc": "getting, ordering, activating or delivery of a card",
+   "labels": [
+    "activate_my_card",
+    "card_about_to_expire",
+    "card_arrival",
+    "card_delivery_estimate",
+    "card_linking",
+    "disposable_card_limits",
+    "get_disposable_virtual_card",
+    "get_physical_card",
+    "getting_spare_card",
+    "getting_virtual_card",
+    "order_physical_card",
+    "visa_or_mastercard"
+   ]
+  },
+  "card_use": {
+   "desc": "where and how the card can be used",
+   "labels": [
+    "apple_pay_or_google_pay",
+    "card_acceptance"
+   ]
+  },
+  "card_problem": {
+   "desc": "card payments that failed, are pending, unrecognised, duplicated or need a refund",
+   "labels": [
+    "card_not_working",
+    "card_payment_not_recognised",
+    "contactless_not_working",
+    "declined_card_payment",
+    "pending_card_payment",
+    "Refund_not_showing_up",
+    "request_refund",
+    "reverted_card_payment?",
+    "transaction_charged_twice",
+    "virtual_card_not_working"
+   ]
+  },
+  "cash": {
+   "desc": "ATMs and cash withdrawals",
+   "labels": [
+    "atm_support",
+    "card_swallowed",
+    "cash_withdrawal_not_recognised",
+    "declined_cash_withdrawal",
+    "pending_cash_withdrawal",
+    "wrong_amount_of_cash_received"
+   ]
+  },
+  "transfer": {
+   "desc": "bank transfers, payees and direct debits",
+   "labels": [
+    "balance_not_updated_after_bank_transfer",
+    "beneficiary_not_allowed",
+    "cancel_transfer",
+    "declined_transfer",
+    "direct_debit_payment_not_recognised",
+    "failed_transfer",
+    "pending_transfer",
+    "receiving_money",
+    "transfer_not_received_by_recipient",
+    "transfer_timing"
+   ]
+  },
+  "topup": {
+   "desc": "topping up the account balance",
+   "labels": [
+    "automatic_top_up",
+    "balance_not_updated_after_cheque_or_cash_deposit",
+    "pending_top_up",
+    "top_up_by_cash_or_cheque",
+    "top_up_failed",
+    "top_up_limits",
+    "top_up_reverted",
+    "topping_up_by_card",
+    "transfer_into_account",
+    "verify_top_up"
+   ]
+  },
+  "exchange": {
+   "desc": "currencies and exchange rates",
+   "labels": [
+    "card_payment_wrong_exchange_rate",
+    "exchange_charge",
+    "exchange_rate",
+    "exchange_via_app",
+    "fiat_currency_support",
+    "supported_cards_and_currencies",
+    "wrong_exchange_rate_for_cash_withdrawal"
+   ]
+  },
+  "fees": {
+   "desc": "fees and unexpected charges",
+   "labels": [
+    "card_payment_fee_charged",
+    "cash_withdrawal_charge",
+    "extra_charge_on_statement",
+    "top_up_by_bank_transfer_charge",
+    "top_up_by_card_charge",
+    "transfer_fee_charged"
+   ]
+  },
+  "security": {
+   "desc": "PIN, passcode, lost or compromised card or phone",
+   "labels": [
+    "change_pin",
+    "compromised_card",
+    "lost_or_stolen_card",
+    "lost_or_stolen_phone",
+    "passcode_forgotten",
+    "pin_blocked"
+   ]
+  },
+  "identity": {
+   "desc": "identity and source-of-funds verification",
+   "labels": [
+    "unable_to_verify_identity",
+    "verify_my_identity",
+    "verify_source_of_funds",
+    "why_verify_identity"
+   ]
+  },
+  "account": {
+   "desc": "account eligibility, details and closing",
+   "labels": [
+    "age_limit",
+    "country_support",
+    "edit_personal_details",
+    "terminate_account"
+   ]
+  }
+ }
+}

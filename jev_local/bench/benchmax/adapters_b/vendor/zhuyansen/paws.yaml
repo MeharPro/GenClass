@@ -1,0 +1,5 @@
+question: Do sentences A and B mean the same thing?
+blurb: sentence pairs A and B, often with nearly the same words (PAWS)
+labels:
+  - {name: different, desc: A and B differ in meaning}
+  - {name: paraphrase, desc: A and B mean the same thing}

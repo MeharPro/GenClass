@@ -1,0 +1,7 @@
+question: Which emotion does this tweet mainly express?
+blurb: tweets (TweetEval emotion)
+labels:
+  - {name: anger, desc: anger, annoyance or rage}
+  - {name: joy, desc: joy, happiness or delight}
+  - {name: optimism, desc: optimism, hope or confidence about the future}
+  - {name: sadness, desc: sadness, grief or disappointment}

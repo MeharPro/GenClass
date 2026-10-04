@@ -1,0 +1,29 @@
+jev-test
+Copyright 2026 chepyle
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+That license covers the source code in this repository. The data-derived
+material listed below is redistributed under its original terms, which the
+Apache License does not replace.
+
+src/jev_test/assets/labels.json
+  - LexGLUE label codes, descriptions, and split sizes, from coastalcph/lex_glue
+    (revision c23fdff1a6bf74e0e1a71cb86f1e781d37da888c), CC BY 4.0 per its
+    dataset card. Chalkidis et al. (2022), LexGLUE, ACL 2022.
+  - English EuroVoc descriptors, from MultiEURLEX (nlpaueb/multi-eurlex,
+    commit 078092d62633ab1fc85065cc5937e60edd805095), CC BY-SA 4.0 per its
+    dataset card. Chalkidis et al. (2021), MultiEURLEX, EMNLP 2021.
+
+src/jev_test/assets/intents.json
+  - BANKING77 intent names, from PolyAI-LDN/task-specific-datasets
+    (commit 57ec275d8078af65b7731c2a98be812d844a6d6b), CC BY 4.0.
+    Casanueva et al. (2020), arXiv:2003.04807.
+  - CLINC150 intent names, from clinc/clinc_oos
+    (revision 155b9c710419136e17307b80d0a13e68cd46b4ec), CC BY 3.0.
+    Larson et al. (2019), arXiv:1909.02027.
+
+bert/ does not include coastalcph/lex-glue code; it clones and patches that
+repository at image build time, and its license applies to that code.
+
+Benchmark datasets are downloaded at run time from their sources and are not
+redistributed here; results files under analysis/ are summary statistics.

@@ -1,0 +1,8 @@
+{
+ "version": "generic-1",
+ "question": "Document `documents.{id}` is relevant to `query`: it contains information that answers or directly addresses it.",
+ "criteria": {
+  "true": "The document contains information that answers the query or directly addresses what it asks about.",
+  "false": "The document is only loosely related, on a similar topic, or does not address what the query asks."
+ }
+}

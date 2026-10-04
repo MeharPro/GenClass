@@ -1,0 +1,37 @@
+{
+  "name": "medhallu",
+  "source": "MedHELM v4.0.0 medhallu (gs://crfm-helm-public/medhelm) over hf://datasets/UTAustin-AIHealth/MedHallu",
+  "published_source": "Stanford CRFM, MedHELM v4.0.0",
+  "type": "noul",
+  "instructions": {
+    "question": "Does `answer` contain non-factual or hallucinated information?",
+    "inspect": "`answer`, a proposed answer to `question`. `knowledge` is the world knowledge to judge it against.",
+    "focus": "Determine if there is a factual contradiction between `answer` and `knowledge`. Some information in `answer` might be fabricated."
+  },
+  "labels": {
+    "1": {
+      "what": "Hallucinated: `answer` falls into at least one of the hallucination types",
+      "hallucination_types": {
+        "Misinterpretation of the question": "`answer` misunderstands `question`, leading to an off-topic or irrelevant response",
+        "Incomplete information": "`answer` points out what is not true without providing the correct information",
+        "Mechanism and pathway misattribution": "`answer` falsely attributes biological mechanisms, molecular pathways or disease processes, contradicting established medical knowledge",
+        "Methodological and evidence fabrication": "`answer` invents false research methods, statistical data or specific clinical outcomes"
+      }
+    },
+    "0": {
+      "what": "Factual: `answer` is consistent with `knowledge` and contains no fabricated information"
+    }
+  },
+  "positive": "1",
+  "jev_questions": {
+    "authors_reject": {
+      "instructions": "Would the authors of the study described in `knowledge` say that `answer` misrepresents their findings?"
+    }
+  },
+  "jev_combine": "mean",
+  "slice_fields": [
+    "gold",
+    "difficulty",
+    "category"
+  ]
+}

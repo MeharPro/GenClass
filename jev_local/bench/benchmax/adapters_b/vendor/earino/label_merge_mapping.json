@@ -1,0 +1,43 @@
+{
+  "_comment": "Maps pre-April-2017 CFPB labels to their post-2017 canonical forms. Apply this before any training or evaluation. See blogs/04_the_label_problem.md for context.",
+
+  "Improper use of my credit report": "Improper use of your report",
+  "Charged fees or interest I didn't expect": "Charged fees or interest you didn't expect",
+  "Dealing with my lender or servicer": "Dealing with your lender or servicer",
+  "Received a loan I didn't apply for": "Received a loan you didn't apply for",
+  "Problems caused by my funds being low": "Problem caused by your funds being low",
+  "Trouble using the card": "Trouble using your card",
+  "Can't contact lender": "Can't contact lender or servicer",
+  "Can't stop charges to bank account": "Can't stop withdrawals from your bank account",
+  "Can't repay my loan": "Can't repay my loan",
+
+  "Cont'd attempts collect debt not owed": "Attempts to collect debt not owed",
+  "Unexpected/Other fees": "Unexpected or other fees",
+  "Customer service / Customer relations": "Customer service/Customer relations",
+  "Identity theft / Fraud / Embezzlement": "Identity theft/Fraud/Embezzlement",
+  "Unauthorized transactions or other transaction problem": "Unauthorized transactions/trans. issues",
+
+  "Incorrect information on credit report": "Incorrect information on your report",
+  "Unable to get credit report/credit score": "Unable to get your credit report or credit score",
+  "Closing an account": "Closing your account",
+  "Closing/Cancelling account": "Closing your account",
+  "Credit monitoring or identity protection": "Credit monitoring or identity theft protection services",
+  "Other transaction issues": "Other transaction problem",
+  "Other service issues": "Other service problem",
+  "Getting a loan": "Getting the loan",
+  "Adding money": "Problem adding money",
+  "Overdraft, savings or rewards features": "Overdraft, savings, or rewards features",
+  "Was approved for a loan, but didn't receive money": "Was approved for a loan, but didn't receive the money",
+  "Applied for loan/did not receive money": "Was approved for a loan, but didn't receive the money",
+  "Problem with a company's investigation into an existing issue": "Problem with a credit reporting company's investigation into an existing problem",
+  "Lender repossessed or sold the vehicle": "Vehicle was repossessed or sold the vehicle",
+  "Struggling to pay your bill": "Struggling to pay your loan",
+  "Struggling to repay your loan": "Struggling to pay your loan",
+  "Balance transfer": "Balance transfer fee",
+  "Cash advance": "Cash advance fee",
+  "Managing, opening, or closing account": "Managing, opening, or closing your mobile wallet account",
+  "Struggling to pay mortgage": "Struggling to pay your mortgage",
+  "Account opening, closing, or management": "Managing an account",
+
+  "Incorrect/missing disclosures or info": "Confusing or missing disclosures"
+}

@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jev-local"
+version = "0.1.0"
+description = "Local-first reimplementation of a Jev-style System One decision model, plus a macOS voice computer-use harness."
+requires-python = ">=3.12,<3.14"
+dependencies = [
+  "torch",
+  "transformers",
+  "tokenizers",
+  "safetensors",
+  "huggingface_hub",
+  "fastapi",
+  "uvicorn[standard]",
+  "pydantic>=2",
+  "httpx",
+  "numpy",
+  "rapidfuzz",
+  "pyobjc-framework-ApplicationServices",
+  "pyobjc-framework-Quartz",
+  "pyobjc-framework-Cocoa",
+]
+
+[project.optional-dependencies]
+general = ["mlx", "mlx-lm"]
+dev = ["pytest", "jsonschema", "typesafe-sdk"]
+
+[project.scripts]
+jev-local = "jev_local.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["jev_local*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+  "macos: needs macOS Accessibility / AppKit",
+  "model: needs downloaded model weights",
+  "slow: slow tests",
+]

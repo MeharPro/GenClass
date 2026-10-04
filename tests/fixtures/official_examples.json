@@ -1,0 +1,179 @@
+{
+  "_source": "docs/research/official-api.md §19: TypeSafe documentation examples A-F. Responses are the documented jev-1.13.0 outputs; tests compare structure (answer types, keys), not values. E and F states are reconstructed from the abridged docs; F response probabilities and usage are illustrative (the docs give only the chosen labels and confidences 0.98 / 1.00).",
+  "A_choice": {
+    "request": {
+      "state": "Help! My payouts have been failing for 3 days.",
+      "model": "jev-latest",
+      "questions": {
+        "department": {
+          "type": "choice",
+          "instructions": "Which team should handle this?",
+          "criteria": {
+            "billing": "Payments, invoicing, refunds",
+            "technical": "Bugs, outages, integrations",
+            "sales": "Pricing, upgrades, new accounts"
+          }
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "department": {"type": "choice", "choice": "billing", "probabilities": {"billing": 0.88, "technical": 0.12, "sales": 0.0}, "confidence": 0.81}
+      },
+      "usage": {"input_tokens": 318, "output_tokens": 34}
+    }
+  },
+  "B_mixed": {
+    "request": {
+      "state": "Hi, I've been trying to connect my Stripe account for 3 days and the integration keeps failing. I'm losing sales. Please help ASAP.",
+      "model": "jev-latest",
+      "questions": {
+        "department": {
+          "type": "choice",
+          "instructions": "Which team should handle this",
+          "criteria": {"billing": "Payment or subscription issues", "technical": "Bugs or integration problems", "sales": "Pricing or account questions"}
+        },
+        "frustration": {
+          "type": "score",
+          "instructions": "How frustrated the customer appears",
+          "criteria": ["Calm, just stating facts", "Frustrated but civil", "Very angry, strong language"]
+        },
+        "is_urgent": {"type": "noul", "instructions": "The message conveys urgency or time-sensitivity"}
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "department": {"type": "choice", "choice": "technical", "confidence": 0.78, "probabilities": {"technical": 0.85, "sales": 0.0, "billing": 0.15}},
+        "frustration": {
+          "type": "score", "score": 1.0, "confidence": 1.0,
+          "legend": {"0": "Calm, just stating facts", "1": "Frustrated but civil", "2": "Very angry, strong language"},
+          "probabilities": {"0": 0.0, "1": 1.0, "2": 0.0}
+        },
+        "is_urgent": {"type": "noul", "noul": 1.0}
+      },
+      "usage": {"input_tokens": 392, "output_tokens": 65}
+    }
+  },
+  "C_structured_state": {
+    "request": {
+      "state": {
+        "account_age_days": 12,
+        "recent_events": ["Five failed login attempts", "Password reset requested from a new country", "Successful login from the usual device"],
+        "account_verified": true
+      },
+      "model": "jev-latest",
+      "questions": {
+        "risk_level": {
+          "type": "score",
+          "instructions": "How risky does this account activity appear?",
+          "criteria": [
+            "Low risk: activity is consistent with the account history",
+            "Moderate risk: some unusual activity needs monitoring",
+            "High risk: multiple strong indicators of account compromise"
+          ]
+        },
+        "escalate": {
+          "type": "noul",
+          "instructions": "Should this account be escalated for manual security review?",
+          "criteria": {"true": "The activity warrants immediate human review", "false": "The activity can be handled with normal automated controls"}
+        }
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "risk_level": {
+          "type": "score", "score": 1.84, "confidence": 0.77,
+          "legend": {
+            "0": "Low risk: activity is consistent with the account history",
+            "1": "Moderate risk: some unusual activity needs monitoring",
+            "2": "High risk: multiple strong indicators of account compromise"
+          },
+          "probabilities": {"0": 0, "1": 0.16, "2": 0.84}
+        },
+        "escalate": {"type": "noul", "noul": 0.81}
+      },
+      "usage": {"input_tokens": 421, "output_tokens": 36}
+    }
+  },
+  "D_structured_instructions": {
+    "request": {
+      "state": {"resume": {"name": "John Smith", "location": "Oakland, CA",
+        "summary": "Backend engineer with eight years of Python and Go experience.",
+        "experience": [{"employer": "Google", "title": "Senior Backend Engineer", "years": "2021-2025"},
+                       {"employer": "Microsoft", "title": "Software Engineer", "years": "2017-2021"}]}},
+      "model": "jev-latest",
+      "questions": {
+        "same_as_record_18": {"type": "noul", "instructions": {
+          "potential_duplicate": {"name": "Jon Smith", "location": "Oakland, CA", "last_employer": "Google"},
+          "question": "Is the resume for the same person as `potential_duplicate`?"}},
+        "same_as_record_42": {"type": "noul", "instructions": {
+          "potential_duplicate": {"name": "John Smith", "location": "Austin, TX", "last_employer": "Lone Star Freight"},
+          "question": "Is the resume for the same person as `potential_duplicate`?"}},
+        "same_as_record_77": {"type": "noul", "instructions": {
+          "potential_duplicate": {"name": "John Smithers", "location": "Oakland, CA", "last_employer": "Bay Health Clinic"},
+          "question": "Is the resume for the same person as `potential_duplicate`?"}}
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "same_as_record_18": {"type": "noul", "noul": 0.74},
+        "same_as_record_42": {"type": "noul", "noul": 0.09},
+        "same_as_record_77": {"type": "noul", "noul": 0.08}
+      },
+      "usage": {"input_tokens": 535, "output_tokens": 58}
+    }
+  },
+  "E_structured_levels": {
+    "request": {
+      "state": {"report": "Export to PDF fails with a spinner that never finishes in Firefox. The same export works in Chrome."},
+      "model": "jev-latest",
+      "questions": {
+        "bug_severity": {"type": "score", "instructions": "How severe is the reported issue?",
+          "criteria": [{"what": "Cosmetic; no impact to functionality", "examples": ["typo in a label", "misaligned icon"]},
+                       {"what": "Broken or degraded feature, but workaround exists", "examples": ["export fails in one browser but works in another"]},
+                       {"what": "Blocking issue; no workaround exists", "examples": ["cannot log in", "data loss"]}]}
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "bug_severity": {
+          "type": "score", "score": 1.09, "confidence": 0.87,
+          "legend": {"0": {"what": "Cosmetic; no impact to functionality", "examples": ["typo in a label", "misaligned icon"]},
+                     "1": {"what": "Broken or degraded feature, but workaround exists", "examples": ["export fails in one browser but works in another"]},
+                     "2": {"what": "Blocking issue; no workaround exists", "examples": ["cannot log in", "data loss"]}},
+          "probabilities": {"0": 0.0, "1": 0.91, "2": 0.09}
+        }
+      },
+      "usage": {"input_tokens": 379, "output_tokens": 18}
+    }
+  },
+  "F_span_selection": {
+    "request": {
+      "state": "From: Dana Park <dana.park@acme-corp.com>\nTo: orders@shop.example\nSubject: Receipt\n\nHi! Please send the receipt for order 4417 to my personal address dana.personal@gmail.com instead of this one. Thanks, Dana",
+      "model": "jev-latest",
+      "questions": {
+        "receipt_email": {"type": "choice", "instructions": "Which email address does the sender want their receipt sent to?",
+          "criteria": {"dana.park@acme-corp.com": null, "orders@shop.example": null, "dana.personal@gmail.com": null,
+                       "none": "None of these is the requested value."}},
+        "sender_email": {"type": "choice", "instructions": "Which email address is the sender's own From address?",
+          "criteria": {"dana.park@acme-corp.com": null, "orders@shop.example": null, "dana.personal@gmail.com": null,
+                       "none": "None of these is the requested value."}}
+      }
+    },
+    "response": {
+      "model": "jev-1.13.0",
+      "answers": {
+        "receipt_email": {"type": "choice", "choice": "dana.personal@gmail.com", "confidence": 0.98,
+          "probabilities": {"dana.park@acme-corp.com": 0.01, "orders@shop.example": 0.0, "dana.personal@gmail.com": 0.99, "none": 0.0}},
+        "sender_email": {"type": "choice", "choice": "dana.park@acme-corp.com", "confidence": 1.0,
+          "probabilities": {"dana.park@acme-corp.com": 1.0, "orders@shop.example": 0.0, "dana.personal@gmail.com": 0.0, "none": 0.0}}
+      },
+      "usage": {"input_tokens": 400, "output_tokens": 10}
+    }
+  }
+}

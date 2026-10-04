@@ -1,0 +1,40 @@
+{
+ "question": "Which research field is this paper's primary subject area?",
+ "blurb": "arXiv paper titles and abstracts",
+ "labels": [
+  {
+   "name": "cs.CL",
+   "desc": "computation and language",
+   "natural language processing": null
+  },
+  {
+   "name": "cs.CV",
+   "desc": "computer vision and image or video understanding"
+  },
+  {
+   "name": "cs.LG",
+   "desc": "machine learning methods and theory"
+  },
+  {
+   "name": "cs.CR",
+   "desc": "computer security and cryptography"
+  },
+  {
+   "name": "math.PR",
+   "desc": "probability theory in mathematics"
+  },
+  {
+   "name": "q-bio.NC",
+   "desc": "neuroscience",
+   "neurons and cognition": null
+  },
+  {
+   "name": "astro-ph.GA",
+   "desc": "astrophysics of galaxies"
+  },
+  {
+   "name": "econ.GN",
+   "desc": "general economics"
+  }
+ ]
+}

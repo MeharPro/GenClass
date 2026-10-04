@@ -1,0 +1,14 @@
+{
+ "question": "What is the sentiment of this movie review sentence?",
+ "blurb": "sentences from movie reviews (SST-2)",
+ "labels": [
+  {
+   "name": "negative",
+   "desc": "a negative opinion of the movie"
+  },
+  {
+   "name": "positive",
+   "desc": "a positive opinion of the movie"
+  }
+ ]
+}

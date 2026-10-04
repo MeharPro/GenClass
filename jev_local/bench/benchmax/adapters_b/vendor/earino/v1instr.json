@@ -1,0 +1,5 @@
+{
+  "_comment": "Ablation (reviewer request): v1's form-aware instruction with bare label names (no definitions). Isolates the instruction change from the definitions.",
+  "instructions": "`complaint` was submitted to the US Consumer Financial Protection Bureau (CFPB). On the complaint form the consumer first chose a product (credit reporting, debt collection, mortgage, student loan, vehicle or consumer loan, bank account, credit card, ...) and then picked one issue from that product's list. The form was reworded in April 2017, so several issues exist in an older and a newer wording. Which issue did this consumer most likely pick?",
+  "criteria": {}
+}
