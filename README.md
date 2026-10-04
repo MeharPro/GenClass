@@ -13,6 +13,20 @@ GenClass is a small, fast typed-decision model and a Chrome extension built on i
 - **RAM management.** Chrome eating all your memory? GenClass discards idle and irrelevant tabs before your machine starts swapping.
 - **Video and more** (planned). Any decision that is a choice, yes/no or score over text runs through the same model.
 
+## GenClass vs Jev (direct, same inputs)
+
+| Decision | Jev | GenClass |
+|---|---|---|
+| Recognise the command mid-sentence | 66.4% | **90.4%** |
+| Pick the exact words to type | 75.5% | **94.9%** |
+| Full-command action | 91.4% | 92.0% |
+| Pick the on-screen element | **86.6%** | 82.4% |
+| General held-out questions | **94.7%** | 80.5% |
+| Option-order flips | 10–13% (third-party) | **0** |
+| Cost / privacy | paid cloud API | free, on-device |
+
+Methodology, per-question tables and caveats are in [BENCHMARKS.md](BENCHMARKS.md). In short, GenClass wins at computer control and Jev wins at general questions.
+
 ## How it works
 GenClass answers typed questions about a state in one forward pass:
 - `choice` over options;
