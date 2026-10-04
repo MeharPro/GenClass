@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome to GenClass</title>
+  <link rel="stylesheet" href="panel.css">
+  <style>
+    body { max-width: 720px; margin: 40px auto; padding: 0 16px; font-size: 15px; }
+    h1 { display: flex; gap: 10px; align-items: center; } .big { font-size: 15px; padding: 10px 18px; }
+    ol li { margin: 6px 0; } code { background: var(--chip); padding: 1px 5px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <h1><img src="icons/icon-48.png" width="40" height="40" alt="">Welcome to GenClass</h1>
+  <p>GenClass lets you control the browser by voice. It starts acting while you are still talking: say “search for weather in Toronto and open the first result” and the search runs before you finish the sentence.</p>
+  <div class="card">
+    <h3 style="margin-top:0">1. Allow the microphone</h3>
+    <p>Chrome asks once. Audio is transcribed on your device by the Moonshine speech model unless you choose Chrome's built-in speech in Settings, which sends audio to Google.</p>
+    <button id="grant" class="primary big">Allow microphone</button> <span id="micState" class="muted"></span>
+  </div>
+  <div class="card">
+    <h3 style="margin-top:0">2. Open the side panel</h3>
+    <ol>
+      <li>Click the GenClass icon in the toolbar (pin it from the puzzle-piece menu).</li>
+      <li>The first run downloads the decision model (about 57–67 MB) and the Moonshine speech model (about 63–154 MB), once.</li>
+      <li>Press <b>Start listening</b>, or use <code>Alt+Shift+G</code>. Press <code>Esc</code> on the page, <b>Stop all</b>, or <code>Alt+Shift+K</code> to stop everything.</li>
+    </ol>
+  </div>
+  <div class="card">
+    <h3 style="margin-top:0">3. Safe by default</h3>
+    <ul>
+      <li><b>Dry run</b> is on at first: GenClass highlights what it would do. Turn on live mode in Settings.</li>
+      <li>Anything that sends, submits, buys, deletes or closes waits for you to say “confirm”.</li>
+      <li>It never types into password or card fields, and never acts on browser pages, banking sites or password managers.</li>
+    </ul>
+  </div>
+  <p class="muted small">GenClass is an independent open-source project. It is not affiliated with TypeSafe or Jev.</p>
+  <script type="module" src="welcome.js"></script>
+</body>
+</html>

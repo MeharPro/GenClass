@@ -1,0 +1,5459 @@
+[
+{
+"text": "click send",
+"text_cands": [
+"send",
+"click send"
+],
+"url_cands": [],
+"spoken_url": "click send",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 2,
+"open_app": 2,
+"type_text": 2,
+"search_web": 2,
+"undo": 2,
+"scroll_down": 2,
+"none": 2,
+"cancel": 2,
+"confirm": 2
+},
+"consumed_span": [
+[
+"send",
+2
+],
+[
+"click send",
+2
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false
+]
+},
+{
+"text": "open safari",
+"text_cands": [
+"safari",
+"open safari"
+],
+"url_cands": [],
+"spoken_url": "open safari",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 2,
+"open_app": 2,
+"type_text": 2,
+"search_web": 2,
+"undo": 2,
+"scroll_down": 2,
+"none": 2,
+"cancel": 2,
+"confirm": 2
+},
+"consumed_span": [
+[
+"safari",
+2
+],
+[
+"open safari",
+2
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false
+]
+},
+{
+"text": "click the politics link",
+"text_cands": [
+"the politics link",
+"click the politics link"
+],
+"url_cands": [],
+"spoken_url": "click the politics link",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 4,
+"open_app": 4,
+"type_text": 4,
+"search_web": 4,
+"undo": 4,
+"scroll_down": 4,
+"none": 4,
+"cancel": 4,
+"confirm": 4
+},
+"consumed_span": [
+[
+"the politics link",
+4
+],
+[
+"click the politics link",
+4
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "scroll down",
+"text_cands": [
+"down",
+"scroll down"
+],
+"url_cands": [],
+"spoken_url": "scroll down",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 2,
+"open_app": 2,
+"type_text": 2,
+"search_web": 2,
+"undo": 2,
+"scroll_down": 2,
+"none": 2,
+"cancel": 2,
+"confirm": 2
+},
+"consumed_span": [
+[
+"down",
+2
+],
+[
+"scroll down",
+2
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false
+]
+},
+{
+"text": "type hello world",
+"text_cands": [
+"hello world",
+"type hello world"
+],
+"url_cands": [],
+"spoken_url": "type hello world",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 3,
+"open_app": 3,
+"type_text": 3,
+"search_web": 3,
+"undo": 3,
+"scroll_down": 3,
+"none": 3,
+"cancel": 3,
+"confirm": 3
+},
+"consumed_span": [
+[
+"hello world",
+3
+],
+[
+"type hello world",
+3
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false
+]
+},
+{
+"text": "search the web for cheap flights to tokyo",
+"text_cands": [
+"cheap flights to tokyo",
+"the web for cheap flights to tokyo",
+"search the web for cheap flights to tokyo"
+],
+"url_cands": [],
+"spoken_url": "search the web for cheap flights to tokyo",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 8,
+"open_app": 8,
+"type_text": 8,
+"search_web": 8,
+"undo": 8,
+"scroll_down": 8,
+"none": 8,
+"cancel": 8,
+"confirm": 8
+},
+"consumed_span": [
+[
+"cheap flights to tokyo",
+8
+],
+[
+"the web for cheap flights to tokyo",
+8
+],
+[
+"search the web for cheap flights to tokyo",
+8
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "go to github dot com",
+"text_cands": [
+"to github dot com",
+"go to github dot com"
+],
+"url_cands": [
+"github.com"
+],
+"spoken_url": "go to github.com",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 5,
+"open_app": 5,
+"type_text": 5,
+"search_web": 5,
+"undo": 5,
+"scroll_down": 5,
+"none": 5,
+"cancel": 5,
+"confirm": 5
+},
+"consumed_span": [
+[
+"to github dot com",
+5
+],
+[
+"go to github dot com",
+5
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "press escape",
+"text_cands": [
+"escape",
+"press escape"
+],
+"url_cands": [],
+"spoken_url": "press escape",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 2,
+"open_app": 2,
+"type_text": 2,
+"search_web": 2,
+"undo": 2,
+"scroll_down": 2,
+"none": 2,
+"cancel": 2,
+"confirm": 2
+},
+"consumed_span": [
+[
+"escape",
+2
+],
+[
+"press escape",
+2
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false
+]
+},
+{
+"text": "click cancel",
+"text_cands": [
+"cancel",
+"click cancel"
+],
+"url_cands": [],
+"spoken_url": "click cancel",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 2,
+"open_app": 2,
+"type_text": 2,
+"search_web": 2,
+"undo": 2,
+"scroll_down": 2,
+"none": 2,
+"cancel": 2,
+"confirm": 2
+},
+"consumed_span": [
+[
+"cancel",
+2
+],
+[
+"click cancel",
+2
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false
+]
+},
+{
+"text": "open my downloads folder",
+"text_cands": [
+"my downloads folder",
+"open my downloads folder"
+],
+"url_cands": [],
+"spoken_url": "open my downloads folder",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 4,
+"open_app": 4,
+"type_text": 4,
+"search_web": 4,
+"undo": 4,
+"scroll_down": 4,
+"none": 4,
+"cancel": 4,
+"confirm": 4
+},
+"consumed_span": [
+[
+"my downloads folder",
+4
+],
+[
+"open my downloads folder",
+4
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "go back",
+"text_cands": [
+"back",
+"go back"
+],
+"url_cands": [],
+"spoken_url": "go back",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 2,
+"open_app": 2,
+"type_text": 2,
+"search_web": 2,
+"undo": 2,
+"scroll_down": 2,
+"none": 2,
+"cancel": 2,
+"confirm": 2
+},
+"consumed_span": [
+[
+"back",
+2
+],
+[
+"go back",
+2
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false
+]
+},
+{
+"text": "open a new tab",
+"text_cands": [
+"a new tab",
+"open a new tab"
+],
+"url_cands": [],
+"spoken_url": "open a new tab",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 4,
+"open_app": 4,
+"type_text": 4,
+"search_web": 4,
+"undo": 4,
+"scroll_down": 4,
+"none": 4,
+"cancel": 4,
+"confirm": 4
+},
+"consumed_span": [
+[
+"a new tab",
+4
+],
+[
+"open a new tab",
+4
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "quit spotify",
+"text_cands": [
+"spotify",
+"quit spotify"
+],
+"url_cands": [],
+"spoken_url": "quit spotify",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 2,
+"open_app": 2,
+"type_text": 2,
+"search_web": 2,
+"undo": 2,
+"scroll_down": 2,
+"none": 2,
+"cancel": 2,
+"confirm": 2
+},
+"consumed_span": [
+[
+"spotify",
+2
+],
+[
+"quit spotify",
+2
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false
+]
+},
+{
+"text": "click the",
+"text_cands": [
+"the",
+"click the"
+],
+"url_cands": [],
+"spoken_url": "click the",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 2,
+"open_app": 2,
+"type_text": 2,
+"search_web": 2,
+"undo": 2,
+"scroll_down": 2,
+"none": 2,
+"cancel": 2,
+"confirm": 2
+},
+"consumed_span": [
+[
+"the",
+2
+],
+[
+"click the",
+2
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false
+]
+},
+{
+"text": "can you pass me the salt",
+"text_cands": [
+"you pass me the salt",
+"can you pass me the salt"
+],
+"url_cands": [],
+"spoken_url": "can you pass me the salt",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 6,
+"open_app": 6,
+"type_text": 6,
+"search_web": 6,
+"undo": 6,
+"scroll_down": 6,
+"none": 6,
+"cancel": 6,
+"confirm": 6
+},
+"consumed_span": [
+[
+"you pass me the salt",
+6
+],
+[
+"can you pass me the salt",
+6
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "reply to the second message",
+"text_cands": [
+"to the second message",
+"reply to the second message"
+],
+"url_cands": [],
+"spoken_url": "reply to the second message",
+"pick": [
+null,
+1,
+1,
+1
+],
+"consumed": {
+"click": 5,
+"open_app": 5,
+"type_text": 5,
+"search_web": 5,
+"undo": 5,
+"scroll_down": 5,
+"none": 5,
+"cancel": 5,
+"confirm": 5
+},
+"consumed_span": [
+[
+"to the second message",
+5
+],
+[
+"reply to the second message",
+5
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "hit play",
+"text_cands": [
+"play",
+"hit play"
+],
+"url_cands": [],
+"spoken_url": "hit play",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 2,
+"open_app": 2,
+"type_text": 2,
+"search_web": 2,
+"undo": 2,
+"scroll_down": 2,
+"none": 2,
+"cancel": 2,
+"confirm": 2
+},
+"consumed_span": [
+[
+"play",
+2
+],
+[
+"hit play",
+2
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false
+]
+},
+{
+"text": "click the story about the markets",
+"text_cands": [
+"the story about the markets",
+"click the story about the markets"
+],
+"url_cands": [],
+"spoken_url": "click the story about the markets",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 6,
+"open_app": 6,
+"type_text": 6,
+"search_web": 6,
+"undo": 6,
+"scroll_down": 6,
+"none": 6,
+"cancel": 6,
+"confirm": 6
+},
+"consumed_span": [
+[
+"the story about the markets",
+6
+],
+[
+"click the story about the markets",
+6
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "click reply on the first message",
+"text_cands": [
+"reply",
+"reply on the first message",
+"click reply on the first message"
+],
+"url_cands": [],
+"spoken_url": "click reply on the first message",
+"pick": [
+0,
+0,
+0,
+0
+],
+"consumed": {
+"click": 6,
+"open_app": 6,
+"type_text": 6,
+"search_web": 6,
+"undo": 6,
+"scroll_down": 6,
+"none": 6,
+"cancel": 6,
+"confirm": 6
+},
+"consumed_span": [
+[
+"reply",
+6
+],
+[
+"reply on the first message",
+6
+],
+[
+"click reply on the first message",
+6
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "undo that",
+"text_cands": [
+"that",
+"undo that"
+],
+"url_cands": [],
+"spoken_url": "undo that",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 2,
+"open_app": 2,
+"type_text": 2,
+"search_web": 2,
+"undo": 2,
+"scroll_down": 2,
+"none": 2,
+"cancel": 2,
+"confirm": 2
+},
+"consumed_span": [
+[
+"that",
+2
+],
+[
+"undo that",
+2
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false
+]
+},
+{
+"text": "Launch Apple News now.",
+"text_cands": [
+"Apple News",
+"Launch Apple News"
+],
+"url_cands": [],
+"spoken_url": "Launch Apple News now.",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 4,
+"open_app": 4,
+"type_text": 4,
+"search_web": 4,
+"undo": 4,
+"scroll_down": 4,
+"none": 4,
+"cancel": 4,
+"confirm": 4
+},
+"consumed_span": [
+[
+"Apple News",
+3
+],
+[
+"Launch Apple News",
+3
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+true
+]
+},
+{
+"text": "i'm gonna go for",
+"text_cands": [
+"gonna go for",
+"i'm gonna go for"
+],
+"url_cands": [],
+"spoken_url": "i'm gonna go for",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 4,
+"open_app": 4,
+"type_text": 4,
+"search_web": 4,
+"undo": 4,
+"scroll_down": 4,
+"none": 4,
+"cancel": 4,
+"confirm": 4
+},
+"consumed_span": [
+[
+"gonna go for",
+4
+],
+[
+"i'm gonna go for",
+4
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "can you type in",
+"text_cands": [
+"in",
+"you type in",
+"can you type in"
+],
+"url_cands": [],
+"spoken_url": "can you type in",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 4,
+"open_app": 4,
+"type_text": 4,
+"search_web": 4,
+"undo": 4,
+"scroll_down": 4,
+"none": 4,
+"cancel": 4,
+"confirm": 4
+},
+"consumed_span": [
+[
+"in",
+4
+],
+[
+"you type in",
+4
+],
+[
+"can you type in",
+4
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "could you click on the vercel mail",
+"text_cands": [
+"you click on the vercel mail",
+"could you click on the vercel mail"
+],
+"url_cands": [],
+"spoken_url": "could you click on the vercel mail",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 7,
+"open_app": 7,
+"type_text": 7,
+"search_web": 7,
+"undo": 7,
+"scroll_down": 7,
+"none": 7,
+"cancel": 7,
+"confirm": 7
+},
+"consumed_span": [
+[
+"you click on the vercel mail",
+7
+],
+[
+"could you click on the vercel mail",
+7
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "can i get a new tab and could you open calendar dot google dot com",
+"text_cands": [
+"dot com",
+"i get a new tab and could you open calendar dot google dot com",
+"i get a new tab",
+"can i get a new tab and could you open calendar dot google dot com"
+],
+"url_cands": [
+"calendar.google.com",
+"calendar.com"
+],
+"spoken_url": "can i get a new tab and could you open calendar.google.com",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 7,
+"open_app": 7,
+"type_text": 7,
+"search_web": 7,
+"undo": 7,
+"scroll_down": 7,
+"none": 7,
+"cancel": 7,
+"confirm": 7
+},
+"consumed_span": [
+[
+"dot com",
+15
+],
+[
+"i get a new tab and could you open calendar dot google dot com",
+15
+],
+[
+"i get a new tab",
+7
+],
+[
+"can i get a new tab and could you open calendar dot google dot com",
+15
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "Bring",
+"text_cands": [
+"Bring"
+],
+"url_cands": [],
+"spoken_url": "Bring",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 1,
+"open_app": 1,
+"type_text": 1,
+"search_web": 1,
+"undo": 1,
+"scroll_down": 1,
+"none": 1,
+"cancel": 1,
+"confirm": 1
+},
+"consumed_span": [
+[
+"Bring",
+1
+]
+],
+"strip_chain": 0,
+"ends": [
+false
+]
+},
+{
+"text": "go ahead and click",
+"text_cands": [
+"ahead and click",
+"ahead",
+"go ahead and click"
+],
+"url_cands": [],
+"spoken_url": "go ahead and click",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 3,
+"open_app": 3,
+"type_text": 3,
+"search_web": 3,
+"undo": 3,
+"scroll_down": 3,
+"none": 3,
+"cancel": 3,
+"confirm": 3
+},
+"consumed_span": [
+[
+"ahead and click",
+4
+],
+[
+"ahead",
+3
+],
+[
+"go ahead and click",
+4
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "tap on the follow",
+"text_cands": [
+"on the follow",
+"tap on the follow"
+],
+"url_cands": [],
+"spoken_url": "tap on the follow",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 4,
+"open_app": 4,
+"type_text": 4,
+"search_web": 4,
+"undo": 4,
+"scroll_down": 4,
+"none": 4,
+"cancel": 4,
+"confirm": 4
+},
+"consumed_span": [
+[
+"on the follow",
+4
+],
+[
+"tap on the follow",
+4
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "save this",
+"text_cands": [
+"this",
+"save this"
+],
+"url_cands": [],
+"spoken_url": "save this",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 2,
+"open_app": 2,
+"type_text": 2,
+"search_web": 2,
+"undo": 2,
+"scroll_down": 2,
+"none": 2,
+"cancel": 2,
+"confirm": 2
+},
+"consumed_span": [
+[
+"this",
+2
+],
+[
+"save this",
+2
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false
+]
+},
+{
+"text": "launch cleanshot sorry",
+"text_cands": [
+"cleanshot sorry",
+"launch cleanshot sorry"
+],
+"url_cands": [],
+"spoken_url": "launch cleanshot sorry",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 3,
+"open_app": 3,
+"type_text": 3,
+"search_web": 3,
+"undo": 3,
+"scroll_down": 3,
+"none": 3,
+"cancel": 3,
+"confirm": 3
+},
+"consumed_span": [
+[
+"cleanshot sorry",
+3
+],
+[
+"launch cleanshot sorry",
+3
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false
+]
+},
+{
+"text": "press command shift z",
+"text_cands": [
+"command shift z",
+"press command shift z"
+],
+"url_cands": [],
+"spoken_url": "press command shift z",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 4,
+"open_app": 4,
+"type_text": 4,
+"search_web": 4,
+"undo": 4,
+"scroll_down": 4,
+"none": 4,
+"cancel": 4,
+"confirm": 4
+},
+"consumed_span": [
+[
+"command shift z",
+4
+],
+[
+"press command shift z",
+4
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "see",
+"text_cands": [
+"see"
+],
+"url_cands": [],
+"spoken_url": "see",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 1,
+"open_app": 1,
+"type_text": 1,
+"search_web": 1,
+"undo": 1,
+"scroll_down": 1,
+"none": 1,
+"cancel": 1,
+"confirm": 1
+},
+"consumed_span": [
+[
+"see",
+1
+]
+],
+"strip_chain": 0,
+"ends": [
+false
+]
+},
+{
+"text": "let me think about this",
+"text_cands": [
+"me think about this",
+"let me think about this"
+],
+"url_cands": [],
+"spoken_url": "let me think about this",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 5,
+"open_app": 5,
+"type_text": 5,
+"search_web": 5,
+"undo": 5,
+"scroll_down": 5,
+"none": 5,
+"cancel": 5,
+"confirm": 5
+},
+"consumed_span": [
+[
+"me think about this",
+5
+],
+[
+"let me think about this",
+5
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "in other",
+"text_cands": [
+"other",
+"in other"
+],
+"url_cands": [],
+"spoken_url": "in other",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 2,
+"open_app": 2,
+"type_text": 2,
+"search_web": 2,
+"undo": 2,
+"scroll_down": 2,
+"none": 2,
+"cancel": 2,
+"confirm": 2
+},
+"consumed_span": [
+[
+"other",
+2
+],
+[
+"in other",
+2
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false
+]
+},
+{
+"text": "click the nearest",
+"text_cands": [
+"the nearest",
+"click the nearest"
+],
+"url_cands": [],
+"spoken_url": "click the nearest",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 3,
+"open_app": 3,
+"type_text": 3,
+"search_web": 3,
+"undo": 3,
+"scroll_down": 3,
+"none": 3,
+"cancel": 3,
+"confirm": 3
+},
+"consumed_span": [
+[
+"the nearest",
+3
+],
+[
+"click the nearest",
+3
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false
+]
+},
+{
+"text": "would you stop",
+"text_cands": [
+"you stop",
+"would you stop"
+],
+"url_cands": [],
+"spoken_url": "would you stop",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 3,
+"open_app": 3,
+"type_text": 3,
+"search_web": 3,
+"undo": 3,
+"scroll_down": 3,
+"none": 3,
+"cancel": 3,
+"confirm": 3
+},
+"consumed_span": [
+[
+"you stop",
+3
+],
+[
+"would you stop",
+3
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false
+]
+},
+{
+"text": "Scroll down a full",
+"text_cands": [
+"down a full",
+"Scroll down a full"
+],
+"url_cands": [],
+"spoken_url": "Scroll down a full",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 4,
+"open_app": 4,
+"type_text": 4,
+"search_web": 4,
+"undo": 4,
+"scroll_down": 4,
+"none": 4,
+"cancel": 4,
+"confirm": 4
+},
+"consumed_span": [
+[
+"down a full",
+4
+],
+[
+"Scroll down a full",
+4
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "jump to craigslist.org",
+"text_cands": [
+"to craigslist.org",
+"jump to craigslist.org"
+],
+"url_cands": [
+"craigslist.org"
+],
+"spoken_url": "jump to craigslist.org",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 3,
+"open_app": 3,
+"type_text": 3,
+"search_web": 3,
+"undo": 3,
+"scroll_down": 3,
+"none": 3,
+"cancel": 3,
+"confirm": 3
+},
+"consumed_span": [
+[
+"to craigslist.org",
+3
+],
+[
+"jump to craigslist.org",
+3
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false
+]
+},
+{
+"text": "I want to go to youtube dot com slash feed slash",
+"text_cands": [
+"want to go to youtube dot com slash feed slash",
+"I want to go to youtube dot com slash feed slash"
+],
+"url_cands": [
+"youtube.com/feed",
+"youtube.com"
+],
+"spoken_url": "I want to go to youtube.com/feed slash",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 11,
+"open_app": 11,
+"type_text": 11,
+"search_web": 11,
+"undo": 11,
+"scroll_down": 11,
+"none": 11,
+"cancel": 11,
+"confirm": 11
+},
+"consumed_span": [
+[
+"want to go to youtube dot com slash feed slash",
+11
+],
+[
+"I want to go to youtube dot com slash feed slash",
+11
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "browse to",
+"text_cands": [
+"to",
+"browse to"
+],
+"url_cands": [],
+"spoken_url": "browse to",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 2,
+"open_app": 2,
+"type_text": 2,
+"search_web": 2,
+"undo": 2,
+"scroll_down": 2,
+"none": 2,
+"cancel": 2,
+"confirm": 2
+},
+"consumed_span": [
+[
+"to",
+2
+],
+[
+"browse to",
+2
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false
+]
+},
+{
+"text": "undo",
+"text_cands": [
+"undo"
+],
+"url_cands": [],
+"spoken_url": "undo",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 1,
+"open_app": 1,
+"type_text": 1,
+"search_web": 1,
+"undo": 1,
+"scroll_down": 1,
+"none": 1,
+"cancel": 1,
+"confirm": 1
+},
+"consumed_span": [
+[
+"undo",
+1
+]
+],
+"strip_chain": 0,
+"ends": [
+false
+]
+},
+{
+"text": "Could",
+"text_cands": [
+"Could"
+],
+"url_cands": [],
+"spoken_url": "Could",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 1,
+"open_app": 1,
+"type_text": 1,
+"search_web": 1,
+"undo": 1,
+"scroll_down": 1,
+"none": 1,
+"cancel": 1,
+"confirm": 1
+},
+"consumed_span": [
+[
+"Could",
+1
+]
+],
+"strip_chain": 0,
+"ends": [
+false
+]
+},
+{
+"text": "find me how",
+"text_cands": [
+"how",
+"me how",
+"find me how"
+],
+"url_cands": [],
+"spoken_url": "find me how",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 3,
+"open_app": 3,
+"type_text": 3,
+"search_web": 3,
+"undo": 3,
+"scroll_down": 3,
+"none": 3,
+"cancel": 3,
+"confirm": 3
+},
+"consumed_span": [
+[
+"how",
+3
+],
+[
+"me how",
+3
+],
+[
+"find me how",
+3
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false
+]
+},
+{
+"text": "close this browser tab thanks",
+"text_cands": [
+"this browser tab",
+"close this browser tab"
+],
+"url_cands": [],
+"spoken_url": "close this browser tab thanks",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 5,
+"open_app": 5,
+"type_text": 5,
+"search_web": 5,
+"undo": 5,
+"scroll_down": 5,
+"none": 5,
+"cancel": 5,
+"confirm": 5
+},
+"consumed_span": [
+[
+"this browser tab",
+4
+],
+[
+"close this browser tab",
+4
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "One sec put to",
+"text_cands": [
+"to",
+"sec put to",
+"One sec put to"
+],
+"url_cands": [],
+"spoken_url": "One sec put to",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 4,
+"open_app": 4,
+"type_text": 4,
+"search_web": 4,
+"undo": 4,
+"scroll_down": 4,
+"none": 4,
+"cancel": 4,
+"confirm": 4
+},
+"consumed_span": [
+[
+"to",
+4
+],
+[
+"sec put to",
+4
+],
+[
+"One sec put to",
+4
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "Launch",
+"text_cands": [
+"Launch"
+],
+"url_cands": [],
+"spoken_url": "Launch",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 1,
+"open_app": 1,
+"type_text": 1,
+"search_web": 1,
+"undo": 1,
+"scroll_down": 1,
+"none": 1,
+"cancel": 1,
+"confirm": 1
+},
+"consumed_span": [
+[
+"Launch",
+1
+]
+],
+"strip_chain": 0,
+"ends": [
+false
+]
+},
+{
+"text": "fill in meeting",
+"text_cands": [
+"meeting",
+"in meeting",
+"fill in meeting"
+],
+"url_cands": [],
+"spoken_url": "fill in meeting",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 3,
+"open_app": 3,
+"type_text": 3,
+"search_web": 3,
+"undo": 3,
+"scroll_down": 3,
+"none": 3,
+"cancel": 3,
+"confirm": 3
+},
+"consumed_span": [
+[
+"meeting",
+3
+],
+[
+"in meeting",
+3
+],
+[
+"fill in meeting",
+3
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false
+]
+},
+{
+"text": "Scroll down a whole page please and then all the way down.",
+"text_cands": [
+"down a whole page please and then all the way down",
+"down a whole page",
+"Scroll down a whole page please and then all the way down"
+],
+"url_cands": [],
+"spoken_url": "Scroll down a whole page please and then all the way down.",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 8,
+"open_app": 8,
+"type_text": 8,
+"search_web": 8,
+"undo": 8,
+"scroll_down": 8,
+"none": 8,
+"cancel": 8,
+"confirm": 8
+},
+"consumed_span": [
+[
+"down a whole page please and then all the way down",
+12
+],
+[
+"down a whole page",
+8
+],
+[
+"Scroll down a whole page please and then all the way down",
+12
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+true
+]
+},
+{
+"text": "let's go",
+"text_cands": [
+"go",
+"let's go"
+],
+"url_cands": [],
+"spoken_url": "let's go",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 2,
+"open_app": 2,
+"type_text": 2,
+"search_web": 2,
+"undo": 2,
+"scroll_down": 2,
+"none": 2,
+"cancel": 2,
+"confirm": 2
+},
+"consumed_span": [
+[
+"go",
+2
+],
+[
+"let's go",
+2
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false
+]
+},
+{
+"text": "open my photos",
+"text_cands": [
+"my photos",
+"open my photos"
+],
+"url_cands": [],
+"spoken_url": "open my photos",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 3,
+"open_app": 3,
+"type_text": 3,
+"search_web": 3,
+"undo": 3,
+"scroll_down": 3,
+"none": 3,
+"cancel": 3,
+"confirm": 3
+},
+"consumed_span": [
+[
+"my photos",
+3
+],
+[
+"open my photos",
+3
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false
+]
+},
+{
+"text": "search how",
+"text_cands": [
+"how",
+"search how"
+],
+"url_cands": [],
+"spoken_url": "search how",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 2,
+"open_app": 2,
+"type_text": 2,
+"search_web": 2,
+"undo": 2,
+"scroll_down": 2,
+"none": 2,
+"cancel": 2,
+"confirm": 2
+},
+"consumed_span": [
+[
+"how",
+2
+],
+[
+"search how",
+2
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false
+]
+},
+{
+"text": "new browser tab please and thank you",
+"text_cands": [
+"browser tab please and",
+"browser tab",
+"new browser tab please and"
+],
+"url_cands": [],
+"spoken_url": "new browser tab please and thank you",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 5,
+"open_app": 5,
+"type_text": 5,
+"search_web": 5,
+"undo": 5,
+"scroll_down": 5,
+"none": 5,
+"cancel": 5,
+"confirm": 5
+},
+"consumed_span": [
+[
+"browser tab please and",
+5
+],
+[
+"browser tab",
+5
+],
+[
+"new browser tab please and",
+5
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "can you open my applications folder",
+"text_cands": [
+"you open my applications folder",
+"can you open my applications folder"
+],
+"url_cands": [],
+"spoken_url": "can you open my applications folder",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 6,
+"open_app": 6,
+"type_text": 6,
+"search_web": 6,
+"undo": 6,
+"scroll_down": 6,
+"none": 6,
+"cancel": 6,
+"confirm": 6
+},
+"consumed_span": [
+[
+"you open my applications folder",
+6
+],
+[
+"can you open my applications folder",
+6
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "so enter i can't make it today and then go ahead and click the bottom share",
+"text_cands": [
+"i can't make it today and then go ahead and click the bottom share",
+"i can't make it today",
+"i can't make it today and then go ahead",
+"enter i can't make it today and then go ahead and click the bottom share",
+"enter i can't make it today",
+"enter i can't make it today and then go ahead"
+],
+"url_cands": [],
+"spoken_url": "so enter i can't make it today and then go ahead and click the bottom share",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 9,
+"open_app": 9,
+"type_text": 9,
+"search_web": 9,
+"undo": 9,
+"scroll_down": 9,
+"none": 9,
+"cancel": 9,
+"confirm": 9
+},
+"consumed_span": [
+[
+"i can't make it today and then go ahead and click the bottom share",
+16
+],
+[
+"i can't make it today",
+9
+],
+[
+"i can't make it today and then go ahead",
+12
+],
+[
+"enter i can't make it today and then go ahead and click the bottom share",
+16
+]
+],
+"strip_chain": 1,
+"ends": [
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "search the web for python list comprehension please",
+"text_cands": [
+"python list comprehension",
+"the web for python list comprehension",
+"search the web for python list comprehension"
+],
+"url_cands": [],
+"spoken_url": "search the web for python list comprehension please",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 8,
+"open_app": 8,
+"type_text": 8,
+"search_web": 8,
+"undo": 8,
+"scroll_down": 8,
+"none": 8,
+"cancel": 8,
+"confirm": 8
+},
+"consumed_span": [
+[
+"python list comprehension",
+8
+],
+[
+"the web for python list comprehension",
+8
+],
+[
+"search the web for python list comprehension",
+8
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "can you",
+"text_cands": [
+"you",
+"can you"
+],
+"url_cands": [],
+"spoken_url": "can you",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 2,
+"open_app": 2,
+"type_text": 2,
+"search_web": 2,
+"undo": 2,
+"scroll_down": 2,
+"none": 2,
+"cancel": 2,
+"confirm": 2
+},
+"consumed_span": [
+[
+"you",
+2
+],
+[
+"can you",
+2
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false
+]
+},
+{
+"text": "search the web for python",
+"text_cands": [
+"python",
+"the web for python",
+"search the web for python"
+],
+"url_cands": [],
+"spoken_url": "search the web for python",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 5,
+"open_app": 5,
+"type_text": 5,
+"search_web": 5,
+"undo": 5,
+"scroll_down": 5,
+"none": 5,
+"cancel": 5,
+"confirm": 5
+},
+"consumed_span": [
+[
+"python",
+5
+],
+[
+"the web for python",
+5
+],
+[
+"search the web for python",
+5
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "sure",
+"text_cands": [
+"sure"
+],
+"url_cands": [],
+"spoken_url": "sure",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 1,
+"open_app": 1,
+"type_text": 1,
+"search_web": 1,
+"undo": 1,
+"scroll_down": 1,
+"none": 1,
+"cancel": 1,
+"confirm": 1
+},
+"consumed_span": [
+[
+"sure",
+1
+]
+],
+"strip_chain": 0,
+"ends": [
+false
+]
+},
+{
+"text": "Scroll down just a",
+"text_cands": [
+"down just a",
+"Scroll down just a"
+],
+"url_cands": [],
+"spoken_url": "Scroll down just a",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 4,
+"open_app": 4,
+"type_text": 4,
+"search_web": 4,
+"undo": 4,
+"scroll_down": 4,
+"none": 4,
+"cancel": 4,
+"confirm": 4
+},
+"consumed_span": [
+[
+"down just a",
+4
+],
+[
+"Scroll down just a",
+4
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "Can you please",
+"text_cands": [
+"you",
+"Can you"
+],
+"url_cands": [],
+"spoken_url": "Can you please",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 3,
+"open_app": 3,
+"type_text": 3,
+"search_web": 3,
+"undo": 3,
+"scroll_down": 3,
+"none": 3,
+"cancel": 3,
+"confirm": 3
+},
+"consumed_span": [
+[
+"you",
+3
+],
+[
+"Can you",
+3
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false
+]
+},
+{
+"text": "proceed.",
+"text_cands": [
+"proceed"
+],
+"url_cands": [],
+"spoken_url": "proceed.",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 1,
+"open_app": 1,
+"type_text": 1,
+"search_web": 1,
+"undo": 1,
+"scroll_down": 1,
+"none": 1,
+"cancel": 1,
+"confirm": 1
+},
+"consumed_span": [
+[
+"proceed",
+1
+]
+],
+"strip_chain": 0,
+"ends": [
+true
+]
+},
+{
+"text": "now press",
+"text_cands": [
+"press",
+"now press"
+],
+"url_cands": [],
+"spoken_url": "now press",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 2,
+"open_app": 2,
+"type_text": 2,
+"search_web": 2,
+"undo": 2,
+"scroll_down": 2,
+"none": 2,
+"cancel": 2,
+"confirm": 2
+},
+"consumed_span": [
+[
+"press",
+2
+],
+[
+"now press",
+2
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false
+]
+},
+{
+"text": "new browser tab",
+"text_cands": [
+"browser tab",
+"new browser tab"
+],
+"url_cands": [],
+"spoken_url": "new browser tab",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 3,
+"open_app": 3,
+"type_text": 3,
+"search_web": 3,
+"undo": 3,
+"scroll_down": 3,
+"none": 3,
+"cancel": 3,
+"confirm": 3
+},
+"consumed_span": [
+[
+"browser tab",
+3
+],
+[
+"new browser tab",
+3
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false
+]
+},
+{
+"text": "Close the app.",
+"text_cands": [
+"the app",
+"Close the app"
+],
+"url_cands": [],
+"spoken_url": "Close the app.",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 3,
+"open_app": 3,
+"type_text": 3,
+"search_web": 3,
+"undo": 3,
+"scroll_down": 3,
+"none": 3,
+"cancel": 3,
+"confirm": 3
+},
+"consumed_span": [
+[
+"the app",
+3
+],
+[
+"Close the app",
+3
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+true
+]
+},
+{
+"text": "undo the last",
+"text_cands": [
+"the last",
+"undo the last"
+],
+"url_cands": [],
+"spoken_url": "undo the last",
+"pick": [
+0,
+2,
+4,
+11
+],
+"consumed": {
+"click": 3,
+"open_app": 3,
+"type_text": 3,
+"search_web": 3,
+"undo": 3,
+"scroll_down": 3,
+"none": 3,
+"cancel": 3,
+"confirm": 3
+},
+"consumed_span": [
+[
+"the last",
+3
+],
+[
+"undo the last",
+3
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false
+]
+},
+{
+"text": "can",
+"text_cands": [
+"can"
+],
+"url_cands": [],
+"spoken_url": "can",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 1,
+"open_app": 1,
+"type_text": 1,
+"search_web": 1,
+"undo": 1,
+"scroll_down": 1,
+"none": 1,
+"cancel": 1,
+"confirm": 1
+},
+"consumed_span": [
+[
+"can",
+1
+]
+],
+"strip_chain": 0,
+"ends": [
+false
+]
+},
+{
+"text": "now undo the last change change",
+"text_cands": [
+"undo the last change change",
+"now undo the last change change"
+],
+"url_cands": [],
+"spoken_url": "now undo the last change change",
+"pick": [
+0,
+2,
+4,
+11
+],
+"consumed": {
+"click": 6,
+"open_app": 6,
+"type_text": 6,
+"search_web": 6,
+"undo": 6,
+"scroll_down": 6,
+"none": 6,
+"cancel": 6,
+"confirm": 6
+},
+"consumed_span": [
+[
+"undo the last change change",
+6
+],
+[
+"now undo the last change change",
+6
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "Quickly",
+"text_cands": [
+"Quickly"
+],
+"url_cands": [],
+"spoken_url": "Quickly",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 1,
+"open_app": 1,
+"type_text": 1,
+"search_web": 1,
+"undo": 1,
+"scroll_down": 1,
+"none": 1,
+"cancel": 1,
+"confirm": 1
+},
+"consumed_span": [
+[
+"Quickly",
+1
+]
+],
+"strip_chain": 0,
+"ends": [
+false
+]
+},
+{
+"text": "Can you please undo what you just did please?",
+"text_cands": [
+"you please undo what you just did",
+"Can you please undo what you just did"
+],
+"url_cands": [],
+"spoken_url": "Can you please undo what you just did please?",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 9,
+"open_app": 9,
+"type_text": 9,
+"search_web": 9,
+"undo": 9,
+"scroll_down": 9,
+"none": 9,
+"cancel": 9,
+"confirm": 9
+},
+"consumed_span": [
+[
+"you please undo what you just did",
+9
+],
+[
+"Can you please undo what you just did",
+9
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+true
+]
+},
+{
+"text": "close this browser browser tab",
+"text_cands": [
+"this browser browser tab",
+"close this browser browser tab"
+],
+"url_cands": [],
+"spoken_url": "close this browser browser tab",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 5,
+"open_app": 5,
+"type_text": 5,
+"search_web": 5,
+"undo": 5,
+"scroll_down": 5,
+"none": 5,
+"cancel": 5,
+"confirm": 5
+},
+"consumed_span": [
+[
+"this browser browser tab",
+5
+],
+[
+"close this browser browser tab",
+5
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "search for alan turing",
+"text_cands": [
+"alan turing",
+"for alan turing",
+"search for alan turing"
+],
+"url_cands": [],
+"spoken_url": "search for alan turing",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 4,
+"open_app": 4,
+"type_text": 4,
+"search_web": 4,
+"undo": 4,
+"scroll_down": 4,
+"none": 4,
+"cancel": 4,
+"confirm": 4
+},
+"consumed_span": [
+[
+"alan turing",
+4
+],
+[
+"for alan turing",
+4
+],
+[
+"search for alan turing",
+4
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "search for",
+"text_cands": [
+"for",
+"search for"
+],
+"url_cands": [],
+"spoken_url": "search for",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 2,
+"open_app": 2,
+"type_text": 2,
+"search_web": 2,
+"undo": 2,
+"scroll_down": 2,
+"none": 2,
+"cancel": 2,
+"confirm": 2
+},
+"consumed_span": [
+[
+"for",
+2
+],
+[
+"search for",
+2
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false
+]
+},
+{
+"text": "type hello world and press enter",
+"text_cands": [
+"hello world and press enter",
+"hello world",
+"type hello world and press enter"
+],
+"url_cands": [],
+"spoken_url": "type hello world and press enter",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 4,
+"open_app": 4,
+"type_text": 4,
+"search_web": 4,
+"undo": 4,
+"scroll_down": 4,
+"none": 4,
+"cancel": 4,
+"confirm": 4
+},
+"consumed_span": [
+[
+"hello world and press enter",
+6
+],
+[
+"hello world",
+4
+],
+[
+"type hello world and press enter",
+6
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "type \"salt and pepper\" in the search box",
+"text_cands": [
+"salt and pepper",
+"salt and pepper\" in the search box",
+"salt",
+"type \"salt and pepper\" in the search box"
+],
+"url_cands": [],
+"spoken_url": "type \"salt and pepper\" in the search box",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 3,
+"open_app": 3,
+"type_text": 3,
+"search_web": 3,
+"undo": 3,
+"scroll_down": 3,
+"none": 3,
+"cancel": 3,
+"confirm": 3
+},
+"consumed_span": [
+[
+"salt and pepper",
+8
+],
+[
+"salt and pepper\" in the search box",
+8
+],
+[
+"salt",
+8
+],
+[
+"type \"salt and pepper\" in the search box",
+8
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "um please search google for best pizza near me thanks",
+"text_cands": [
+"best pizza near me",
+"search google for best pizza near me"
+],
+"url_cands": [],
+"spoken_url": "um please search google for best pizza near me thanks",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 10,
+"open_app": 10,
+"type_text": 10,
+"search_web": 10,
+"undo": 10,
+"scroll_down": 10,
+"none": 10,
+"cancel": 10,
+"confirm": 10
+},
+"consumed_span": [
+[
+"best pizza near me",
+9
+],
+[
+"search google for best pizza near me",
+9
+]
+],
+"strip_chain": 2,
+"ends": [
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "go to wikipedia dot org and scroll down",
+"text_cands": [
+"to wikipedia dot org and scroll down",
+"to wikipedia dot org",
+"go to wikipedia dot org and scroll down"
+],
+"url_cands": [
+"wikipedia.org",
+"wikipedia.com"
+],
+"spoken_url": "go to wikipedia.org and scroll down",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 6,
+"open_app": 6,
+"type_text": 6,
+"search_web": 6,
+"undo": 6,
+"scroll_down": 6,
+"none": 6,
+"cancel": 6,
+"confirm": 6
+},
+"consumed_span": [
+[
+"to wikipedia dot org and scroll down",
+8
+],
+[
+"to wikipedia dot org",
+6
+],
+[
+"go to wikipedia dot org and scroll down",
+8
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "open youtube website",
+"text_cands": [
+"youtube website",
+"open youtube website"
+],
+"url_cands": [
+"youtube.com"
+],
+"spoken_url": "open youtube website",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 3,
+"open_app": 3,
+"type_text": 3,
+"search_web": 3,
+"undo": 3,
+"scroll_down": 3,
+"none": 3,
+"cancel": 3,
+"confirm": 3
+},
+"consumed_span": [
+[
+"youtube website",
+3
+],
+[
+"open youtube website",
+3
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false
+]
+},
+{
+"text": "visit github.com/anthropics please",
+"text_cands": [
+"github.com/anthropics",
+"visit github.com/anthropics"
+],
+"url_cands": [
+"github.com/anthropics",
+"github.com"
+],
+"spoken_url": "visit github.com/anthropics please",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 3,
+"open_app": 3,
+"type_text": 3,
+"search_web": 3,
+"undo": 3,
+"scroll_down": 3,
+"none": 3,
+"cancel": 3,
+"confirm": 3
+},
+"consumed_span": [
+[
+"github.com/anthropics",
+3
+],
+[
+"visit github.com/anthropics",
+3
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false
+]
+},
+{
+"text": "navigate to news dot ycombinator dot com",
+"text_cands": [
+"to news dot ycombinator dot com",
+"navigate to news dot ycombinator dot com"
+],
+"url_cands": [
+"news.ycombinator.com",
+"news.com"
+],
+"spoken_url": "navigate to news.ycombinator.com",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 7,
+"open_app": 7,
+"type_text": 7,
+"search_web": 7,
+"undo": 7,
+"scroll_down": 7,
+"none": 7,
+"cancel": 7,
+"confirm": 7
+},
+"consumed_span": [
+[
+"to news dot ycombinator dot com",
+7
+],
+[
+"navigate to news dot ycombinator dot com",
+7
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "w w w dot example dot com",
+"text_cands": [
+"w w dot example dot com",
+"w w w dot example dot com"
+],
+"url_cands": [
+"www.example.com"
+],
+"spoken_url": "www.example.com",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 7,
+"open_app": 7,
+"type_text": 7,
+"search_web": 7,
+"undo": 7,
+"scroll_down": 7,
+"none": 7,
+"cancel": 7,
+"confirm": 7
+},
+"consumed_span": [
+[
+"w w dot example dot com",
+7
+],
+[
+"w w w dot example dot com",
+7
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "the second one",
+"text_cands": [
+"second one",
+"the second one"
+],
+"url_cands": [],
+"spoken_url": "the second one",
+"pick": [
+null,
+1,
+1,
+1
+],
+"consumed": {
+"click": 3,
+"open_app": 3,
+"type_text": 3,
+"search_web": 3,
+"undo": 3,
+"scroll_down": 3,
+"none": 3,
+"cancel": 3,
+"confirm": 3
+},
+"consumed_span": [
+[
+"second one",
+3
+],
+[
+"the second one",
+3
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false
+]
+},
+{
+"text": "number 3",
+"text_cands": [
+"3",
+"number 3"
+],
+"url_cands": [],
+"spoken_url": "number 3",
+"pick": [
+null,
+2,
+2,
+2
+],
+"consumed": {
+"click": 2,
+"open_app": 2,
+"type_text": 2,
+"search_web": 2,
+"undo": 2,
+"scroll_down": 2,
+"none": 2,
+"cancel": 2,
+"confirm": 2
+},
+"consumed_span": [
+[
+"3",
+2
+],
+[
+"number 3",
+2
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false
+]
+},
+{
+"text": "option two",
+"text_cands": [
+"two",
+"option two"
+],
+"url_cands": [],
+"spoken_url": "option two",
+"pick": [
+null,
+1,
+1,
+1
+],
+"consumed": {
+"click": 2,
+"open_app": 2,
+"type_text": 2,
+"search_web": 2,
+"undo": 2,
+"scroll_down": 2,
+"none": 2,
+"cancel": 2,
+"confirm": 2
+},
+"consumed_span": [
+[
+"two",
+2
+],
+[
+"option two",
+2
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false
+]
+},
+{
+"text": "3",
+"text_cands": [
+"3"
+],
+"url_cands": [],
+"spoken_url": "3",
+"pick": [
+null,
+2,
+2,
+2
+],
+"consumed": {
+"click": 1,
+"open_app": 1,
+"type_text": 1,
+"search_web": 1,
+"undo": 1,
+"scroll_down": 1,
+"none": 1,
+"cancel": 1,
+"confirm": 1
+},
+"consumed_span": [
+[
+"3",
+1
+]
+],
+"strip_chain": 0,
+"ends": [
+false
+]
+},
+{
+"text": "last one",
+"text_cands": [
+"one",
+"last one"
+],
+"url_cands": [],
+"spoken_url": "last one",
+"pick": [
+0,
+2,
+4,
+11
+],
+"consumed": {
+"click": 2,
+"open_app": 2,
+"type_text": 2,
+"search_web": 2,
+"undo": 2,
+"scroll_down": 2,
+"none": 2,
+"cancel": 2,
+"confirm": 2
+},
+"consumed_span": [
+[
+"one",
+2
+],
+[
+"last one",
+2
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false
+]
+},
+{
+"text": "pick for",
+"text_cands": [
+"for",
+"pick for"
+],
+"url_cands": [],
+"spoken_url": "pick for",
+"pick": [
+null,
+null,
+3,
+3
+],
+"consumed": {
+"click": 2,
+"open_app": 2,
+"type_text": 2,
+"search_web": 2,
+"undo": 2,
+"scroll_down": 2,
+"none": 2,
+"cancel": 2,
+"confirm": 2
+},
+"consumed_span": [
+[
+"for",
+2
+],
+[
+"pick for",
+2
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false
+]
+},
+{
+"text": "click the blue button",
+"text_cands": [
+"the blue button",
+"click the blue button"
+],
+"url_cands": [],
+"spoken_url": "click the blue button",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 4,
+"open_app": 4,
+"type_text": 4,
+"search_web": 4,
+"undo": 4,
+"scroll_down": 4,
+"none": 4,
+"cancel": 4,
+"confirm": 4
+},
+"consumed_span": [
+[
+"the blue button",
+4
+],
+[
+"click the blue button",
+4
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "type running late. see you soon",
+"text_cands": [
+"running late. see you soon",
+"type running late. see you soon"
+],
+"url_cands": [],
+"spoken_url": "type running late. see you soon",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 3,
+"open_app": 3,
+"type_text": 3,
+"search_web": 3,
+"undo": 3,
+"scroll_down": 3,
+"none": 3,
+"cancel": 3,
+"confirm": 3
+},
+"consumed_span": [
+[
+"running late. see you soon",
+6
+],
+[
+"type running late. see you soon",
+6
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+true,
+false,
+false,
+false
+]
+},
+{
+"text": "type hello world. Press enter.",
+"text_cands": [
+"hello world. Press enter",
+"hello world",
+"type hello world. Press enter"
+],
+"url_cands": [],
+"spoken_url": "type hello world. Press enter.",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 3,
+"open_app": 3,
+"type_text": 3,
+"search_web": 3,
+"undo": 3,
+"scroll_down": 3,
+"none": 3,
+"cancel": 3,
+"confirm": 3
+},
+"consumed_span": [
+[
+"hello world. Press enter",
+5
+],
+[
+"hello world",
+3
+],
+[
+"type hello world. Press enter",
+5
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+true,
+false,
+true
+]
+},
+{
+"text": "open notes. scroll down.",
+"text_cands": [
+"notes. scroll down",
+"notes",
+"open notes. scroll down"
+],
+"url_cands": [],
+"spoken_url": "open notes. scroll down.",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 2,
+"open_app": 2,
+"type_text": 2,
+"search_web": 2,
+"undo": 2,
+"scroll_down": 2,
+"none": 2,
+"cancel": 2,
+"confirm": 2
+},
+"consumed_span": [
+[
+"notes. scroll down",
+4
+],
+[
+"notes",
+2
+],
+[
+"open notes. scroll down",
+4
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+true,
+false,
+true
+]
+},
+{
+"text": "undo. scroll down",
+"text_cands": [
+"scroll down",
+"undo. scroll down"
+],
+"url_cands": [],
+"spoken_url": "undo. scroll down",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 3,
+"open_app": 3,
+"type_text": 3,
+"search_web": 3,
+"undo": 1,
+"scroll_down": 1,
+"none": 3,
+"cancel": 1,
+"confirm": 1
+},
+"consumed_span": [
+[
+"scroll down",
+3
+],
+[
+"undo. scroll down",
+3
+]
+],
+"strip_chain": 0,
+"ends": [
+true,
+false,
+false
+]
+},
+{
+"text": "Open. Notes.",
+"text_cands": [
+"Notes",
+"Open. Notes"
+],
+"url_cands": [],
+"spoken_url": "Open. Notes.",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 2,
+"open_app": 2,
+"type_text": 2,
+"search_web": 2,
+"undo": 1,
+"scroll_down": 1,
+"none": 2,
+"cancel": 1,
+"confirm": 1
+},
+"consumed_span": [
+[
+"Notes",
+2
+],
+[
+"Open. Notes",
+2
+]
+],
+"strip_chain": 0,
+"ends": [
+true,
+true
+]
+},
+{
+"text": "find me cheap flights to tokyo in the search field and then press enter",
+"text_cands": [
+"cheap flights to tokyo in the search field and then press enter",
+"cheap flights",
+"cheap flights to tokyo in the search field",
+"me cheap flights to tokyo in the search field and then press enter",
+"me cheap flights",
+"me cheap flights to tokyo in the search field",
+"find me cheap flights to tokyo in the search field and then press enter"
+],
+"url_cands": [],
+"spoken_url": "find me cheap flights to tokyo in the search field and then press enter",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 12,
+"open_app": 12,
+"type_text": 12,
+"search_web": 12,
+"undo": 12,
+"scroll_down": 12,
+"none": 12,
+"cancel": 12,
+"confirm": 12
+},
+"consumed_span": [
+[
+"cheap flights to tokyo in the search field and then press enter",
+14
+],
+[
+"cheap flights",
+12
+],
+[
+"cheap flights to tokyo in the search field",
+12
+],
+[
+"me cheap flights to tokyo in the search field and then press enter",
+14
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "write down buy milk in the note",
+"text_cands": [
+"buy milk",
+"buy milk in the note",
+"down buy milk",
+"down buy milk in the note",
+"write down buy milk in the note"
+],
+"url_cands": [],
+"spoken_url": "write down buy milk in the note",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 7,
+"open_app": 7,
+"type_text": 7,
+"search_web": 7,
+"undo": 7,
+"scroll_down": 7,
+"none": 7,
+"cancel": 7,
+"confirm": 7
+},
+"consumed_span": [
+[
+"buy milk",
+7
+],
+[
+"buy milk in the note",
+7
+],
+[
+"down buy milk",
+7
+],
+[
+"down buy milk in the note",
+7
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "put 42 in the quantity field",
+"text_cands": [
+"42",
+"42 in the quantity field",
+"put 42 in the quantity field"
+],
+"url_cands": [],
+"spoken_url": "put 42 in the quantity field",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 6,
+"open_app": 6,
+"type_text": 6,
+"search_web": 6,
+"undo": 6,
+"scroll_down": 6,
+"none": 6,
+"cancel": 6,
+"confirm": 6
+},
+"consumed_span": [
+[
+"42",
+6
+],
+[
+"42 in the quantity field",
+6
+],
+[
+"put 42 in the quantity field",
+6
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "enter my email in the email box",
+"text_cands": [
+"my email",
+"my email in the email box",
+"enter my email in the email box"
+],
+"url_cands": [],
+"spoken_url": "enter my email in the email box",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 7,
+"open_app": 7,
+"type_text": 7,
+"search_web": 7,
+"undo": 7,
+"scroll_down": 7,
+"none": 7,
+"cancel": 7,
+"confirm": 7
+},
+"consumed_span": [
+[
+"my email",
+7
+],
+[
+"my email in the email box",
+7
+],
+[
+"enter my email in the email box",
+7
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "look up the weather for tomorrow",
+"text_cands": [
+"the weather for tomorrow",
+"tomorrow",
+"up the weather for tomorrow",
+"look up the weather for tomorrow"
+],
+"url_cands": [],
+"spoken_url": "look up the weather for tomorrow",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 6,
+"open_app": 6,
+"type_text": 6,
+"search_web": 6,
+"undo": 6,
+"scroll_down": 6,
+"none": 6,
+"cancel": 6,
+"confirm": 6
+},
+"consumed_span": [
+[
+"the weather for tomorrow",
+6
+],
+[
+"tomorrow",
+6
+],
+[
+"up the weather for tomorrow",
+6
+],
+[
+"look up the weather for tomorrow",
+6
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "search amazon for usb c cables",
+"text_cands": [
+"usb c cables",
+"amazon for usb c cables",
+"search amazon for usb c cables"
+],
+"url_cands": [],
+"spoken_url": "search amazon for usb c cables",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 6,
+"open_app": 6,
+"type_text": 6,
+"search_web": 6,
+"undo": 6,
+"scroll_down": 6,
+"none": 6,
+"cancel": 6,
+"confirm": 6
+},
+"consumed_span": [
+[
+"usb c cables",
+6
+],
+[
+"amazon for usb c cables",
+6
+],
+[
+"search amazon for usb c cables",
+6
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "search the web for jev typesafe",
+"text_cands": [
+"jev typesafe",
+"the web for jev typesafe",
+"search the web for jev typesafe"
+],
+"url_cands": [],
+"spoken_url": "search the web for jev typesafe",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 6,
+"open_app": 6,
+"type_text": 6,
+"search_web": 6,
+"undo": 6,
+"scroll_down": 6,
+"none": 6,
+"cancel": 6,
+"confirm": 6
+},
+"consumed_span": [
+[
+"jev typesafe",
+6
+],
+[
+"the web for jev typesafe",
+6
+],
+[
+"search the web for jev typesafe",
+6
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "go to http://localhost:8080/test and click login",
+"text_cands": [
+"to http://localhost:8080/test and click login",
+"to http://localhost:8080/test",
+"go to http://localhost:8080/test and click login"
+],
+"url_cands": [
+"http.com"
+],
+"spoken_url": "go to http://localhost:8080/test and click login",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 4,
+"open_app": 4,
+"type_text": 4,
+"search_web": 4,
+"undo": 4,
+"scroll_down": 4,
+"none": 4,
+"cancel": 4,
+"confirm": 4
+},
+"consumed_span": [
+[
+"to http://localhost:8080/test and click login",
+6
+],
+[
+"to http://localhost:8080/test",
+4
+],
+[
+"go to http://localhost:8080/test and click login",
+6
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "scroll down a little bit please",
+"text_cands": [
+"down a little bit",
+"scroll down a little bit"
+],
+"url_cands": [],
+"spoken_url": "scroll down a little bit please",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 6,
+"open_app": 6,
+"type_text": 6,
+"search_web": 6,
+"undo": 6,
+"scroll_down": 6,
+"none": 6,
+"cancel": 6,
+"confirm": 6
+},
+"consumed_span": [
+[
+"down a little bit",
+6
+],
+[
+"scroll down a little bit",
+6
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "scroll all the way to the bottom",
+"text_cands": [
+"all the way to the bottom",
+"scroll all the way to the bottom"
+],
+"url_cands": [],
+"spoken_url": "scroll all the way to the bottom",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 7,
+"open_app": 7,
+"type_text": 7,
+"search_web": 7,
+"undo": 7,
+"scroll_down": 7,
+"none": 7,
+"cancel": 7,
+"confirm": 7
+},
+"consumed_span": [
+[
+"all the way to the bottom",
+7
+],
+[
+"scroll all the way to the bottom",
+7
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "close this tab",
+"text_cands": [
+"this tab",
+"close this tab"
+],
+"url_cands": [],
+"spoken_url": "close this tab",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 3,
+"open_app": 3,
+"type_text": 3,
+"search_web": 3,
+"undo": 3,
+"scroll_down": 3,
+"none": 3,
+"cancel": 3,
+"confirm": 3
+},
+"consumed_span": [
+[
+"this tab",
+3
+],
+[
+"close this tab",
+3
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false
+]
+},
+{
+"text": "new tab and go to gmail.com",
+"text_cands": [
+"tab and go to gmail.com",
+"tab",
+"new tab and go to gmail.com"
+],
+"url_cands": [
+"gmail.com"
+],
+"spoken_url": "new tab and go to gmail.com",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 3,
+"open_app": 3,
+"type_text": 3,
+"search_web": 3,
+"undo": 3,
+"scroll_down": 3,
+"none": 3,
+"cancel": 3,
+"confirm": 3
+},
+"consumed_span": [
+[
+"tab and go to gmail.com",
+6
+],
+[
+"tab",
+3
+],
+[
+"new tab and go to gmail.com",
+6
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "go forward to the next page",
+"text_cands": [
+"forward to the next page",
+"go forward to the next page"
+],
+"url_cands": [],
+"spoken_url": "go forward to the next page",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 6,
+"open_app": 6,
+"type_text": 6,
+"search_web": 6,
+"undo": 6,
+"scroll_down": 6,
+"none": 6,
+"cancel": 6,
+"confirm": 6
+},
+"consumed_span": [
+[
+"forward to the next page",
+6
+],
+[
+"go forward to the next page",
+6
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "hey can you pass the salt",
+"text_cands": [
+"can you pass the salt"
+],
+"url_cands": [],
+"spoken_url": "hey can you pass the salt",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 6,
+"open_app": 6,
+"type_text": 6,
+"search_web": 6,
+"undo": 6,
+"scroll_down": 6,
+"none": 6,
+"cancel": 6,
+"confirm": 6
+},
+"consumed_span": [
+[
+"can you pass the salt",
+6
+]
+],
+"strip_chain": 1,
+"ends": [
+false,
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "I think it's fine",
+"text_cands": [
+"think it's fine",
+"I think it's fine"
+],
+"url_cands": [],
+"spoken_url": "I think it's fine",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 4,
+"open_app": 4,
+"type_text": 4,
+"search_web": 4,
+"undo": 4,
+"scroll_down": 4,
+"none": 4,
+"cancel": 4,
+"confirm": 4
+},
+"consumed_span": [
+[
+"think it's fine",
+4
+],
+[
+"I think it's fine",
+4
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "quit safari",
+"text_cands": [
+"safari",
+"quit safari"
+],
+"url_cands": [],
+"spoken_url": "quit safari",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 2,
+"open_app": 2,
+"type_text": 2,
+"search_web": 2,
+"undo": 2,
+"scroll_down": 2,
+"none": 2,
+"cancel": 2,
+"confirm": 2
+},
+"consumed_span": [
+[
+"safari",
+2
+],
+[
+"quit safari",
+2
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false
+]
+},
+{
+"text": "delete all the emails",
+"text_cands": [
+"all the emails",
+"delete all the emails"
+],
+"url_cands": [],
+"spoken_url": "delete all the emails",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 4,
+"open_app": 4,
+"type_text": 4,
+"search_web": 4,
+"undo": 4,
+"scroll_down": 4,
+"none": 4,
+"cancel": 4,
+"confirm": 4
+},
+"consumed_span": [
+[
+"all the emails",
+4
+],
+[
+"delete all the emails",
+4
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "yes do it",
+"text_cands": [
+"do it",
+"yes do it"
+],
+"url_cands": [],
+"spoken_url": "yes do it",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 3,
+"open_app": 3,
+"type_text": 3,
+"search_web": 3,
+"undo": 3,
+"scroll_down": 3,
+"none": 3,
+"cancel": 3,
+"confirm": 3
+},
+"consumed_span": [
+[
+"do it",
+3
+],
+[
+"yes do it",
+3
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false
+]
+},
+{
+"text": "no don't",
+"text_cands": [
+"don't",
+"no don't"
+],
+"url_cands": [],
+"spoken_url": "no don't",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 2,
+"open_app": 2,
+"type_text": 2,
+"search_web": 2,
+"undo": 2,
+"scroll_down": 2,
+"none": 2,
+"cancel": 2,
+"confirm": 2
+},
+"consumed_span": [
+[
+"don't",
+2
+],
+[
+"no don't",
+2
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false
+]
+},
+{
+"text": "confirm",
+"text_cands": [
+"confirm"
+],
+"url_cands": [],
+"spoken_url": "confirm",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 1,
+"open_app": 1,
+"type_text": 1,
+"search_web": 1,
+"undo": 1,
+"scroll_down": 1,
+"none": 1,
+"cancel": 1,
+"confirm": 1
+},
+"consumed_span": [
+[
+"confirm",
+1
+]
+],
+"strip_chain": 0,
+"ends": [
+false
+]
+},
+{
+"text": "cancel that",
+"text_cands": [
+"that",
+"cancel that"
+],
+"url_cands": [],
+"spoken_url": "cancel that",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 2,
+"open_app": 2,
+"type_text": 2,
+"search_web": 2,
+"undo": 2,
+"scroll_down": 2,
+"none": 2,
+"cancel": 2,
+"confirm": 2
+},
+"consumed_span": [
+[
+"that",
+2
+],
+[
+"cancel that",
+2
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false
+]
+},
+{
+"text": "café au lait",
+"text_cands": [
+"au lait",
+"café au lait"
+],
+"url_cands": [],
+"spoken_url": "café au lait",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 3,
+"open_app": 3,
+"type_text": 3,
+"search_web": 3,
+"undo": 3,
+"scroll_down": 3,
+"none": 3,
+"cancel": 3,
+"confirm": 3
+},
+"consumed_span": [
+[
+"au lait",
+3
+],
+[
+"café au lait",
+3
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false
+]
+},
+{
+"text": "type 'it's fine' now",
+"text_cands": [
+"it",
+"it's fine",
+"type 'it's fine"
+],
+"url_cands": [],
+"spoken_url": "type 'it's fine' now",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 4,
+"open_app": 4,
+"type_text": 4,
+"search_web": 4,
+"undo": 4,
+"scroll_down": 4,
+"none": 4,
+"cancel": 4,
+"confirm": 4
+},
+"consumed_span": [
+[
+"it",
+4
+],
+[
+"it's fine",
+4
+],
+[
+"type 'it's fine",
+4
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "dictate dear bob, thanks for the note.",
+"text_cands": [
+"dear bob, thanks for the note",
+"the note",
+"dictate dear bob, thanks for the note"
+],
+"url_cands": [],
+"spoken_url": "dictate dear bob, thanks for the note.",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 7,
+"open_app": 7,
+"type_text": 7,
+"search_web": 7,
+"undo": 7,
+"scroll_down": 7,
+"none": 7,
+"cancel": 7,
+"confirm": 7
+},
+"consumed_span": [
+[
+"dear bob, thanks for the note",
+7
+],
+[
+"the note",
+7
+],
+[
+"dictate dear bob, thanks for the note",
+7
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false,
+false,
+true
+]
+},
+{
+"text": "search for “quoted thing” please",
+"text_cands": [
+"quoted thing",
+"for “quoted thing",
+"search for “quoted thing"
+],
+"url_cands": [],
+"spoken_url": "search for “quoted thing” please",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 5,
+"open_app": 5,
+"type_text": 5,
+"search_web": 5,
+"undo": 5,
+"scroll_down": 5,
+"none": 5,
+"cancel": 5,
+"confirm": 5
+},
+"consumed_span": [
+[
+"quoted thing",
+5
+],
+[
+"for “quoted thing",
+5
+],
+[
+"search for “quoted thing",
+5
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "type    spaced   out",
+"text_cands": [
+"spaced   out",
+"type    spaced   out"
+],
+"url_cands": [],
+"spoken_url": "type    spaced   out",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 3,
+"open_app": 3,
+"type_text": 3,
+"search_web": 3,
+"undo": 3,
+"scroll_down": 3,
+"none": 3,
+"cancel": 3,
+"confirm": 3
+},
+"consumed_span": [
+[
+"spaced   out",
+3
+],
+[
+"type    spaced   out",
+3
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false
+]
+},
+{
+"text": "open the downloads folder and scroll down",
+"text_cands": [
+"the downloads folder and scroll down",
+"the downloads folder",
+"open the downloads folder and scroll down"
+],
+"url_cands": [],
+"spoken_url": "open the downloads folder and scroll down",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 5,
+"open_app": 5,
+"type_text": 5,
+"search_web": 5,
+"undo": 5,
+"scroll_down": 5,
+"none": 5,
+"cancel": 5,
+"confirm": 5
+},
+"consumed_span": [
+[
+"the downloads folder and scroll down",
+7
+],
+[
+"the downloads folder",
+5
+],
+[
+"open the downloads folder and scroll down",
+7
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "click on sign in and then type my name",
+"text_cands": [
+"my name",
+"on sign in and then type my name",
+"on sign in",
+"click on sign in and then type my name"
+],
+"url_cands": [],
+"spoken_url": "click on sign in and then type my name",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 6,
+"open_app": 6,
+"type_text": 6,
+"search_web": 6,
+"undo": 6,
+"scroll_down": 6,
+"none": 6,
+"cancel": 6,
+"confirm": 6
+},
+"consumed_span": [
+[
+"my name",
+9
+],
+[
+"on sign in and then type my name",
+9
+],
+[
+"on sign in",
+6
+],
+[
+"click on sign in and then type my name",
+9
+]
+],
+"strip_chain": 0,
+"ends": [
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "and then scroll up",
+"text_cands": [
+"then scroll up",
+"and then scroll up"
+],
+"url_cands": [],
+"spoken_url": "and then scroll up",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 2,
+"open_app": 2,
+"type_text": 2,
+"search_web": 2,
+"undo": 2,
+"scroll_down": 2,
+"none": 2,
+"cancel": 2,
+"confirm": 2
+},
+"consumed_span": [
+[
+"then scroll up",
+4
+],
+[
+"and then scroll up",
+4
+]
+],
+"strip_chain": 2,
+"ends": [
+false,
+false,
+false,
+false
+]
+},
+{
+"text": "um uh so open safari",
+"text_cands": [
+"open safari"
+],
+"url_cands": [],
+"spoken_url": "um uh so open safari",
+"pick": [
+null,
+null,
+null,
+null
+],
+"consumed": {
+"click": 5,
+"open_app": 5,
+"type_text": 5,
+"search_web": 5,
+"undo": 5,
+"scroll_down": 5,
+"none": 5,
+"cancel": 5,
+"confirm": 5
+},
+"consumed_span": [
+[
+"open safari",
+5
+]
+],
+"strip_chain": 3,
+"ends": [
+false,
+false,
+false,
+false,
+false
+]
+}
+]

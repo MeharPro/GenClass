@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GenClass</title>
+  <link rel="stylesheet" href="panel.css">
+</head>
+<body>
+  <header>
+    <div class="brand"><img src="icons/icon-48.png" alt="" width="22" height="22"><span>GenClass</span></div>
+    <div id="mode" class="pill dry" title="Dry run shows what would happen without doing it">Dry run</div>
+  </header>
+
+  <section id="loading" class="card" hidden>
+    <div class="row"><strong id="loadTitle">Getting ready…</strong><span id="loadPct" class="muted"></span></div>
+    <div class="bar"><div id="loadBar"></div></div>
+    <div id="loadDetail" class="muted small"></div>
+  </section>
+
+  <section class="controls">
+    <button id="mic" class="mic" aria-pressed="false" disabled>
+      <span class="dot"></span><span id="micLabel">Start listening</span>
+    </button>
+    <button id="kill" class="kill" title="Stop everything (Esc on the page, or Alt+Shift+K)">Stop all</button>
+  </section>
+  <div id="engineLine" class="muted small center"></div>
+  <div id="micHelp" class="notice" hidden>
+    GenClass needs microphone access once. <button id="grantMic" class="link">Grant microphone access</button>
+  </div>
+  <div id="cloudNote" class="notice" hidden>Chrome built-in speech sends your audio to Google. Switch to Moonshine in Settings to keep audio on this device.</div>
+
+  <section id="pending" class="card warn" hidden>
+    <div><strong>Confirm?</strong> <span id="pendingText"></span></div>
+    <div class="muted small">Say “confirm” or “cancel”. Expires in <span id="pendingLeft">8</span>s.</div>
+    <div class="row gap"><button id="confirmBtn" class="primary">Confirm</button><button id="cancelBtn">Cancel</button></div>
+  </section>
+
+  <section class="card">
+    <div class="row"><strong>Heard</strong><span id="fired" class="muted small"></span></div>
+    <div id="transcript" class="transcript" aria-live="polite"><span class="muted">Say something like “search for weather in Toronto” or “scroll down and click the first link”.</span></div>
+    <form id="textForm" class="row gap">
+      <input id="textInput" type="text" placeholder="…or type a command (streamed word by word)" autocomplete="off">
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <section class="card">
+    <div class="row"><strong>Decisions</strong><button id="clearLog" class="link small">clear</button></div>
+    <ol id="decisions" class="decisions"></ol>
+  </section>
+
+
+  <details class="card" id="featuresBox">
+    <summary><strong>More features</strong> <span class="muted small">(all off by default)</span></summary>
+
+    <h4>Content filter</h4>
+    <label class="check"><input id="fOn" type="checkbox"> Hide ads and sponsored blocks on pages</label>
+    <label class="check"><input id="fSite" type="checkbox"> On this site (<span id="fHost">…</span>)</label>
+    <div class="row gap small">
+      <label class="check"><input id="fAd" type="checkbox"> ads</label>
+      <label class="check"><input id="fSp" type="checkbox"> sponsored</label>
+      <label class="check"><input id="fCb" type="checkbox"> clickbait*</label>
+      <label class="check"><input id="fOt" type="checkbox"> off-topic*</label>
+    </div>
+    <label class="check small"><input id="fModel" type="checkbox"> *Experimental: let the model judge blocks with no ad markers (low accuracy)</label>
+    <p class="muted small">Ads and sponsored blocks are found by their markers (ad frames, “Sponsored” labels, ad slots). The toolbar badge counts hidden blocks; each one can be shown again.</p>
+
+    <h4>Focus mode</h4>
+    <label>What are you working on? <input id="focusTask" type="text" placeholder="e.g. writing my thesis on transformer attention"></label>
+    <div class="row gap">
+      <label class="check"><input id="focusOn" type="checkbox"> On</label>
+      <select id="focusAction" style="width:auto"><option value="discard">park off-task tabs</option><option value="close">close off-task tabs</option></select>
+      <span class="small">after</span><input id="focusGrace" type="number" min="1" max="120" style="width:60px"><span class="small">min</span>
+    </div>
+    <p class="muted small">Tabs you use during the session, pinned tabs, tabs playing audio and tabs with unsaved form input are never touched.</p>
+    <ul id="focusTabs" class="list"></ul>
+    <div class="row"><strong class="small">Parked by focus mode</strong></div>
+    <ul id="parkedList" class="list"></ul>
+
+    <h4>RAM manager</h4>
+    <label class="check"><input id="ramOn" type="checkbox"> Park idle tabs when memory runs low</label>
+    <div class="row gap small">when free memory is below <input id="ramPct" type="number" min="5" max="50" style="width:56px">% · idle for <input id="ramIdle" type="number" min="1" max="240" style="width:56px"> min</div>
+    <div id="ramStatus" class="muted small"></div>
+    <ul id="ramList" class="list"></ul>
+    <div class="row gap"><button id="ramNow" class="small">Check now</button><button id="featSave" class="primary small">Save features</button></div>
+    <p class="muted small">Planned: video processing (not available yet).</p>
+  </details>
+  <details class="card" id="settingsBox">
+    <summary><strong>Settings</strong></summary>
+    <label>Speech engine
+      <select id="speechEngine">
+        <option value="moonshine">Moonshine base: local, fastest (default)</option>
+        <option value="chrome">Chrome built-in: cloud, audio goes to Google</option>
+        <option value="whisper-base">Whisper base.en: local</option>
+        <option value="whisper-turbo">Whisper large-v3 Turbo: local, most accurate (WebGPU)</option>
+      </select>
+    </label>
+    <div id="speechSize" class="muted small"></div>
+    <label class="check"><input id="live" type="checkbox"> Live mode: really click, type and navigate (off = dry run)</label>
+    <label>Compute
+      <select id="compute">
+        <option value="auto">Auto (WebGPU if available, else WASM)</option>
+        <option value="webgpu">WebGPU</option>
+        <option value="wasm">WASM (CPU)</option>
+      </select>
+    </label>
+    <label>Search URL <input id="searchUrl" type="text"></label>
+    <label>Max elements per page <input id="maxElements" type="number" min="10" max="100"></label>
+    <label class="check"><input id="staged" type="checkbox"> Staged evaluation (faster; identical answers)</label>
+    <label>Model download URL <input id="modelBaseUrl" type="text" placeholder="default: GitHub release"></label>
+    <div class="row gap"><button id="save">Save</button><button id="clearCache">Clear downloaded models</button></div>
+    <p class="muted small">GenClass is an independent project. It is not affiliated with TypeSafe or Jev.</p>
+  </details>
+
+  <footer class="muted small">
+    <span id="privacy">Audio stays on this device unless you pick Chrome built-in speech.</span>
+  </footer>
+  <script type="module" src="panel.js"></script>
+</body>
+</html>

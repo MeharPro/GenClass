@@ -1,0 +1,22 @@
+{
+  "name": "genclass",
+  "version": "0.1.0",
+  "private": true,
+  "description": "GenClass: voice-control your browser mid-sentence with a local typed-decision model running in the browser. Independent project, not affiliated with TypeSafe or Jev.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "package": "node scripts/build.mjs --zip",
+    "test": "node --test --test-concurrency=1 test/unit/*.test.mjs",
+    "test:e2e": "playwright test --config test/e2e/playwright.config.mjs"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^4.3.0",
+    "onnxruntime-web": "^1.31.0-dev.20260914-8d85527a0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "esbuild": "^0.28.2"
+  }
+}

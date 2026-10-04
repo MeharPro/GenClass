@@ -1,0 +1,47 @@
+{
+  "name": "genclass-model-0.1.0",
+  "source_checkpoint": "jev-local-fast-0.1.0",
+  "max_len": 1536,
+  "window": 64,
+  "hidden_size": 384,
+  "layer_types": [
+    "full_attention",
+    "sliding_attention",
+    "sliding_attention",
+    "full_attention",
+    "sliding_attention",
+    "sliding_attention",
+    "full_attention",
+    "sliding_attention",
+    "sliding_attention",
+    "full_attention"
+  ],
+  "markers": {
+    "[Q]": 50368,
+    "[O]": 50369,
+    "[L]": 50370,
+    "[T]": 50371,
+    "[F]": 50372
+  },
+  "cls_id": 50281,
+  "sep_id": 50282,
+  "pad_id": 50283,
+  "inputs": [
+    "input_ids",
+    "position_ids",
+    "q_group",
+    "i_group",
+    "choice_q",
+    "choice_items",
+    "score_q",
+    "score_items",
+    "noul_q",
+    "noul_t",
+    "noul_f"
+  ],
+  "outputs": [
+    "choice_logits",
+    "score_logits",
+    "noul_logits"
+  ]
+}

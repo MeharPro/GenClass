@@ -1,0 +1,78 @@
+{
+ "variant": "q8",
+ "ms": 1014,
+ "filter": {
+  "acc5": "4/18",
+  "hideVsKeep": "11/18",
+  "confusion": {
+   "ad->clickbait": 4,
+   "sponsored->clickbait": 3,
+   "clickbait->clickbait": 4,
+   "normal->clickbait": 7
+  },
+  "tokens": 1419
+ },
+ "focus": {
+  "acc": "8/14",
+  "auc": 0.938,
+  "p": [
+   [
+    true,
+    0.03
+   ],
+   [
+    true,
+    0.01
+   ],
+   [
+    true,
+    0.09
+   ],
+   [
+    true,
+    0.23
+   ],
+   [
+    true,
+    0.05
+   ],
+   [
+    true,
+    0.49
+   ],
+   [
+    false,
+    0.01
+   ],
+   [
+    false,
+    0.01
+   ],
+   [
+    false,
+    0.01
+   ],
+   [
+    false,
+    0.01
+   ],
+   [
+    false,
+    0.01
+   ],
+   [
+    false,
+    0.01
+   ],
+   [
+    false,
+    0
+   ],
+   [
+    false,
+    0
+   ]
+  ],
+  "tokens": 806
+ }
+}

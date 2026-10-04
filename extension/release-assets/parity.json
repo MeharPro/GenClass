@@ -1,0 +1,43 @@
+{
+  "fp32": {
+    "max_abs_logit": 2.0503997802734375e-05,
+    "max_abs_prob": 2.470263062048783e-06,
+    "argmax_agree": 353,
+    "argmax_total": 353,
+    "noul_side_agree": 150,
+    "noul_total": 150,
+    "ort_cpu_ms_p50": 126.89516600016759,
+    "file_mb": 134.2
+  },
+  "fp16": {
+    "max_abs_logit": 0.0176505446434021,
+    "max_abs_prob": 0.0024075694426592964,
+    "argmax_agree": 353,
+    "argmax_total": 353,
+    "noul_side_agree": 150,
+    "noul_total": 150,
+    "ort_cpu_ms_p50": 157.4461989998781,
+    "file_mb": 67.2
+  },
+  "q8": {
+    "max_abs_logit": 0.3654196262359619,
+    "max_abs_prob": 0.04485196166319194,
+    "argmax_agree": 352,
+    "argmax_total": 353,
+    "noul_side_agree": 150,
+    "noul_total": 150,
+    "ort_cpu_ms_p50": 136.23282899993683,
+    "file_mb": 56.9
+  },
+  "torch_dense_export_module": {
+    "max_abs_logit": 1.6689300537109375e-05
+  },
+  "torch_banded_ms_p50": 152.4129344998073,
+  "n_requests": 50,
+  "tokens": {
+    "min": 1065,
+    "median": 1274,
+    "max": 1661
+  },
+  "threads": 8
+}

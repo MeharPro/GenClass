@@ -1,0 +1,271 @@
+{
+ "per": {
+  "planning a family trip to Japan in April": [
+   {
+    "title": "Kyoto cherry blossom forecast 2027",
+    "gold": 1,
+    "p": 0,
+    "overlap": 2,
+    "onTask": true
+   },
+   {
+    "title": "JR Pass prices and options",
+    "gold": 1,
+    "p": 0,
+    "overlap": 0,
+    "onTask": false
+   },
+   {
+    "title": "Flights Toronto to Tokyo | Air Canada",
+    "gold": 1,
+    "p": 0,
+    "overlap": 0,
+    "onTask": false
+   },
+   {
+    "title": "Booking.com: Hotels in Osaka",
+    "gold": 1,
+    "p": 0,
+    "overlap": 0,
+    "onTask": false
+   },
+   {
+    "title": "Family-friendly things to do in Tokyo - Lonely Planet",
+    "gold": 1,
+    "p": 0,
+    "overlap": 2,
+    "onTask": true
+   },
+   {
+    "title": "Yen to CAD exchange rate",
+    "gold": 1,
+    "p": 0,
+    "overlap": 0,
+    "onTask": false
+   },
+   {
+    "title": "Gmail - Inbox (3)",
+    "gold": 0,
+    "p": 0,
+    "overlap": 0,
+    "onTask": false
+   },
+   {
+    "title": "Lakers highlights - YouTube",
+    "gold": 0,
+    "p": 0,
+    "overlap": 0,
+    "onTask": false
+   },
+   {
+    "title": "Q3 budget.xlsx - Excel",
+    "gold": 0,
+    "p": 0,
+    "overlap": 0,
+    "onTask": false
+   },
+   {
+    "title": "How to fix a leaky faucet",
+    "gold": 0,
+    "p": 0,
+    "overlap": 2,
+    "onTask": true
+   },
+   {
+    "title": "Twitch - Just Chatting",
+    "gold": 0,
+    "p": 0,
+    "overlap": 0,
+    "onTask": false
+   },
+   {
+    "title": "Zillow: homes for sale in Austin",
+    "gold": 0,
+    "p": 0,
+    "overlap": 0,
+    "onTask": false
+   }
+  ],
+  "fixing a memory leak in our React dashboard": [
+   {
+    "title": "React Profiler – React docs",
+    "gold": 1,
+    "p": 0.46,
+    "overlap": 5,
+    "onTask": true
+   },
+   {
+    "title": "useEffect cleanup memory leak - Stack Overflow",
+    "gold": 1,
+    "p": 0.02,
+    "overlap": 2,
+    "onTask": true
+   },
+   {
+    "title": "dashboard/src/Chart.tsx · GitHub",
+    "gold": 1,
+    "p": 0.03,
+    "overlap": 2,
+    "onTask": true
+   },
+   {
+    "title": "Chrome DevTools: Fix memory problems",
+    "gold": 1,
+    "p": 0.06,
+    "overlap": 2,
+    "onTask": true
+   },
+   {
+    "title": "Issue #482: heap grows after navigation · acme/dashboard",
+    "gold": 1,
+    "p": 0.01,
+    "overlap": 2,
+    "onTask": true
+   },
+   {
+    "title": "localhost:3000 - Acme Dashboard",
+    "gold": 1,
+    "p": 0.12,
+    "overlap": 1,
+    "onTask": true
+   },
+   {
+    "title": "Best pasta recipes",
+    "gold": 0,
+    "p": 0,
+    "overlap": 0,
+    "onTask": false
+   },
+   {
+    "title": "Spotify – Discover Weekly",
+    "gold": 0,
+    "p": 0,
+    "overlap": 0,
+    "onTask": false
+   },
+   {
+    "title": "Reddit - r/funny",
+    "gold": 0,
+    "p": 0,
+    "overlap": 0,
+    "onTask": false
+   },
+   {
+    "title": "Amazon.com: standing desk",
+    "gold": 0,
+    "p": 0,
+    "overlap": 0,
+    "onTask": false
+   },
+   {
+    "title": "Weather Toronto - The Weather Network",
+    "gold": 0,
+    "p": 0,
+    "overlap": 0,
+    "onTask": false
+   },
+   {
+    "title": "Netflix",
+    "gold": 0,
+    "p": 0,
+    "overlap": 0,
+    "onTask": false
+   }
+  ],
+  "studying for my organic chemistry midterm": [
+   {
+    "title": "Khan Academy: Alkene reactions",
+    "gold": 1,
+    "p": 0.01,
+    "overlap": 2,
+    "onTask": true
+   },
+   {
+    "title": "Master Organic Chemistry: SN1 vs SN2",
+    "gold": 1,
+    "p": 0.03,
+    "overlap": 2,
+    "onTask": true
+   },
+   {
+    "title": "CHEM 266 Midterm practice problems.pdf",
+    "gold": 1,
+    "p": 0,
+    "overlap": 1,
+    "onTask": true
+   },
+   {
+    "title": "Quizlet - Orgo functional groups flashcards",
+    "gold": 1,
+    "p": 0,
+    "overlap": 0,
+    "onTask": false
+   },
+   {
+    "title": "Chirality and stereoisomers - LibreTexts",
+    "gold": 1,
+    "p": 0.02,
+    "overlap": 0,
+    "onTask": false
+   },
+   {
+    "title": "Instagram",
+    "gold": 0,
+    "p": 0,
+    "overlap": 0,
+    "onTask": false
+   },
+   {
+    "title": "NBA trade rumors",
+    "gold": 0,
+    "p": 0,
+    "overlap": 0,
+    "onTask": false
+   },
+   {
+    "title": "Steam Store - Summer Sale",
+    "gold": 0,
+    "p": 0,
+    "overlap": 0,
+    "onTask": false
+   },
+   {
+    "title": "Shein - Women's dresses",
+    "gold": 0,
+    "p": 0,
+    "overlap": 0,
+    "onTask": false
+   },
+   {
+    "title": "TikTok - For You",
+    "gold": 0,
+    "p": 0.01,
+    "overlap": 0,
+    "onTask": false
+   },
+   {
+    "title": "Uber Eats - Sushi near you",
+    "gold": 0,
+    "p": 0.01,
+    "overlap": 0,
+    "onTask": false
+   },
+   {
+    "title": "LinkedIn Feed",
+    "gold": 0,
+    "p": 0,
+    "overlap": 0,
+    "onTask": false
+   }
+  ]
+ },
+ "tp": 11,
+ "fp": 1,
+ "tn": 18,
+ "fn": 6,
+ "modelOnly": {
+  "correct": 22
+ },
+ "ms": 719,
+ "summary": "on-task kept 11/17; off-task flagged 18/19; model-only at 0.04: 22/36"
+}

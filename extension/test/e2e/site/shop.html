@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="A local test shop for GenClass end-to-end tests: laptops and headphones.">
+  <title>GenClass test shop</title>
+  <style>
+    body { font: 16px system-ui, sans-serif; margin: 0; color: #1f2937; background: #fafafa; }
+    header { display: flex; gap: 12px; align-items: center; padding: 14px 24px; background: #111827; color: #fff; }
+    header form { display: flex; gap: 6px; flex: 1; max-width: 520px; }
+    header input { flex: 1; padding: 8px 10px; border-radius: 6px; border: 0; font-size: 15px; }
+    header button { padding: 8px 14px; border-radius: 6px; border: 0; background: #f59e0b; font-weight: 600; }
+    nav { display: flex; gap: 18px; padding: 10px 24px; background: #e5e7eb; }
+    nav a { color: #1d4ed8; }
+    main { display: grid; grid-template-columns: 2fr 1fr; gap: 24px; padding: 24px; }
+    article { background: #fff; border-radius: 10px; padding: 16px; margin-bottom: 16px; box-shadow: 0 1px 2px #0001; }
+    .ad { background: #fef3c7; border: 1px solid #f59e0b; border-radius: 10px; padding: 14px; margin-bottom: 16px; }
+    .tall { height: 1600px; }
+    #log { font: 12px monospace; white-space: pre; background: #111; color: #9f9; padding: 8px; min-height: 40px; }
+  </style>
+</head>
+<body>
+  <header>
+    <strong>TestShop</strong>
+    <form role="search" action="#search" onsubmit="event.preventDefault(); log('search submitted: ' + q.value)">
+      <input id="q" name="q" type="search" placeholder="Search products">
+      <button type="submit">Search</button>
+    </form>
+  </header>
+  <nav aria-label="Main">
+    <a href="#home">Home</a><a href="#laptops" id="laptops">Laptops</a><a href="#headphones">Headphones</a><a href="#deals">Deals</a>
+  </nav>
+  <main>
+    <section>
+      <article>
+        <h2>Aurora 14 laptop</h2>
+        <p>A light 14-inch laptop with a 20-hour battery and a bright display. Ships in two days.</p>
+        <button onclick="log('added to cart: Aurora 14')">Add to cart</button>
+        <form onsubmit="event.preventDefault(); log('ORDER PLACED')" style="display:inline"><button type="submit" id="buy">Buy now</button></form>
+      </article>
+      <div class="ad" data-ad-slot="123"><small>Sponsored</small><p>Get 50% off premium noise-cancelling headphones today only. Shop now at SoundMax.</p></div>
+      <article>
+        <h2>Pulse wireless headphones</h2>
+        <p>Over-ear headphones with 30-hour battery life and active noise cancelling.</p>
+        <button onclick="log('added to cart: Pulse')">Add to cart</button>
+      </article>
+      <aside class="ad"><span>Promoted</span><p>Refinance your mortgage at record low rates. Check your rate in 2 minutes.</p></aside>
+      <article>
+        <h2>Account</h2>
+        <form onsubmit="event.preventDefault(); log('login submitted')">
+          <label>Email <input id="email" type="email" name="email"></label>
+          <label>Password <input id="pw" type="password" name="password"></label>
+          <button type="submit">Sign in</button>
+        </form>
+        <button onclick="log('ACCOUNT DELETED')">Delete account</button>
+      </article>
+      <div class="tall"></div>
+    </section>
+    <aside>
+      <h3>Activity</h3>
+      <div id="log"></div>
+    </aside>
+  </main>
+  <script>
+    const q = document.getElementById("q");
+    function log(s) { const el = document.getElementById("log"); el.textContent += s + "\n"; window.__events = (window.__events || []).concat([s]); }
+    window.addEventListener("hashchange", () => log("navigated to " + location.hash));
+  </script>
+</body>
+</html>

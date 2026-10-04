@@ -50,7 +50,14 @@ git clone https://github.com/MeharPro/GenClass && cd GenClass
 python3.12 -m venv .venv && .venv/bin/pip install -e ".[dev]"
 .venv/bin/python -m jev_local.server.app --ckpt <weights dir>   # Jev-compatible API on 127.0.0.1:8765
 ```
-The model weights (Apache-2.0) and the Chrome extension ship as release assets in v0.1.0.
+The model weights (Apache-2.0) and the Chrome extension zip are in the [v0.1.0 release](https://github.com/MeharPro/GenClass/releases/tag/v0.1.0). The extension source is in [`extension/`](extension/).
+
+## Install the Chrome extension (v0.1.0)
+1. Download `genclass-0.1.0.zip` from the [release](https://github.com/MeharPro/GenClass/releases/tag/v0.1.0) and unzip it.
+2. Open `chrome://extensions`, turn on **Developer mode**, click **Load unpacked** and pick the unzipped folder.
+3. Click the GenClass icon to open the side panel. The first run downloads the model (~57 MB) and Moonshine speech (~63 MB) once, and both are cached. It starts in dry-run mode; switch on **Live** in Settings.
+
+A Chrome Web Store listing is under review.
 
 ## Status
 Under active development. The extension, model weights (Apache-2.0) and install instructions are coming in the first release.

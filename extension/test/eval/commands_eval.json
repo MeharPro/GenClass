@@ -1,0 +1,257 @@
+{
+ "score": "16/18",
+ "rows": [
+  {
+   "said": "search for weather in toronto",
+   "want": [
+    "search_web",
+    "weather in toronto"
+   ],
+   "got": [
+    "search_web",
+    "weather in toronto"
+   ],
+   "viaConfirm": false,
+   "ok": true,
+   "last": "search_web('weather in toronto') (conf=1.00)"
+  },
+  {
+   "said": "open github",
+   "want": [
+    "open_app",
+    "GitHub"
+   ],
+   "got": [
+    "-",
+    null
+   ],
+   "viaConfirm": false,
+   "ok": false,
+   "last": "intent wait: words do not commit to an action yet"
+  },
+  {
+   "said": "switch to youtube",
+   "want": [
+    "open_app",
+    "YouTube"
+   ],
+   "got": [
+    "open_app",
+    "YouTube"
+   ],
+   "viaConfirm": false,
+   "ok": true,
+   "last": "open_app('YouTube') (conf=1.00)"
+  },
+  {
+   "said": "go to wikipedia dot org",
+   "want": [
+    "open_url",
+    "https://wikipedia.org"
+   ],
+   "got": [
+    "open_url",
+    "https://wikipedia.org"
+   ],
+   "viaConfirm": false,
+   "ok": true,
+   "last": "open_url('https://wikipedia.org') (conf=0.99)"
+  },
+  {
+   "said": "press enter",
+   "want": [
+    "press_key",
+    "return"
+   ],
+   "got": [
+    "press_key",
+    "return"
+   ],
+   "viaConfirm": false,
+   "ok": true,
+   "last": "press_key('return') (conf=1.00)"
+  },
+  {
+   "said": "go back",
+   "want": [
+    "go_back",
+    null
+   ],
+   "got": [
+    "go_back",
+    null
+   ],
+   "viaConfirm": false,
+   "ok": true,
+   "last": "go_back (conf=0.93)"
+  },
+  {
+   "said": "go forward",
+   "want": [
+    "go_forward",
+    null
+   ],
+   "got": [
+    "go_forward",
+    null
+   ],
+   "viaConfirm": true,
+   "ok": true,
+   "last": "looks destructive (0.53): confirm go_forward?"
+  },
+  {
+   "said": "open a new tab",
+   "want": [
+    "new_tab",
+    null
+   ],
+   "got": [
+    "new_tab",
+    null
+   ],
+   "viaConfirm": false,
+   "ok": true,
+   "last": "new_tab (conf=1.00)"
+  },
+  {
+   "said": "close this tab",
+   "want": [
+    "close_tab",
+    null
+   ],
+   "got": [
+    "close_tab",
+    null
+   ],
+   "viaConfirm": true,
+   "ok": true,
+   "last": "risky: confirm close_tab?"
+  },
+  {
+   "said": "scroll down",
+   "want": [
+    "scroll_down",
+    null
+   ],
+   "got": [
+    "scroll_down",
+    null
+   ],
+   "viaConfirm": false,
+   "ok": true,
+   "last": "scroll_down (conf=1.00)"
+  },
+  {
+   "said": "scroll up a little",
+   "want": [
+    "scroll_up",
+    null
+   ],
+   "got": [
+    "scroll_up",
+    null
+   ],
+   "viaConfirm": false,
+   "ok": true,
+   "last": "intent wait: words do not commit to an action yet"
+  },
+  {
+   "said": "click sign in",
+   "want": [
+    "click",
+    "e07"
+   ],
+   "got": [
+    "click",
+    "e07"
+   ],
+   "viaConfirm": false,
+   "ok": true,
+   "last": "click('link \"Sign in\"') (conf=0.99)"
+  },
+  {
+   "said": "click the images link",
+   "want": [
+    "click",
+    "e03"
+   ],
+   "got": [
+    "click",
+    "e03"
+   ],
+   "viaConfirm": false,
+   "ok": true,
+   "last": "click('link \"Images\"') (conf=1.00)"
+  },
+  {
+   "said": "click the first result",
+   "want": [
+    "click",
+    "e05"
+   ],
+   "got": [
+    "-",
+    null
+   ],
+   "viaConfirm": false,
+   "ok": false,
+   "last": "which element?"
+  },
+  {
+   "said": "type hello world",
+   "want": [
+    "type_text",
+    "hello world"
+   ],
+   "got": [
+    "type_text",
+    "hello world"
+   ],
+   "viaConfirm": false,
+   "ok": true,
+   "last": "type_text('hello world') (conf=1.00)"
+  },
+  {
+   "said": "undo that",
+   "want": [
+    "undo",
+    null
+   ],
+   "got": [
+    "undo",
+    null
+   ],
+   "viaConfirm": false,
+   "ok": true,
+   "last": "undo (conf=1.00)"
+  },
+  {
+   "said": "copy that",
+   "want": [
+    "press_key",
+    "cmd+c"
+   ],
+   "got": [
+    "press_key",
+    "cmd+c"
+   ],
+   "viaConfirm": false,
+   "ok": true,
+   "last": "press_key('cmd+c') (conf=1.00)"
+  },
+  {
+   "said": "reload the page",
+   "want": [
+    "press_key",
+    "cmd+r"
+   ],
+   "got": [
+    "press_key",
+    "cmd+r"
+   ],
+   "viaConfirm": false,
+   "ok": true,
+   "last": "press_key('cmd+r') (conf=1.00)"
+  }
+ ]
+}

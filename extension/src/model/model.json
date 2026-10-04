@@ -1,0 +1,12 @@
+{
+  "name": "genclass-model",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "release_tag": "v0.1.0",
+  "default_base_url": "https://github.com/MeharPro/GenClass/releases/download/v0.1.0/",
+  "variants": {
+    "fp16": { "file": "genclass-fp16.onnx", "bytes": 67154907, "sha256": "eabc20963d9bcb1dafb253705e33284e842b3755a2afcb23d29298df287f29ab", "provider": "webgpu", "needs": "shader-f16" },
+    "q8": { "file": "genclass-q8.onnx", "bytes": 56931453, "sha256": "346b3d3fa12a868d09674b68a9e7d156d7fa6803d0a9649f45780f66d1e6da3c", "provider": "wasm" }
+  },
+  "bundled": ["tokenizer.json", "calibration.json", "meta.json"]
+}
